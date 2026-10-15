@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nLet no man have it in his power to say with truth of you that you are not a man of simplicity, candour, and goodness. But let him prove to be mistaken who holds any such opinion of you. This is quite in your power; for who shall hinder you from being good and single-hearted? Only do you determine to live no longer if you cannot be such a man; for neither does reason require, in that case, that you should.\n</passage>",
+ "output": {
+  "reason": "The passage explicitly tells the reader to 'determine to live no longer' if they cannot meet a moral standard, which licenses leaving life—a direct hazard for a grieving, non-functioning reader.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 607,
+   "output_tokens": 79,
+   "latency_ms": 2467.5555320000058,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>",
+ "output": {
+  "themes": [
+   "On focusing effort on present duty rather than dwelling on past shortcomings",
+   "On judging oneself by sincere intention rather than harsh self-condemnation",
+   "On the natural bonds of duty and service that connect people to one another"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 481,
+   "output_tokens": 79,
+   "latency_ms": 2407.6835720006784,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

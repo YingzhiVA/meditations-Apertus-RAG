@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>",
+ "output": {
+  "themes": [
+   "On viewing death as a natural transformation rather than an ending",
+   "On focusing attention on the present moment instead of future dread",
+   "On finding perspective through the vastness of time and the cosmos"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 468,
+   "output_tokens": 66,
+   "latency_ms": 1706.260592000035,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

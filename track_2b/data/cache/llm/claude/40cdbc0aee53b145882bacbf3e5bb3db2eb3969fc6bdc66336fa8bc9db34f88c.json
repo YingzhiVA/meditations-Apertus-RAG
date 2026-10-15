@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>",
+ "output": "I guess what I'm really asking is why it's gotten so loud in my head lately, why I can't just let it sit quietly in the back like other people seem to. I think I want someone to tell me it's normal, that wanting to feel okay doesn't mean I have to pretend I'm not scared. Maybe I just want to stop feeling like time is something chasing me instead of something I'm just living in.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 309,
+   "output_tokens": 125,
+   "latency_ms": 2776.423553999848,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

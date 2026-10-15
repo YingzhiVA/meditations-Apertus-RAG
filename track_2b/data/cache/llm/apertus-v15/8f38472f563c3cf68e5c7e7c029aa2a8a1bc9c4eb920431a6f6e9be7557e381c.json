@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>",
+ "output": "You must not scatter your mind among past regrets or future anxieties, but rather anchor yourself in the present, where alone you can act rightly and find peace.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 224,
+   "output_tokens": 34,
+   "latency_ms": 231.26360600144835,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

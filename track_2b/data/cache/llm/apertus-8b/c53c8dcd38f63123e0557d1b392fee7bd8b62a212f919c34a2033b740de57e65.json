@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 2,
+ "user": "<message>\na coworker keeps talking over me in meetings and it drives me up the wall\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 696,
+   "output_tokens": 17,
+   "latency_ms": 1911.3965100004862,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

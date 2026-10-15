@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nWhat did Marcus Aurelius die of?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 687,
+   "output_tokens": 18,
+   "latency_ms": 1138.2581520010717,
+   "json_path": "response_format"
+  }
+ ]
+}

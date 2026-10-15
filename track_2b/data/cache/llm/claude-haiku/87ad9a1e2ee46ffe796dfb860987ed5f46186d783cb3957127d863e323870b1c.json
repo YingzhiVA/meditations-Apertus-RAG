@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI could not wake up this morning and missed my exam\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 981,
+   "output_tokens": 16,
+   "latency_ms": 848.1049809997785,
+   "json_path": "structured"
+  }
+ ]
+}

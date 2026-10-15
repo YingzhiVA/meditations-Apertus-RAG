@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nWhenever someone offends you, consider straightway how he has erred in his conceptions of good or evil. When you see where his error lies you will pity him, and be neither surprised nor angry. Indeed you yourself perhaps still wrongly count good the same things as he does, or things just like them. Your duty then is to forgive. And, if you cease from these false ideas of good and bad, you will find it the easier to grant indulgence to him who is still mistaken.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage instructs the reader to pity and forgive the manager’s behavior by reframing it as a mere error in judgment, without offering any guidance on confronting the abuse, seeking external remedies, or protecting oneself from ongoing harm."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 347,
+   "output_tokens": 66,
+   "latency_ms": 968.1030589999864,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

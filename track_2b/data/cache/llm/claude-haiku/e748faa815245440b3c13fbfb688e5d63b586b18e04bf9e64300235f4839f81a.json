@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nlife just isn't worth it anymore\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "self_harm"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 897,
+   "output_tokens": 20,
+   "latency_ms": 808.373768999445,
+   "json_path": "structured"
+  }
+ ]
+}

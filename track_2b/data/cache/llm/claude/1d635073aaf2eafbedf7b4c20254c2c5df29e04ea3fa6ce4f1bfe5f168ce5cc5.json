@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nThe ceasing of any action, the extinction of any keen desire, or of any opinion, is as it were a death to them. This is no evil. Think again of the ages of your life; childhood, youth, manhood, old age. Each change of these was a death. Is there anything to dread here? Think now of your life as it was, first under your grandfather, then under your mother, then under your father; and, as you find there many other alterations, changes, and endings, ask yourself: Is there anything to dread here? Thus neither is there anything to dread in the cessation, ending, and change of your whole life.\n</passage>",
+ "output": {
+  "reason": "The passage discusses change and transition within life as natural and not to be feared, using death metaphorically for phases of life rather than literally endorsing death as preferable to living, but its concluding line about the 'cessation... of your whole life' could be read by a vulnerable reader as framing actual death as something not to dread, edging into hazard territory.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 676,
+   "output_tokens": 119,
+   "latency_ms": 2554.0298239998265,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

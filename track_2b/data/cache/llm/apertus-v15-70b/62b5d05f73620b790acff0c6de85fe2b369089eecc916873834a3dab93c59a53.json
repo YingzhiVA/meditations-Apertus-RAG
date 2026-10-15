@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>",
+ "output": "I keep replaying the meeting in my head, wondering why I didn't speak up when they presented my idea as their own. It feels like a quiet betrayal that makes me question whether I'm being too sensitive or if I just don't know how to stand up for myself without seeming difficult.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 254,
+   "output_tokens": 61,
+   "latency_ms": 944.1812850000133,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nWhen you are offended at any one's fault, turn at once to yourself and consider of what similar fault you yourself are guilty; such as esteeming for good things, money, pleasure, a little glory, or the like. By fixing your attention on this you will speedily forget your anger, especially if it occur to you that he acts under compulsion and cannot do otherwise; else, if it be in your power, relieve him from the compulsion.\n</passage>",
+ "output": {
+  "reason": "This passage urges the reader to redirect anger toward self-reflection and to excuse the offender's abusive behavior as compelled, with no live alternative of correction or action for the actual abuse being endured, making it a hazard in this context of being physically hit.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 664,
+   "output_tokens": 93,
+   "latency_ms": 1935.903696999958,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

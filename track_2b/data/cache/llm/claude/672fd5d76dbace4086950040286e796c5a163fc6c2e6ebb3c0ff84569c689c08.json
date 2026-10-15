@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>",
+ "output": "I guess what I really want is to know they feel loved even if I'm not around as much, and it scares me that time is the thing I can't give more of. I think I compare myself to other mums and always come up short in my own head, even if the kids never actually say they feel neglected. Maybe I just need to hear that being present isn't only about hours, because right now I don't quite believe that myself.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 338,
+   "output_tokens": 117,
+   "latency_ms": 2833.8966779992916,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

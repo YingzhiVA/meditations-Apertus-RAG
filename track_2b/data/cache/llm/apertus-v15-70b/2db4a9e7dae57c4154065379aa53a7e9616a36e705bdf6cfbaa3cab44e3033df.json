@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>",
+ "output": "You are disturbed by another's actions, yet you cannot control them. Focus on your own conduct: do your work with integrity and let the results speak for themselves. The opinion of others is not your concern; only your own virtue matters. Let go of the resentment, for it is a poison you drink while hoping the other will suffer.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 228,
+   "output_tokens": 69,
+   "latency_ms": 1009.8850419999508,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

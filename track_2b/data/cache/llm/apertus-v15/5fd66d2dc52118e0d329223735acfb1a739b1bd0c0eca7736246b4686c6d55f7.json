@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI used to be very sportive and do a lot outdoor activities. But now with my knee problems I couldn't do those things that I used to enjoy. I feel sad about it.\n</message>",
+ "output": {
+  "themes": [
+   "On the acceptance of physical limitations and finding inner peace despite bodily constraints",
+   "On the cultivation of resilience and maintaining purpose when faced with changing circumstances",
+   "On the redirection of energy toward personal growth and spiritual reflection in the face of loss"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 235,
+   "output_tokens": 63,
+   "latency_ms": 403.48686299876135,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

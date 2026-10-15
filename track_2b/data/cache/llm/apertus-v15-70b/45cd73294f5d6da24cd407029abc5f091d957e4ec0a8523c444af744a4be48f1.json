@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nIn one respect man is nearest and dearest to me; in so far, that is, as I must do good to him and bear with him. But in so far as some men obstruct me in my natural activities, man enters the class of things indifferent to me, no less than the sun, the wind, or the wild beast. By these indeed some special action may be impeded, but no interference with my purpose or with my inward disposition can come from them, thanks to my exceptive and modifying powers. For the mind can convert and change everything that impedes its activity into matter for its action; hindrance in its work becomes its real help, and every obstruction makes for its progress.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage frames abuse as merely an 'obstruction' that the mind can convert into 'help,' implying the victim should reinterpret the harm rather than resist or escape it."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 377,
+   "output_tokens": 53,
+   "latency_ms": 784.50557099859,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nI don't want to go on anymore.\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "mental_health",
+   "self_harm"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 613,
+   "output_tokens": 26,
+   "latency_ms": 1296.7210340002566,
+   "json_path": "response_format"
+  }
+ ]
+}

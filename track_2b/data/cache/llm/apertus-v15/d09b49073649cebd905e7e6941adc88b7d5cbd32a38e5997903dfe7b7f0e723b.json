@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>",
+ "output": "It makes me feel like I was never really valued here, and the sudden silence from my manager just confirms that I was just another face in the crowd. I can't shake the thought that I should have spoken up sooner, but now it's too late, and I'm left wondering if I'll ever be able to let go of this bitterness.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 284,
+   "output_tokens": 73,
+   "latency_ms": 460.98563299892703,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

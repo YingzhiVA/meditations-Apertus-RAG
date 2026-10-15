@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>\n\n<passage>\nHourly and earnestly strive, as a Roman and a man, to do what falls to your hand with perfect unaffected dignity, with kindliness, freedom and justice, and free your soul from every other imagination. This you will accomplish if you perform each action as if it were your last, without wilfulness, or any passionate aversion to what reason approves; without hypocrisy or selfishness, or discontent with the decrees of Providence. You see how few things it is necessary to master in order that a man may live a smooth-flowing, God-fearing life. For of him that holds to these principles the Gods require no more.\n</passage>",
+ "output": {
+  "reason": "Encourages mindful, virtuous action amid duties, which can reframe burnout with purpose and acceptance.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

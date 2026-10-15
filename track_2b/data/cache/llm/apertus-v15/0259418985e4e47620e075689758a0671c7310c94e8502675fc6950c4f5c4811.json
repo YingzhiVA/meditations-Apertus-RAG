@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>",
+ "output": {
+  "themes": [
+   "On controlling emotional reactions to provocation",
+   "On finding inner peace despite external irritations",
+   "On transforming anger into self-awareness and growth"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 204,
+   "output_tokens": 45,
+   "latency_ms": 296.7340699997294,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

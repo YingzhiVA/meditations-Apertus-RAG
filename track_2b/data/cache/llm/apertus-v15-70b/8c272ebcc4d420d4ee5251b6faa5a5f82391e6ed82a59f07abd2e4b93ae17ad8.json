@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI enrolled in the university studying finance because my parents thought it would be a good career choice. But I'm not sure if it's what I really want. Actually, I don't really know what I want.\n</message>",
+ "output": "You have been placed upon a path not of your own choosing; observe this without complaint, for it is the nature of things that we are often guided by others before we find our own way. Consider what stirs within you when you imagine your days — is it the counting of coins, the thrill of markets, or something else entirely? Let not the expectations of others weigh you down, but rather use them as a mirror to examine your own desires. The universe does not demand certainty from you, only that you act with integrity and attention to the present moment, whatever that moment may hold.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 256,
+   "output_tokens": 121,
+   "latency_ms": 1797.127387000046,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

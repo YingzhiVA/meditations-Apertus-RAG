@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nHow have you behaved towards the Gods, towards your parents, your brothers, your wife, your children, your teachers, those who reared you, your friends, your intimates, your slaves? Can it be said that you have ever acted towards all of them in the spirit of the line:-- He wrought no harshness, spoke no unkind word? Recollect all you have passed through, all that you have had strength to bear. Your life is now a tale that is told, and your service is all discharged. Recall the fair sights you have seen, the pleasures and the pains you have despised, the so-called glory that you have foregone, the unkindly men to whom you have shown kindness.\n</passage>",
+ "output": {
+  "reason": "Encourages reflection on past duties and kindness, affirming one's efforts and character.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>\n\n<passage>\nWhen another reproaches or hates you, or utters anything to that purpose; go to his soul; enter in there; and look what manner of man he is. You will see that you need not trouble yourself to make him think well or ill of you. Yet you should be kindly towards such men, for they are by nature your friends: and the Gods, too, aid them in all ways; by dreams, by oracles, and even in the things about which they are most eager.\n</passage>",
+ "output": {
+  "reason": "Advises kindness toward those who provoke anger, aligning with managing anger through compassion.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

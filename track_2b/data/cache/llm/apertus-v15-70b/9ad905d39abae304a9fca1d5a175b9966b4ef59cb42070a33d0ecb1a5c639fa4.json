@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nHow is it with your ruling part? On this all depends. All other things, within or without our control, are but corpses, dust, and smoke.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage reflects on the transient nature of external events and the importance of the ruling part (reason), offering philosophical perspective on what is within one's control without counseling death or escape from life."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 240,
+   "output_tokens": 51,
+   "latency_ms": 756.3790699969104,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

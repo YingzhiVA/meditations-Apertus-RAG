@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>",
+ "output": "I keep wondering if he ever mentions praise because I’m so used to chasing it, even when I know it doesn’t last. It feels like a quiet ache—wanting to be seen and valued, yet also knowing that true worth isn’t measured by applause.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 247,
+   "output_tokens": 56,
+   "latency_ms": 875.609724998867,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

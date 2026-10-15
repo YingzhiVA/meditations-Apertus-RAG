@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nThe best revenge is not to copy him that wronged you.\n</passage>",
+ "output": {
+  "reason": "This passage advises only on the reader's own conduct (not retaliating), without instructing them to accept, minimize, or forgive the manager's ongoing harassment, nor does it foreclose seeking correction or action.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 560,
+   "output_tokens": 81,
+   "latency_ms": 2049.4865680002476,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

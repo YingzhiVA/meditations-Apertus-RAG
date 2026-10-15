@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>",
+ "output": "I keep replaying every small thing I've missed—why I didn't call more often, why I canceled plans again—and it just makes the guilt louder. It feels like no matter what I do, I can't shake the thought that I'm somehow letting them down.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 257,
+   "output_tokens": 56,
+   "latency_ms": 872.6812340009928,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

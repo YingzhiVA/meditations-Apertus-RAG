@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>",
+ "output": "You have done what lay within your power in each moment; the rest was beyond your control. Consider the intent behind your actions rather than the measure of time alone, for it is the quality of presence that matters most. The universe does not demand perfection, only that you act with integrity and care according to your nature. Let not the comparisons of others disturb the peace of your conscience, for you cannot govern the choices of others, only your own.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 244,
+   "output_tokens": 91,
+   "latency_ms": 1320.7299549994787,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

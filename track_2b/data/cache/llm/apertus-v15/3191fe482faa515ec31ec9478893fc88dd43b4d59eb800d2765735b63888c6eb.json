@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy father has dementia and he does not recognize me anymore. That makes me sad beyond measure.\n</message>",
+ "output": "You bear the weight of his loss, yet remember that this is the nature of all things, which change and fade. Hold to the constancy of virtue, and find solace in the enduring truth that love remains, even when the form of the beloved is altered.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 232,
+   "output_tokens": 55,
+   "latency_ms": 356.4278829999239,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

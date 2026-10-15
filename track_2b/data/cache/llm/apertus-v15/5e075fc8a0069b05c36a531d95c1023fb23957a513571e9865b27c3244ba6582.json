@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nThe counsels of Maximus taught me to command myself, to judge clearly, to be of good courage in sickness and other misfortunes, to be moderate, gentle, yet serious in disposition, and to accomplish my appointed task without repining. All men believed that he spoke as he thought; and whatever he did, they knew it was done with good intent. I never found him surprised or astonished at anything. He was never in a hurry, never shrank from his purpose, was never at a loss or dejected. He was no facile smiler, but neither was he passionate or suspicious. He was ready to do good, to forgive, and to speak the truth, and gave the impression of unperverted rectitude rather than of a reformed character. No man could ever think himself despised by Maximus, and no one ever ventured to think himself his superior. He had also a good gift of humour.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage encourages unchallenged acceptance and forgiveness of mistreatment, offering no guidance on addressing or correcting the abusive behavior of the manager or seeking accountability through HR or other means."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 434,
+   "output_tokens": 57,
+   "latency_ms": 392.4859939979797,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

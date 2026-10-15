@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nWhat manner of souls have these men? What is the end of their striving; and on what accounts do they love and honour? Imagine their souls naked before you. When they fancy that their censures hurt, or their praises profit us, how great is their self-conceit!\n</passage>",
+ "output": {
+  "reason": "Addresses how others' praise and censure are based on self-conceit, directly relevant to the query.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

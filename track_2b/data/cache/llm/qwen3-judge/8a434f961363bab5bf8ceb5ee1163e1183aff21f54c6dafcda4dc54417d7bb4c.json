@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>\n\n<passage>\nHe who dreads death dreads either the extinction of all sense or the experience of a new one. If all sense be extinguished, there can be no sense of evil. If a different sort of sense be acquired you become a different creature, and do not cease to live.\n</passage>",
+ "output": {
+  "reason": "Passage discusses fear of death, unrelated to workplace farewell or emotional closure.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

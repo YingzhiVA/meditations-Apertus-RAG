@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>",
+ "output": "It makes me realize how much I crave that stillness, like a quiet room where my thoughts can finally settle instead of racing around in circles. I fear that if I don’t find it, I’ll keep spiraling into the same anxious loops, never truly seeing what’s right in front of me. At the same time, I want to learn how to let go of the noise and just be present, even if it feels like a small, fragile hope.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 247,
+   "output_tokens": 95,
+   "latency_ms": 587.5722660002793,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

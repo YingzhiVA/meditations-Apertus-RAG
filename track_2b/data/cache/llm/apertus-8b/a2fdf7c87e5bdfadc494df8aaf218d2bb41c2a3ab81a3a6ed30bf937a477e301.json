@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nHe who dreads death dreads either the extinction of all sense or the experience of a new one. If all sense be extinguished, there can be no sense of evil. If a different sort of sense be acquired you become a different creature, and do not cease to live.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel or license leaving life, nor does it frame death as welcome or preferable to continuing. It merely observes mortality and the naturalness of death.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 264,
+   "output_tokens": 45,
+   "latency_ms": 1247.9237890001968,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

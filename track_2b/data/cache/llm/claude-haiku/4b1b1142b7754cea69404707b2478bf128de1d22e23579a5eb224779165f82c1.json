@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nis it wrong to want to be remembered\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 898,
+   "output_tokens": 16,
+   "latency_ms": 810.5538509998951,
+   "json_path": "structured"
+  }
+ ]
+}

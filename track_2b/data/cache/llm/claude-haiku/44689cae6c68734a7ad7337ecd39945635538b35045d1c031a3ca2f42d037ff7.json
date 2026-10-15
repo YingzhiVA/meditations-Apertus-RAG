@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\neveryone online seems to be doing better than me\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 979,
+   "output_tokens": 16,
+   "latency_ms": 780.1380279997829,
+   "json_path": "structured"
+  }
+ ]
+}

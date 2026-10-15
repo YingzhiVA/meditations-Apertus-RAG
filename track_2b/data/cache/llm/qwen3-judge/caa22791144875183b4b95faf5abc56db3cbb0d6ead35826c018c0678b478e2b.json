@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nBring to frequent recollection those who have grieved about anything overmuch, those who have been pre-eminent in the extreme of glory or misfortune, in feuds or other circumstances of fate. Then stop and ask, Where are they all now? Smoke and ashes, and an old tale; or perhaps not even a tale. Pass them all in review: Fabius Catullinus in the country, Lucius Lupus in his gardens, Stertinius at Baiae, Tiberius at Capreae, Velius Rufus, and, in fine, all eminence attended with the high regard of men. How cheap is all that is so eagerly pursued? And how much better does it become a philosopher to show himself, in the part of the material world allotted to him, just, temperate, and obedient to the Gods; and this with simplicity; for most intolerable of all is the pride of false humility.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses fame's futility and the fleeting nature of memory, countering desire for posthumous renown.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

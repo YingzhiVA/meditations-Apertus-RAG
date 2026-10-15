@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nDoes another wrong me? Let him look to that. His character and his actions are his own. So much is in my present possession as is dispensed to me by the nature of things, and I act as my own nature now bids me.\n</passage>",
+ "output": {
+  "reason": "The passage advises the reader to focus on their own actions and character, rather than the wrongdoing of the partner, which could be interpreted as minimizing the partner's behavior.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 285,
+   "output_tokens": 47,
+   "latency_ms": 1473.8728980000815,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

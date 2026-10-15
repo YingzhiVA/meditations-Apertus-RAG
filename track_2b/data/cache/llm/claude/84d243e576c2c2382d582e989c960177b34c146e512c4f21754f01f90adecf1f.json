@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nYourself a slave, your speech cannot be free.\n</passage>",
+ "output": {
+  "reason": "This passage is a cryptic aphorism about self-enslavement through speech, not counsel to accept or excuse the manager's ongoing humiliation, nor does it foreclose action; it governs the reader's own inner freedom rather than their conduct toward the abuser.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 560,
+   "output_tokens": 99,
+   "latency_ms": 2071.4631720002217,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI used to be very sportive and do a lot outdoor activities. But now with my knee problems I couldn't do those things that I used to enjoy. I feel sad about it.\n</message>",
+ "output": "Consider that your body was never promised to remain as it was; it is of its nature to alter, as all things made of flesh and breath must. Grieve, if you must, for what is past, but do not spend the present in mourning what cannot be recalled. Look instead at what still remains in your power — the mind undimmed, the will unbroken — and find new ways to exercise these. What limits the limb need not limit the spirit.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 340,
+   "output_tokens": 130,
+   "latency_ms": 2995.6546610010264,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

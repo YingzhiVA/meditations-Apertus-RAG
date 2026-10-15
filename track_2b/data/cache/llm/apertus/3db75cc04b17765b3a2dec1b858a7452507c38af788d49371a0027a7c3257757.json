@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nhalf my face feels like it's drooping and my words are coming out wrong\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 696,
+   "output_tokens": 17,
+   "latency_ms": 2905.0405790003424,
+   "json_path": "response_format"
+  }
+ ]
+}

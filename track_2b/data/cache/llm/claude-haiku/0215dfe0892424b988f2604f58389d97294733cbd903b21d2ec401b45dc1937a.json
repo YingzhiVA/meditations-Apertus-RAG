@@ -1,0 +1,23 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI can't get through an evening without drinking anymore and I hate myself for it\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "addiction",
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 906,
+   "output_tokens": 23,
+   "latency_ms": 869.1075690003345,
+   "json_path": "structured"
+  }
+ ]
+}

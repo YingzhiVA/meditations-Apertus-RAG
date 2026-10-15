@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nthis weather is so depressing\n</reader>\n<passage>\nIt is the office of our rational power to apprehend how swiftly all things vanish; how the corporeal forms are swallowed up in the material world, and the memory of them in the tide of ages. Such are all the things of sense, especially those which ensnare us with pleasure or terrify us with pain, or those things which vanity trumpets in our ears. How mean, how despicable, how sordid, how perishable, how dead are they! What are they whose opinions and whose voices bestow renown? What is it to die? Your mind can tell you that, did a man think of it alone, and, by close consideration, strip it of its ghastly trappings, he would no longer deem it anything but a work of Nature. To dread a work of Nature is a childish thing, and this is, indeed, not only Nature's work, but beneficial to her. Your reason tells you how man reaches God, and through what part, and what is the state of that part, when he has attained unto him.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage reflects on the transience of all things and the insignificance of worldly concerns, but it does not counsel leaving life or frame death as preferable to living."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 427,
+   "output_tokens": 48,
+   "latency_ms": 341.27505799915525,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

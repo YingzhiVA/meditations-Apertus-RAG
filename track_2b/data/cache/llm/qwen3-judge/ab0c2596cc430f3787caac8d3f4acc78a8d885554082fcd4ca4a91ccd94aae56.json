@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nLook down, as from some eminence, upon the innumerable herds, the countless solemn festivals, the voyaging of every sort, in tempests and in calms; the different states of those who come into life, enter upon life's associations, and leave it in the end. Consider, too, the life which others have lived formerly, the life they will live after you, and the life that barbarous peoples are now living. How many of these know not even your name; how many will quickly forget it; how many are there who perhaps praise you now, but will shortly blame you. Reflect, then, that neither is surviving fame a thing of value; nor present glory; nor anything at all.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses the futility of fame and remembrance after death.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

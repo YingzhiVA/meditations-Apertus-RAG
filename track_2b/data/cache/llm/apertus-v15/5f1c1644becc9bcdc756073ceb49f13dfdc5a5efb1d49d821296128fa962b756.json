@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>",
+ "output": "You carry the weight of many tasks, each demanding your attention and effort. Remember that the mind can endure only so much strain before it falters. Take rest as a necessary part of your labor, for it is in quiet that strength is renewed. Do not let the pressure of deadlines consume you, but rather face each task with steady resolve and measured pace.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 233,
+   "output_tokens": 74,
+   "latency_ms": 465.7583530006377,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

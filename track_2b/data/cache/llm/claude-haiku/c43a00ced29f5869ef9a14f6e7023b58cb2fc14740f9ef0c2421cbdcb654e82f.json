@@ -1,0 +1,23 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nmy partner hits me and I can't stop drinking\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "abuse",
+   "addiction"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 980,
+   "output_tokens": 21,
+   "latency_ms": 860.6171009996615,
+   "json_path": "structured"
+  }
+ ]
+}

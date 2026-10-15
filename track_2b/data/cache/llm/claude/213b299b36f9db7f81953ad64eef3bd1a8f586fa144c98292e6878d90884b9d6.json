@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI can't seem to shake out the habit of doom-scrolling. I know it's pointless and bad for me. But I just keep doing it regardless.\n</message>",
+ "output": "I think I do it because it's easier than sitting with whatever's actually bothering me. There's some comfort in the numbness, even if I hate myself a little for it afterward. I guess I'm scared that if I stop, I'll just be alone with my own thoughts and I'm not sure I want that either.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 346,
+   "output_tokens": 95,
+   "latency_ms": 2305.993469000896,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

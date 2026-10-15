@@ -1,0 +1,46 @@
+[project]
+name = "meditations-rag"
+version = "0.1.0"
+description = "Retrieval engine over Marcus Aurelius' Meditations — advanced-RAG practice project"
+requires-python = ">=3.10"
+# Dependencies stay commented until the phase that needs them (see PLAN.md),
+# so the scaffold installs with zero deps and each phase's footprint is explicit.
+dependencies = [
+    "httpx",                    # Phase 1: Gutenberg download
+    "numpy",                    # Phase 2: vector index (exact cosine search)
+    "sentence-transformers",    # Phase 2: local embedder (bge-base-en-v1.5)
+    # Phase 3: telemetry. Vendor-neutral instrumentation; Phoenix is just the
+    # OTLP backend (dev extra below), so these stay swappable.
+    "opentelemetry-sdk",
+    "opentelemetry-exporter-otlp-proto-http",
+    "openinference-semantic-conventions",
+    # Phase 4: LLM providers. huggingface-hub is the DEFAULT path (Apertus,
+    # router + query transformation); anthropic is the eval comparator only.
+    "huggingface-hub",
+    "anthropic>=1,<2",          # 1.x: sampling params only via extra_body
+    # Phase 4: language guard ahead of the router. Offline, no word lists,
+    # one check for every language (PLAN.md, "The floor reads English only").
+    "lingua-language-detector",
+    # "voyageai",               # Phase 4: second embedder for comparison
+    # "rank-bm25",              # Phase 4: hybrid retrieval
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",                   # Phase 1: parser invariant tests
+    "arize-phoenix",            # Phase 3: local trace UI — dev tool, not runtime
+    # "hnswlib",                # Phase 5: bench/ann_scaling.py only
+]
+web = [
+    "gradio",                   # Phase 5: the public web UI (web.py, app.py)
+]
+
+[project.scripts]
+meditations = "meditations_rag.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/meditations_rag"]

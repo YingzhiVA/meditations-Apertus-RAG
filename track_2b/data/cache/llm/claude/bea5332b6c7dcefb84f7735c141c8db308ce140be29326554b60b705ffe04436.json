@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>",
+ "output": "I keep telling myself I should just do it, but then I think about being alone, or what I'd lose, and I freeze up again. Honestly I'm scared of the fallout more than I'm scared of staying unhappy, which probably says a lot. I just wish someone would make the decision easier for me.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 326,
+   "output_tokens": 93,
+   "latency_ms": 1862.6018159993691,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

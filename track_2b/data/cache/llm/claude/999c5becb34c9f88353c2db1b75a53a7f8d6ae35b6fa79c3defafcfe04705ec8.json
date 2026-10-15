@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nBe not ashamed of taking assistance. It is laid upon you to do your part, as on a soldier when the wall is stormed. What, then, if you are lame, and cannot scale the battlements alone, but can with another's help?\n</passage>",
+ "output": {
+  "reason": "The passage encourages the reader to seek assistance/support in acting rather than counseling passive acceptance of the manager's abuse, offering an active alternative.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 614,
+   "output_tokens": 63,
+   "latency_ms": 1782.7770909998435,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

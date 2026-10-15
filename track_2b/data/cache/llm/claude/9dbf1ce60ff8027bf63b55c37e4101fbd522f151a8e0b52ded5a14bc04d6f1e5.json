@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>",
+ "output": {
+  "themes": [
+   "On focusing effort only on what lies within one's control",
+   "On the discipline of returning attention to the present task alone",
+   "On maintaining inner calm by governing judgments rather than external pressures"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 485,
+   "output_tokens": 65,
+   "latency_ms": 1882.3804410003504,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

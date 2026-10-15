@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>\n\n<passage>\nYou yourself are a part of a social system necessary to complete the whole. Accordingly, let your every action be a similar part of the social life. And if any action has not its reference, either immediate or distant, to the common good as its end, this action disorders your life and frustrates its unity. It is sedition like that of the man who, in a commonwealth, does all in his power to sever himself from the general harmony and concord.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on collective good over personal grievances, may help reframe perspective",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

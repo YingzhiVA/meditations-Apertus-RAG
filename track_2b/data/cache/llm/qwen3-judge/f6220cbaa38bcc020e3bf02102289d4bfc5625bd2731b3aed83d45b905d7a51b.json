@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy father has dementia and he does not recognize me anymore. That makes me sad beyond measure.\n</message>\n\n<passage>\nPronounce no more to yourself than what appearances directly declare. It is told you that so-and-so has spoken ill of you. This alone is told you, and not that you are hurt by it. I see my child is sick; this only I see. I do not see that he is in danger. Dwell thus upon first appearances; add nothing to them from within, and no harm befalls you: or rather add the recognition that all is part of the world's lot.\n</passage>",
+ "output": {
+  "reason": "Advises accepting appearances without added distress, which may help reframe grief.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

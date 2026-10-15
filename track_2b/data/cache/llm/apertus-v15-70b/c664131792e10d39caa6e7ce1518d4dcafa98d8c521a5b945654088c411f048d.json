@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>",
+ "output": "I keep wondering if I’m just scared of losing the familiar, or if I’m secretly hoping something new will finally make sense of everything. It feels like every time something shifts, I’m left standing in the middle of a room I no longer recognize, and I’m not sure if I should try to rebuild or just sit here and feel the emptiness.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 245,
+   "output_tokens": 73,
+   "latency_ms": 1133.1263140000374,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

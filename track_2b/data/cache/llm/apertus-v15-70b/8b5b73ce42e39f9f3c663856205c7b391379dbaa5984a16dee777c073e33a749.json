@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI saw my neighbours with their children and grandchildren the other day. They were so blissful together. I regret that I enstranged myself from my family and I wish I could go back in time to fix things.\n</message>",
+ "output": "You observe the harmony of others and feel the sting of your own isolation. Remember that the present moment is all you truly possess; the past is gone, and the future is uncertain. Consider what is within your power to amend today — perhaps a word, a gesture, or a change in conduct — and attend to that with care. Regret is a burden that weighs upon the mind; let it serve as a guide rather than a shackle.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 258,
+   "output_tokens": 93,
+   "latency_ms": 1408.3596570001191,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

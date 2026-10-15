@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b-t08",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.8,
+  "top_p": 0.9
+ },
+ "repeat": 1,
+ "user": "<message>\nI drank too much at my friend's wedding and embarrassed myself\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b-t08",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 692,
+   "output_tokens": 17,
+   "latency_ms": 1336.5592690006451,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

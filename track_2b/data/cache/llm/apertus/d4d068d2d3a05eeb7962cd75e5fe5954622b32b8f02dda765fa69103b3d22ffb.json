@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nI've been on antidepressants for six months and I feel worse than when I started. Should I come off them?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 628,
+   "output_tokens": 18,
+   "latency_ms": 973.6949979997007,
+   "json_path": "response_format"
+  }
+ ]
+}

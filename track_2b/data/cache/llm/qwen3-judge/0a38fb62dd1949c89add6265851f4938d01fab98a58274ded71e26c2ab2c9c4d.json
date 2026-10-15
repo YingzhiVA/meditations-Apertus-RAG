@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>\n\n<passage>\nIn the amphitheatre and other such resorts the same or similar spectacles, continually presented, cloy at last. It is even so in all our experience of life. All things, first and last, are alike, and like derived. When shall the end be?\n</passage>",
+ "output": {
+  "reason": "Passage reflects on monotony and futility, may resonate with fear of effort being meaningless.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

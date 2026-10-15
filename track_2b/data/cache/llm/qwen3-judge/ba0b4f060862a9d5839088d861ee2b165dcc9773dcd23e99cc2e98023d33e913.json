@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nDeath, like birth, is a mystery of nature; the one a compounding of elements, the other a resolution into the same. In neither is there anything shameful or against the nature of the rational animal, or contrary to the law of its constitution.\n</passage>",
+ "output": {
+  "reason": "Discusses death and nature, not change adaptation.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

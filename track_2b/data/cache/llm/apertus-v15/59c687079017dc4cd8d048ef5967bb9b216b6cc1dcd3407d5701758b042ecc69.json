@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI just celebrated my 40th birthday and realized that roughly half of my life is already spent. That though does send shiver down my spine.\n</message>",
+ "output": {
+  "themes": [
+   "On the fleeting nature of time and its impact on personal perspective",
+   "On the importance of self-reflection in the face of life's milestones",
+   "On finding purpose and meaning despite the passage of years"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 229,
+   "output_tokens": 58,
+   "latency_ms": 434.12264000107825,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

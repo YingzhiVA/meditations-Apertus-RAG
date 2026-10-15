@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nhow do I stop procrastinating on work I know matters\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 902,
+   "output_tokens": 16,
+   "latency_ms": 810.543188000338,
+   "json_path": "structured"
+  }
+ ]
+}

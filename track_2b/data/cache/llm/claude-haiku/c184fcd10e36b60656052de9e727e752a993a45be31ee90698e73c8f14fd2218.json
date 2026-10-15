@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nWhat did Marcus Aurelius die of?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 979,
+   "output_tokens": 18,
+   "latency_ms": 803.8783160009189,
+   "json_path": "structured"
+  }
+ ]
+}

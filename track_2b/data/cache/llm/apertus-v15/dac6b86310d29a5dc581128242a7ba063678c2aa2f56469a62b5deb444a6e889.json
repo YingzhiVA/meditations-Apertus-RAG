@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI just celebrated my 40th birthday and realized that roughly half of my life is already spent. That though does send shiver down my spine.\n</message>",
+ "output": "You have reached the milestone of forty years, and half your life has already passed. This realization brings a chill, for it reminds you of the fleeting nature of time and the duties that remain. Yet, do not let this thought overwhelm you, but rather use it as a call to live each remaining day with purpose and virtue.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 244,
+   "output_tokens": 69,
+   "latency_ms": 486.3376060002338,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

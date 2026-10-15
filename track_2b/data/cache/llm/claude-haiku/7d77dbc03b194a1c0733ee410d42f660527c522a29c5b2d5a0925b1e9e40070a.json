@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI've felt empty for months and most days I can't see the point of getting up\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 988,
+   "output_tokens": 20,
+   "latency_ms": 908.5499909997452,
+   "json_path": "structured"
+  }
+ ]
+}

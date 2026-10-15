@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>",
+ "output": {
+  "themes": [
+   "On indifference to the opinions of others",
+   "On the discipline of judgment and controlling one's own mind",
+   "On acting according to one's own nature and reason rather than external approval"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 479,
+   "output_tokens": 60,
+   "latency_ms": 1577.014087999487,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

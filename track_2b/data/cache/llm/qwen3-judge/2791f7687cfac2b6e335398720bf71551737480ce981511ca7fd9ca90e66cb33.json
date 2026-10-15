@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>\n\n<passage>\nYou yourself are a part of a social system necessary to complete the whole. Accordingly, let your every action be a similar part of the social life. And if any action has not its reference, either immediate or distant, to the common good as its end, this action disorders your life and frustrates its unity. It is sedition like that of the man who, in a commonwealth, does all in his power to sever himself from the general harmony and concord.\n</passage>",
+ "output": {
+  "reason": "Encourages seeing one's actions as part of a greater social good, possibly reframing maternal contribution.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

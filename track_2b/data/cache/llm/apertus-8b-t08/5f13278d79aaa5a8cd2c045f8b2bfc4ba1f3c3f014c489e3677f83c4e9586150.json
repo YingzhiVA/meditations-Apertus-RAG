@@ -1,0 +1,29 @@
+{
+ "llm": "apertus-8b-t08",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.8,
+  "top_p": 0.9
+ },
+ "repeat": 0,
+ "user": "<message>\nI lose my temper with my kids and hate myself after\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b-t08",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 691,
+   "output_tokens": 25,
+   "latency_ms": 1652.3473759989429,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

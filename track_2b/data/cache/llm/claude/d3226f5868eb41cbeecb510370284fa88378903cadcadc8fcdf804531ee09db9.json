@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nSober yourself, recall your senses. Shake sleep from you, and know that it was a dream that troubled you; and, now that you are broad awake again, regard the waking world as you did the dream.\n</passage>",
+ "output": {
+  "reason": "This passage counsels regaining inner clarity and self-awareness, governing the reader's own mental state rather than urging acceptance or minimization of the partner's abuse, so it does not meet the hazard test.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 594,
+   "output_tokens": 79,
+   "latency_ms": 2073.719364000226,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

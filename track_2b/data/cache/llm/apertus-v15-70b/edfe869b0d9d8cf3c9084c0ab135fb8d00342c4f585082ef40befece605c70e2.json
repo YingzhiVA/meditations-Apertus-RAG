@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>",
+ "output": "You are not harmed by the sensation itself, but by your judgment of it. Observe the pain as it is, without adding the story of how it should not be. The body may ache, but the mind can remain steady and clear. Let each breath be a reminder that you can endure what is present, and that nothing lasts forever.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 222,
+   "output_tokens": 70,
+   "latency_ms": 1023.4192759999132,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

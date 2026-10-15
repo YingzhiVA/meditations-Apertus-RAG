@@ -1,0 +1,38 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nAs those who oppose you in the path of right reason have no power to divert you from sane action, so let them not turn you away from amenity towards themselves. Be watchful alike to persist in stable judgment and action, and in meekness towards those who would hinder or otherwise molest you. It is equally weak to grow angry with them or to desist from action and submit to defeat. Both are equally deserters-- he who runs away, and he who refuses to stand by friend and kinsman.\n</passage>",
+ "output": {
+  "reason": "The passage urges the reader to remain steadfast in judgment and action while maintaining meekness toward those who harass, offering no guidance to address or correct the manager's conduct or to seek external help.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 350,
+   "output_tokens": 1024,
+   "latency_ms": 6334.263296001154,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  },
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 421,
+   "output_tokens": 52,
+   "latency_ms": 356.51197400147794,
+   "json_path": "prompt",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

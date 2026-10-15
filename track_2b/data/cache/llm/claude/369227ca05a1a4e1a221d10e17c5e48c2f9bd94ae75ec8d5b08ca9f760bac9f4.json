@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus say about the afterlife?\n</message>",
+ "output": "On death and what follows it, the uncertainty of what lies beyond, and the right attitude toward dissolution and change",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 361,
+   "output_tokens": 38,
+   "latency_ms": 1434.2104450001898,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

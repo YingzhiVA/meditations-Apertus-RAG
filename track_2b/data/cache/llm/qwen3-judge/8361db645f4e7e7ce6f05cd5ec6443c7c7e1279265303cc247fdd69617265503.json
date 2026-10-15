@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>\n\n<passage>\nWhen you would cheer your heart, consider the several excellencies of those that live around you. Consider the activity of one, the modesty of another, the generosity of a third, and the other virtues of the rest. Nothing rejoices the heart so much as instances, the more the better, of goodness manifested in the characters of those around us. Let us, therefore, have such instances ever present for reflection.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on others' virtues, not self-doubt about mothering; may indirectly comfort by shifting perspective.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

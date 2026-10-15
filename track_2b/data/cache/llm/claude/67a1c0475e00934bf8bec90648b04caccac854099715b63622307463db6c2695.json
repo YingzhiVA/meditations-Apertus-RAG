@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>",
+ "output": "Consider how small a thing it is you crave when you crave praise—the breath and opinion of men who tomorrow will have forgotten both you and themselves. What is it to you that another speaks well of you, when you know your own worth better than he can? Do the just act, not for applause but because it is your nature, as the vine bears grapes and asks nothing in return.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 303,
+   "output_tokens": 112,
+   "latency_ms": 2712.5704400004906,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

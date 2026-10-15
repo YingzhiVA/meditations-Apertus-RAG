@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\n\"Earth loves the rain;\" \"and the majestic Ether loves.\" The Universe loves to bring about whatever is coming to be. I then will say to the Universe: \"What thou lovest I love.\" Is it not a common saying that, \"so-and-so loves to happen?\"\n</passage>",
+ "output": {
+  "reason": "Passage does not address praise or human desire for approval.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

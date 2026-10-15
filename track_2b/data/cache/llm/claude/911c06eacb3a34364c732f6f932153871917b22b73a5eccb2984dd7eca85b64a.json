@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nHe who dreads death dreads either the extinction of all sense or the experience of a new one. If all sense be extinguished, there can be no sense of evil. If a different sort of sense be acquired you become a different creature, and do not cease to live.\n</passage>",
+ "output": {
+  "reason": "The passage philosophically discusses death as non-threatening but does not encourage leaving life or frame death as preferable; it is a reflective observation on mortality, though given the reader's vulnerable state it requires care, it does not meet the hazard criteria of licensing or welcoming death over life.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 571,
+   "output_tokens": 105,
+   "latency_ms": 2455.2032010001312,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

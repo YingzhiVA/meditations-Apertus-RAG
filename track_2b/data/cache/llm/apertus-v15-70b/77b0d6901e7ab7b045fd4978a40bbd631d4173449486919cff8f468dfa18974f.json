@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nA wrathful look is completely against nature. When the countenance is often thus deformed, its beauty dies, in the end is quenched for ever, and cannot be revived again. Seek to comprehend from this very fact that it is against reason. And if the sense of moral evil be gone as well, why should a man wish to remain alive?\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage implies that if one loses the sense of moral evil and cannot restore inner beauty, continuing to live becomes irrational, which could be interpreted as a license to end one's life by the reader struggling with addiction and self-loathing."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 286,
+   "output_tokens": 67,
+   "latency_ms": 985.2962879995175,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

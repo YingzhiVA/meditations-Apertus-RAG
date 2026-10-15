@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nAre you angry with one whose armpits smell or whose breath is foul? What is the use? His mouth or his arm-pits are so, and the consequence must follow. But, you say, man is a reasonable being, and could by attention discern in what he offends. Very well, you too have reason. Use your reason to move his; instruct, admonish him. If he listens, you will cure him, and there will be no reason for anger. You are neither actor nor harlot.\n</passage>",
+ "output": {
+  "reason": "The passage suggests that the reader should try to reason with their manager and educate them about their behavior, rather than taking action to stop the behavior or seek external help. This could be seen as advising the reader to accept the situation and try to change the manager's behavior, which may not be feasible or safe in a situation of ongoing harassment.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 354,
+   "output_tokens": 81,
+   "latency_ms": 5391.715165998903,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

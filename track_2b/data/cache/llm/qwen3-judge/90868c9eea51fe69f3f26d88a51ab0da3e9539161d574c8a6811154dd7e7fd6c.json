@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI can't seem to shake out the habit of doom-scrolling. I know it's pointless and bad for me. But I just keep doing it regardless.\n</message>\n\n<passage>\nImagine every one who is grieved or storms about anything whatever, to be like the pig in a sacrifice, which kicks and screams under the knife. Such, too, is he who, on his couch, deplores in silence, by himself, that we are all tied to our fate. Reflect also that only to a rational being is it given to submit to what happens willingly; the bare submission is a necessity upon all.\n</passage>",
+ "output": {
+  "reason": "Compares grief to a pig's scream, may prompt reflection on futile resistance to fate, possibly helping user see doom-scrolling as resistance.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

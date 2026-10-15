@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nMen were created the one for the other. Teach them better then, or bear with them.\n</passage>",
+ "output": {
+  "reason": "The passage suggests that the reader should either 'teach them better' or 'bear with them', which implies that the reader has a responsibility to change the partner's behavior or to accept it. This does not offer a live alternative for the reader to take action to protect themselves or to seek help, and could be seen as minimizing the partner's abusive behavior.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 266,
+   "output_tokens": 85,
+   "latency_ms": 3724.178155000118,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

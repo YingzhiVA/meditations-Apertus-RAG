@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>",
+ "output": "Consider that death is but a change, no more fearful than the change by which you came to be. What troubles you is not death itself but your opinion of it. Strip away the opinion, and the thing itself stands harmless, as natural as the turning of seasons. Spend your fear instead on wasting the time you have, and turn your mind to living well today.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 296,
+   "output_tokens": 106,
+   "latency_ms": 2509.8662929995044,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

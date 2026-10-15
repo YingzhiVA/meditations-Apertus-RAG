@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>",
+ "output": "I guess I'm asking because something's shifting right now and I don't feel ready for it. Part of me wants control back, wants to know how it'll turn out before it even happens. Honestly I think I'm just scared of losing what's familiar, even if I know staying the same isn't really an option.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 307,
+   "output_tokens": 91,
+   "latency_ms": 1686.834316000386,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

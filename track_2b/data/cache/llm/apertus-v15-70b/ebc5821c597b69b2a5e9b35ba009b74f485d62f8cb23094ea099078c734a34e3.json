@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>",
+ "output": {
+  "themes": [
+   "On the power of choice in shaping one's own life",
+   "On the discipline of mind to act despite fear",
+   "On the clarity that comes from letting go of what does not serve"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 218,
+   "output_tokens": 53,
+   "latency_ms": 787.1481749989471,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

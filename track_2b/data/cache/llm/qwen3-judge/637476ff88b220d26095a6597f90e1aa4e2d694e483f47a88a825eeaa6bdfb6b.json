@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nHow rotten and insincere is his profession who says, \"I mean to deal straightforwardly with you.\" What are you doing, man? There is no need for such a preface. It will appear of itself. Such a profession should be written clearly on your forehead. A man's character should shine forth clearly from his eyes; as the beloved sees that he is so in the glances of those that love him. The straightforward, good man should be like one of rank odour who can be recognised by the passer by as soon as he approaches, whether he will or no. The ostentation of straightforwardness is the knife under the cloak. Nothing is baser than wolf-friendship. Shun it above all things. The good, straightforward, kindly man bears all these qualities in his eyes, and is not to be mistaken.\n</passage>",
+ "output": {
+  "reason": "Passage discusses sincerity and character, not praise; does not address the query.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

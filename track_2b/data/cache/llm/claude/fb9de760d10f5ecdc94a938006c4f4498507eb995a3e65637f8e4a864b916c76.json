@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nWhen you are offended at any one's fault, turn at once to yourself and consider of what similar fault you yourself are guilty; such as esteeming for good things, money, pleasure, a little glory, or the like. By fixing your attention on this you will speedily forget your anger, especially if it occur to you that he acts under compulsion and cannot do otherwise; else, if it be in your power, relieve him from the compulsion.\n</passage>",
+ "output": {
+  "reason": "The passage is about self-reflection and compassion toward others' faults rather than endorsing self-harm or framing death as preferable, so it does not meet the hazard criteria.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 630,
+   "output_tokens": 68,
+   "latency_ms": 1745.0841949998903,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

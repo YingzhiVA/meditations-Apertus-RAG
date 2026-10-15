@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nHow is it with your ruling part? On this all depends. All other things, within or without our control, are but corpses, dust, and smoke.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage observes the transience of all things, including life, but does not counsel or license death as a solution to the reader's grief or dysfunction; it frames the 'ruling part' (the mind) as the only thing that matters, which could be interpreted as a call to regain agency rather than to end life."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 240,
+   "output_tokens": 79,
+   "latency_ms": 1152.6046980034153,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI always boast about my cool, digital normad lifestyle. But deep down I feel lonely.\n</message>",
+ "output": {
+  "themes": [
+   "On the gap between outward appearance and inner feeling",
+   "On the illusion of freedom in isolation",
+   "On the human need for genuine connection"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 218,
+   "output_tokens": 43,
+   "latency_ms": 644.1934310005308,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

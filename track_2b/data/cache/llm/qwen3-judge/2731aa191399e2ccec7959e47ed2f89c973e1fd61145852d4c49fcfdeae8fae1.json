@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>\n\n<passage>\nThere are four states of the soul against which you must continually and especially be upon your guard; and which, when detected, should be effaced, by remarking thus of each. \"This thought is unnecessary. This tends to social dissolution. You could not say this from your heart; and to speak otherwise than from the heart you must regard as the most absurd conduct.\" And, fourthly, whatever causes self-reproach is an overpowering or subjection of the diviner part within you to the less honourable and mortal part, the body, and to its grosser tendencies.\n</passage>",
+ "output": {
+  "reason": "Highlights inner conflict and harmful influences, urging self-honesty and integrity.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

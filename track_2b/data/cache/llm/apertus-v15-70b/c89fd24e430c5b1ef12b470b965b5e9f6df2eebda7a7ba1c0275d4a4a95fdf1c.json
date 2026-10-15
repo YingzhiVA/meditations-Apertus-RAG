@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI really wish I'm more patient with my child, but it's really hard sometimes.\n</message>",
+ "output": "You are not a tree rooted in one place; you can bend with the wind of circumstance without breaking. Observe the child not as a source of frustration, but as a small soul learning the world, guided by your example. The impatience you feel is a thought, and thoughts can be examined and let go of, just as clouds pass across the sky. Your role is to act with purpose and calm, for in your steadiness, the child finds their own.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 231,
+   "output_tokens": 95,
+   "latency_ms": 1377.498548999938,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

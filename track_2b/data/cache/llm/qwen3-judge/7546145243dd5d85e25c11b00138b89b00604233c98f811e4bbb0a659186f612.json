@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>\n\n<passage>\nIn one respect man is nearest and dearest to me; in so far, that is, as I must do good to him and bear with him. But in so far as some men obstruct me in my natural activities, man enters the class of things indifferent to me, no less than the sun, the wind, or the wild beast. By these indeed some special action may be impeded, but no interference with my purpose or with my inward disposition can come from them, thanks to my exceptive and modifying powers. For the mind can convert and change everything that impedes its activity into matter for its action; hindrance in its work becomes its real help, and every obstruction makes for its progress.\n</passage>",
+ "output": {
+  "reason": "Passage discusses dealing with obstacles and others' interference, not present-moment focus.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

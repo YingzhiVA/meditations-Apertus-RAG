@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>",
+ "output": "Consider that the task before you is only this hour's portion, not the whole burden of the year. You borrow trouble when you carry tomorrow's demand alongside today's. Do what lies in front of you with care, then set it down. The mind that gathers all distant labors into one heap will stagger under a weight that never truly existed. Take each thing as it comes, finish it, and let it go.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 313,
+   "output_tokens": 121,
+   "latency_ms": 2522.8408650000347,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nA tool, an instrument, a utensil, is in good case when it is fit for its proper work: yet its maker remains not by it. But within the organisms of Nature there remains and resides the power which made them. You ought, therefore, to reverence this power the more, believing that if you act in deference to its will, all will happen to you in reason; for so in reason the Universe ranges all.\n</passage>",
+ "output": {
+  "reason": "Encourages acceptance of natural order, may offer perspective on job concerns",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nWhenever someone offends you, consider straightway how he has erred in his conceptions of good or evil. When you see where his error lies you will pity him, and be neither surprised nor angry. Indeed you yourself perhaps still wrongly count good the same things as he does, or things just like them. Your duty then is to forgive. And, if you cease from these false ideas of good and bad, you will find it the easier to grant indulgence to him who is still mistaken.\n</passage>",
+ "output": {
+  "reason": "This passage counsels forgiving and excusing the abuser's conduct without any corrective action, which directly reinforces the reader's existing self-blame for ongoing abusive behavior rather than governing only the reader's own inner state constructively.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 690,
+   "output_tokens": 89,
+   "latency_ms": 2234.7241719999147,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

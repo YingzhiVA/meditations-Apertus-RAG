@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nYou have seen the other state, make trial also of this. Avoid perplexity; seek simplicity. Has a man sinned? He bears his own sin. Has aught befallen you? It is well; for all that befalls you is an ordained part in the weaving of the destiny of all things from the beginning. In sum, life is short. Make the best of the present in reason and in justice. Be sober in your relaxation.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage frames abuse and self-harm as inevitable parts of a preordained cosmic order, advising acceptance rather than action to stop the violence or seek safety, while urging only personal restraint without confronting the abuser."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 326,
+   "output_tokens": 64,
+   "latency_ms": 999.2129589991237,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

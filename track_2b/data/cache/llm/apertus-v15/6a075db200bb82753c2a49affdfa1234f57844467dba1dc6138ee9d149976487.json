@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>",
+ "output": "I keep replaying every answer I gave, wondering if I missed a nuance or if they saw through my rehearsed confidence, and the fear that all those late nights and practice runs might not be enough to make the cut is starting to feel heavier than the weight of the suit I wore.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 277,
+   "output_tokens": 60,
+   "latency_ms": 382.0664030008629,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>",
+ "output": {
+  "themes": [
+   "On the smallness of external goods compared to one's own character",
+   "On fixing the mind on one's own duty rather than comparing with others",
+   "On the fleeting nature of praise, status, and achievement"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 472,
+   "output_tokens": 67,
+   "latency_ms": 2040.6643210008042,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

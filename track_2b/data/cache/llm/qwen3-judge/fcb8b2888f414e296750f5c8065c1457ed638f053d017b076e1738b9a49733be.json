@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>\n\n<passage>\nLet the leading and ruling part of your soul stand unmoved by the stirrings of the flesh, whether gentle or rude. Let it not commingle with them, but keep itself apart, and confine these passions to their proper bodily parts; and if they rise into the soul by any sympathy with the body to which it is united, then we must not attempt to resist the sensation, seeing that it is of our nature; but let not the soul, for its part, add thereto the conception that the sensation is good or bad.\n</passage>",
+ "output": {
+  "reason": "Addresses enduring bodily discomfort without letting it disturb the soul, directly relevant to living with pain.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

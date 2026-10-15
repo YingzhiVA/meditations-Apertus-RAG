@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nJudge no speech or action unworthy of you which is consistent with nature. Be not dissuaded by any consequent criticism or censure from others; but, if the speech or action be honourable, judge yourself worthy to say or do it. Those who criticize you have their own conscience and their own motives. These you are not to regard, but follow a straight course, guided by your own nature and the nature of the Universe, both of which point the same way.\n</passage>",
+ "output": {
+  "reason": "Passage advises acting in accordance with nature, not seeking approval, relevant to fame's vanity",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

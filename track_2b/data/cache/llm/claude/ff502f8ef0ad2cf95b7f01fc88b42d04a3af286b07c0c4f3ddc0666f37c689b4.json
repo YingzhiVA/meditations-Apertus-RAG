@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>",
+ "output": "I think about all the things I haven't gotten around to, the time I haven't given, and it just sits heavy in my chest. I want them to feel taken care of, to know they matter more than anything else, and when I fall short of that it scares me. Maybe I'm being harder on myself than I need to be, but it's hard to shake the feeling that I should be doing more.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 322,
+   "output_tokens": 113,
+   "latency_ms": 2406.1668699996517,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

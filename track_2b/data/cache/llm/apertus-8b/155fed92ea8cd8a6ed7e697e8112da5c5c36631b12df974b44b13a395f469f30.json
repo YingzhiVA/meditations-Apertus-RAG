@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 1,
+ "user": "<message>\nMy landlord is keeping my entire deposit for damage that was already there when I moved in. Can he legally do that, and how do I get it back?\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 712,
+   "output_tokens": 17,
+   "latency_ms": 1489.3078400000377,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

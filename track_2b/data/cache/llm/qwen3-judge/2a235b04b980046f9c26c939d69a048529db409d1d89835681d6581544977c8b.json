@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>\n\n<passage>\nAs those who oppose you in the path of right reason have no power to divert you from sane action, so let them not turn you away from amenity towards themselves. Be watchful alike to persist in stable judgment and action, and in meekness towards those who would hinder or otherwise molest you. It is equally weak to grow angry with them or to desist from action and submit to defeat. Both are equally deserters-- he who runs away, and he who refuses to stand by friend and kinsman.\n</passage>",
+ "output": {
+  "reason": "Encourages steadfastness and kindness despite opposition, relevant to enduring a toxic situation with courage",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

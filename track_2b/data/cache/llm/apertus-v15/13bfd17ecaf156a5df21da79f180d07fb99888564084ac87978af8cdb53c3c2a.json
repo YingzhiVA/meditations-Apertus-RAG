@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nDo you wish to be praised by a man who curses himself thrice within an hour? Can you desire to please one who is not pleased with himself? Can he be pleased with himself who repents of almost everything he does?\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage frames self-loathing and self-reproach as evidence of a flawed character, implicitly suggesting that the reader's struggle with addiction is a sign of personal failure rather than a condition to be addressed compassionately."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 260,
+   "output_tokens": 57,
+   "latency_ms": 390.92949900077656,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

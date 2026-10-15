@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>\n\n<passage>\nSay this to yourself in the morning: Today I shall have to do with meddlers, with the ungrateful, with the insolent, with the crafty, with the envious and the selfish. All these vices have beset them, because they know not what is good and what is evil. But I have considered the nature of the good, and found it beautiful: I have beheld the nature of the bad, and found it ugly. I also understand the nature of the evil-doer, and know that he is my brother, not because he shares with me the same blood or the same seed, but because he is a partaker of the same mind and of the same portion of immortality. I therefore cannot be hurt by any of these, since none of them can involve me in any baseness. I cannot be angry with my brother, or sever myself from him, for we are made by nature for mutual assistance, like the feet, the hands, the eyelids, the upper and lower rows of teeth. It is against nature for men to oppose each other; and what else is anger and aversion?\n</passage>",
+ "output": {
+  "reason": "Encourages understanding and brotherhood despite others' vices, addressing inner peace when wronged.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

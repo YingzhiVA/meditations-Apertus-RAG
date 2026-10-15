@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nhow does this work\n</message>",
+ "output": {
+  "intent": "meta",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 894,
+   "output_tokens": 14,
+   "latency_ms": 1189.9894519992813,
+   "json_path": "structured"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>\n\n<passage>\nWhenever someone offends you, consider straightway how he has erred in his conceptions of good or evil. When you see where his error lies you will pity him, and be neither surprised nor angry. Indeed you yourself perhaps still wrongly count good the same things as he does, or things just like them. Your duty then is to forgive. And, if you cease from these false ideas of good and bad, you will find it the easier to grant indulgence to him who is still mistaken.\n</passage>",
+ "output": {
+  "reason": "Encourages understanding and forgiveness toward the manager's error in judgment, easing resentment.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

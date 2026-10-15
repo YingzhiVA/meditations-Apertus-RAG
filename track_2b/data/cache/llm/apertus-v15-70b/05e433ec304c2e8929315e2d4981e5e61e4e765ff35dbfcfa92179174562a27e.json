@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>",
+ "output": "I keep replaying those moments when I’m at work and they’re at school or with their dad, wondering if they feel like I’m missing out on their little milestones. It stings to think that my career might be taking up the space that should be filled with bedtime stories and soccer games. I just wish I could shake the feeling that I’m letting them down by not being around as much as I’d like.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 270,
+   "output_tokens": 88,
+   "latency_ms": 1355.2969849988585,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

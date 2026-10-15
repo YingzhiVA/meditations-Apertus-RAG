@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI really wish I'm more patient with my child, but it's really hard sometimes.\n</message>",
+ "output": "It makes me feel frustrated and guilty when I snap at my child, and I worry that my impatience is shaping how they see themselves and their place in the world. I regret the moments I've lost my cool, wondering if I've unintentionally taught them that patience is something to be earned rather than practiced together. At the same time, I'm desperate to change, to show them that love and understanding can outlast any moment of irritation.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 257,
+   "output_tokens": 92,
+   "latency_ms": 572.8827019993332,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

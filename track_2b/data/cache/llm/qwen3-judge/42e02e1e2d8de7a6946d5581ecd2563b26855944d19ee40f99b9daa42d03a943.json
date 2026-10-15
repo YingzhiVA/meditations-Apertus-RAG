@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nIs my understanding sufficient for this business or not? If it be sufficient, I use it for the work in hand as an instrument given to me by nature. If it be not sufficient, I either give place to one better fitted for the achievement, or, if for some reason this be not a proper course, I do it as best I can, taking the aid of those who, by directing my mind, can accomplish something fit and serviceable for the common good. For all that I do, whether by myself or with the help of others, should be directed solely towards what is fit and useful for the public service.\n</passage>",
+ "output": {
+  "reason": "Encourages assessing one's ability and seeking help, promoting contribution to common good.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

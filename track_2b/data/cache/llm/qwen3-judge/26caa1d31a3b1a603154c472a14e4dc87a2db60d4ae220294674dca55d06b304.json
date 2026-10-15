@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\n\"Every soul,\" says Plato, \"parts unwillingly with truth.\" You may say the same of justice, temperance, good-nature, and every virtue. It is most necessary to keep this ever in mind; for, if you do, you will be more kindly towards all men.\n</passage>",
+ "output": {
+  "reason": "Discusses virtues but not praise; does not address the query.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

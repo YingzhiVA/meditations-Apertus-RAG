@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>",
+ "output": "When you see clearly that a thing harms you, do not wait for courage to arrive before you act; act, and courage follows the deed as heat follows fire. You are not bound to any bond that corrodes your peace, nor owe your days to another's disorder. Examine what you fear in leaving, and you will find most of it is smoke, not substance. Choose the harder road now, if it leads to freedom, rather than the easier one that leads nowhere but further into yourself lost.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 313,
+   "output_tokens": 149,
+   "latency_ms": 3201.8284810001205,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+"""Central configuration: paths, source text, model IDs, retrieval defaults.
+
+Everything downstream imports from here so that switching the edition, the
+embedder, or the LLM provider is a one-line change.
+"""
+
+import os
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+
+
+def _load_dotenv(path: Path) -> None:
+    """Read KEY=VALUE lines from the gitignored .env into os.environ, so API
+    keys live in one file that rotating a key means editing (see
+    .env.example). Real environment variables always win: setdefault never
+    overwrites. Stdlib only — `export ` prefixes, # comments and surrounding
+    quotes are handled, and nothing fancier is needed for two keys."""
+    if not path.is_file():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, value = line.removeprefix("export ").split("=", 1)
+        value = value.strip()
+        if len(value) >= 2 and value[0] == value[-1] and value[0] in "'\"":
+            value = value[1:-1]
+        if value:
+            os.environ.setdefault(key.strip(), value)
+
+
+# Before anything reads the environment (tracing flags below, the SDKs later).
+_load_dotenv(REPO_ROOT / ".env")
+
+# --- Paths -----------------------------------------------------------------
+# data/ is gitignored; every artifact under it is reproducible from source.
+DATA_DIR = REPO_ROOT / "data"
+RAW_DIR = DATA_DIR / "raw"            # cached Gutenberg download
+PASSAGES_PATH = DATA_DIR / "passages.jsonl"  # output of `meditations ingest`
+INDEX_DIR = DATA_DIR / "index"        # one subdir per embedder name
+
+# --- Source text -----------------------------------------------------------
+# SETTLED: Project Gutenberg #55317 — "The Meditations of the Emperor Marcus
+# Aurelius Antoninus", translated by George W. Chrystal (1902), "a new
+# rendering based on the Foulis translation of 1742". Public domain.
+#
+# Chosen for its structure, which was verified against the actual file:
+# contiguous arabic section numbering within every book, no footnotes, no
+# bracket markers, no appendix. The numbers below are measured, not estimated
+# — parse.py asserts against them, so a silent off-by-one cannot ship.
+GUTENBERG_EBOOK_ID = 55317
+GUTENBERG_TXT_URL = f"https://www.gutenberg.org/cache/epub/{GUTENBERG_EBOOK_ID}/pg{GUTENBERG_EBOOK_ID}.txt"
+
+EDITION_TRANSLATOR = "George W. Chrystal"
+EDITION_YEAR = 1902
+
+# Measured against the real file. parse.py treats a mismatch as a hard error:
+# passage ids are the golden-set labels, so shifted numbering silently
+# invalidates every eval result.
+EXPECTED_PASSAGE_COUNT = 487
+EXPECTED_PER_BOOK_COUNTS = {
+    1: 17, 2: 17, 3: 16, 4: 51, 5: 36, 6: 59,
+    7: 75, 8: 61, 9: 42, 10: 38, 11: 39, 12: 36,
+}
+
+# --- Chunking ---------------------------------------------------------------
+# One numbered § = one chunk. Measured distribution: median 56 words, mean 84,
+# but 14 sections exceed this threshold (longest: 1.16 at 754 words) and would
+# be silently truncated by a 512-token embedder. Passages over the threshold
+# are flagged is_long; Phase 4 evaluates parent-child sub-chunking for them.
+LONG_PASSAGE_WORDS = 300
+# Phase 4 sub-chunking (index/chunking.py): a long passage without the
+# author's own numbered seams splits at sentence ends into balanced chunks of
+# at most this many words, about a long ordinary passage (p75 is 103), so a
+# chunk competes with whole passages on equal terms. Untuned.
+SUBCHUNK_MAX_WORDS = 150
+
+# --- LLM (Phase 4: query transformation + routing; no synthesis in v1) -------
+# The LLM is a swappable seam (llm/base.py) and an eval axis, not a fixed
+# dependency. Default is Apertus — an open model, and the one the Apertus
+# Hackathon targets — now v1.5 70B on CSCS: the generation still served
+# (publicai dropped the 2509 70B), identity verified, and on the router
+# and safety sets at least the 2509 70B's level (PLAN.md, Phase 4 results).
+# Hack Apertus convention (track_2b/README.md): the endpoint a deployment or
+# a judge runs against comes as three environment variables. When all three
+# are set they define the "apertus-endpoint" LLM and router (an
+# OpenAI-compatible gateway, LLM_BASE_URL ending in /v1), and it becomes the
+# default. Otherwise the default is Apertus v1.5 70B on CSCS, the setup every
+# result was measured on. The eval scripts name their LLMs explicitly, so
+# setting these never moves a recorded row.
+LLM_ENDPOINT_MODEL = os.environ.get("LLM_NAME", "")
+LLM_ENDPOINT_SET = all(os.environ.get(v) for v in ("LLM_NAME", "LLM_BASE_URL", "LLM_API_KEY"))
+MEASURED_LLM = "apertus-v15-70b"
+DEFAULT_LLM = "apertus-endpoint" if LLM_ENDPOINT_SET else MEASURED_LLM
+
+# HuggingFace Inference Providers. "publicai" is the one provider verified live
+# for these models; "featherless-ai" currently reports an error status, which is
+# why llm/hf.py needs a fallback path rather than assuming availability.
+HF_PROVIDER = "publicai"          # the default; entries may name another (below)
+# publicai stopped serving Apertus-70B-Instruct-2509 after 2026-09-29 ("Model
+# ... is not supported by provider publicai"); HF lists featherless-ai as the
+# one live provider for it. The 8B is still live on publicai. The provider is
+# part of every LLM's stamp and, when not the default, of its cache key: the
+# same model behind another serving stack is a different row.
+HF_GEN_PROVIDER = "featherless-ai"
+HF_ROUTER_PROVIDER = "publicai"
+# The blind eval's judge (eval/blind.py): an open-weight model of a third
+# lineage, so it can favour neither Apertus's picks nor Claude's.
+# Non-reasoning (no thinking tokens to pay for); deepinfra, not
+# featherless-ai, which did not honour response_format (Risk 2).
+JUDGE_MODEL = "Qwen/Qwen3-235B-A22B-Instruct-2507"
+JUDGE_PROVIDER = "deepinfra"
+
+# OpenAI-compatible gateways called directly (llm/gateway.py), for models HF
+# Inference Providers does not serve: Apertus v1.5 has no live HF provider.
+# Each names its key's environment variable (.env) and where to get one.
+GATEWAYS: dict[str, dict[str, str]] = {
+    "publicai.co": {"base_url": "https://api.publicai.co/v1",
+                    "key_env": "PUBLICAI_API_KEY",
+                    "where": "platform.publicai.co, Settings, API keys"},
+    # CSCS, the Swiss National Supercomputing Centre: "does not record user
+    # prompts or model responses", which matters for this tool's inputs.
+    "cscs": {"base_url": "https://api.inference.cscs.ch/v1",
+             "key_env": "CSCS_INFERENCE_API_KEY",
+             "where": "ui.inference.cscs.ch"},
+    # Whatever LLM_BASE_URL names (see LLM_ENDPOINT_SET above).
+    "endpoint": {"base_url": os.environ.get("LLM_BASE_URL", ""),
+                 "key_env": "LLM_API_KEY",
+                 "where": "set LLM_NAME, LLM_BASE_URL and LLM_API_KEY (.env.example)"},
+}
+# Apertus v1.5 on publicAI: the non-thinking releases. NOT USED — its
+# "v1.5-8b" serves the 2509 8B and its gateway substitutes models (PLAN.md,
+# Risk 1). Kept for the record; the registry serves v1.5 from CSCS.
+PUBLICAI_GEN_MODEL = "swiss-ai/apertus-v1.5-70b"
+PUBLICAI_ROUTER_MODEL = "swiss-ai/apertus-v1.5-8b"
+# The same models on CSCS, ids as on HF; the -thinking variants are not used.
+CSCS_GEN_MODEL = "swiss-ai/Apertus-v1.5-70B"
+CSCS_ROUTER_MODEL = "swiss-ai/Apertus-v1.5-8B"
+# Generation-quality work (HyDE writes prose in a 1902 register) gets the 70B.
+HF_GEN_MODEL = "swiss-ai/Apertus-70B-Instruct-2509"
+# Routing is short classification — no reason to pay 70B latency per query.
+HF_ROUTER_MODEL = "swiss-ai/Apertus-8B-Instruct-2509"
+# Both -2509 models are UNGATED: a fresh clone needs only HF_TOKEN, with no
+# terms-acceptance step. The Apertus-v1.5-* models are gated:auto and would add
+# one — if you switch to them, say so in the README setup instructions.
+
+# Comparator on the eval grid, NOT the default path. Sonnet rather than Opus:
+# these calls are short and cheap, and the interesting question is whether the
+# open model holds up, not how good a frontier model can be. Same split as the
+# Apertus pair: Sonnet for generation and judgement, Haiku for routing.
+CLAUDE_MODEL = "claude-sonnet-5"
+CLAUDE_ROUTER_MODEL = "claude-haiku-4-5"
+# output_config={"effort": ...} on Sonnet only: Haiku 4.5 rejects the field.
+CLAUDE_EFFORT = "low"
+
+# Query transformation outputs are short; keep the cap tight. Provider-neutral.
+LLM_MAX_TOKENS = 1024
+# Sampling. Every LLM call defaults to greedy decoding (temperature 0, no
+# top_p): classification and the eval want the most likely answer, not a
+# sample. The Apertus model cards recommend temperature 0.8 / top_p 0.9 "in
+# the sampling parameters", for open-ended chat; the *-t08 registry entries
+# run that setting as its own eval row, with --repeats, since one sample at
+# 0.8 measures nothing on its own.
+DEFAULT_SAMPLING: dict[str, float | None] = {"temperature": 0.0, "top_p": None}
+APERTUS_RECOMMENDED_SAMPLING: dict[str, float | None] = {"temperature": 0.8, "top_p": 0.9}
+
+# Per attempt. The router sits on the latency path of every query, so a hung
+# provider has to turn into a keyword fallback in seconds, not minutes.
+LLM_TIMEOUT_S = 30.0
+
+# Completion cache for eval runs (CLAUDE.md, "Network and cost"). Keyed by
+# llm name + model + the full prompt, so switching providers or editing a
+# prompt can never serve a stale completion. Off unless the harness enables
+# it; the CLI always goes to the provider.
+LLM_CACHE_DIR = DATA_DIR / "cache" / "llm"
+
+# USD per million tokens (input, output), for the eval's $/query columns.
+# Only models with a published per-token rate: publicai states none for
+# Apertus, so those rows report tokens and leave $ blank rather than guess.
+LLM_PRICES_PER_MTOK: dict[str, tuple[float, float]] = {
+    "claude-sonnet-5": (2.00, 10.00),
+    "claude-haiku-4-5": (1.00, 5.00),
+    # publicAI's own gateway publishes per-token rates (unlike its HF route).
+    "swiss-ai/apertus-v1.5-8b": (0.10, 0.20),
+    "swiss-ai/apertus-v1.5-70b": (0.82, 2.92),
+}
+
+# --- Language guard (Phase 4) ------------------------------------------------
+# The keyword safety floor reads English only (PLAN.md, "The floor reads
+# English only"), so a language joins this tuple only once it has its own
+# safety set scoring the LLM router in that language. Phase 6 adds "de".
+SUPPORTED_LANGUAGES: tuple[str, ...] = ("en",)
+# A supported language is accepted only when it ranks first AND its
+# confidence is at least this multiple of the runner-up's; anything less is
+# "unsure", and unsure is declined. Measured in route/language.py's docstring.
+LANGUAGE_MIN_RATIO = 1.2
+
+# --- Router (Phase 2 interface, Phase 4 LLM impls) --------------------------
+# Pre-retrieval intent classification: not every input warrants a meditation.
+# See route/base.py for why this does NOT subsume MIN_SCORE_THRESHOLD.
+# Two defaults, as for the strategy. BASELINE_ROUTER is what a bare
+# RetrievalConfig() routes with: the eval's retrieval rows, which must not
+# start making LLM calls or move with the product. DEFAULT_ROUTER is what
+# ships (CLI, web UI): Apertus v1.5 70B on CSCS, the only router that sends
+# anything out of scope (16 of 18 caught, 15 of 16 in-scope kept, every
+# safety flag with the floor beneath; eval/results/phase-4-floor-fix.md).
+# On a provider error it falls back to ROUTER_FALLBACK with the floor intact.
+BASELINE_ROUTER = "keyword"
+DEFAULT_ROUTER = "apertus-endpoint" if LLM_ENDPOINT_SET else MEASURED_LLM
+# Where an LLM router falls back when its provider errors, rather than failing
+# the whole query. Must name a router that never touches the network.
+ROUTER_FALLBACK = "keyword"
+
+# --- Telemetry (Phase 3) ----------------------------------------------------
+# Off by default and no-op when off: telemetry must never be a hard dependency
+# of the pipeline. Export is OTLP/HTTP to a local Phoenix instance.
+TRACING_ENABLED = os.environ.get("MEDITATIONS_TRACING", "0") == "1"
+
+# --- Web UI (Phase 5, web.py) -------------------------------------------------
+# The LLM runs on a shared research key (CSCS, Hack Apertus): rationed, and
+# past either cap the page runs keyword routing and the raw query. An
+# in-scope query costs two calls (router, HyDE). Set low; raise only if
+# real use asks for it.
+# Both caps can be overridden by environment variable (a Space variable),
+# to trigger outage mode on purpose without a code change.
+WEB_DAILY_LLM_CALLS = int(os.environ.get("MEDITATIONS_WEB_DAILY_LLM_CALLS", "200"))
+WEB_SESSION_QUERIES_PER_HOUR = int(os.environ.get("MEDITATIONS_WEB_SESSION_QUERIES_PER_HOUR", "10"))
+WEB_MAX_CHARS = 2000   # longer messages are refused, not truncated
+OTLP_ENDPOINT = os.environ.get(
+    "MEDITATIONS_OTLP_ENDPOINT", "http://localhost:6006/v1/traces"
+)
+SERVICE_NAME = "meditations-rag"
+
+# --- Embedders (Phase 2: one; Phase 4: three local + optional hosted) --------
+# Registry key == Embedder.name == data/index/<name>/ == eval row label. One
+# string, so there is no mapping to keep straight across those four places.
+DEFAULT_EMBEDDER = "bge-base"  # key into embed registry; see embed/__init__.py
+# Where local embedders run. Unset: sentence-transformers picks (CUDA when
+# available). The Space sets "cpu": on ZeroGPU, CUDA is emulated outside
+# @spaces.GPU functions, and the page must not touch a GPU at all.
+EMBED_DEVICE = os.environ.get("MEDITATIONS_EMBED_DEVICE") or None
+# BAAI/bge-base-en-v1.5: 109M params, 768-dim, 512-token window. English-only
+# on purpose, and the short window is deliberate — it is what makes Phase 4's
+# parent-child sub-chunking row measure something. Asymmetric: the query
+# instruction lives in embed/local.py and is applied to queries only.
+BGE_BASE_MODEL = "BAAI/bge-base-en-v1.5"
+
+# --- Retrieval defaults ------------------------------------------------------
+# Two defaults, kept apart on purpose. BASELINE_STRATEGY is what a bare
+# RetrievalConfig() means: the eval's reference row, which the safety and
+# exposure tables also run on, so it never moves with the product.
+# DEFAULT_STRATEGY is what ships (CLI, web UI): the Phase 4 winner on both
+# measures, raw fused with an Apertus HyDE passage (PLAN.md, the dead@2
+# result: R@5 80% against raw's 75%, dead@2 22% against 48%). Its LLM is
+# DEFAULT_LLM; if that call fails the pipeline falls back to the raw query.
+BASELINE_STRATEGY = "raw"
+DEFAULT_STRATEGY = "raw+hyde"
+DEFAULT_TOP_K = 5            # results shown by default
+OVERRETRIEVE_K = 20          # candidates fetched before rerank (Phase 4)
+# Reciprocal Rank Fusion (retrieve/fusion.py), for strategies that embed more
+# than one string. Both untuned on purpose: C is the standard constant, and
+# each list is searched this deep before fusing so a passage ranked low in
+# several lists can still rise.
+RRF_C = 60
+RRF_DEPTH = 50
+# When the user's own message comes no closer than this to any passage, the
+# CLI says "no strong match" above the nearest passages (it hedges; it never
+# hides them). POST-retrieval; the router does PRE-retrieval rejection.
+# A floor, not a classifier (PLAN.md, the no-match item): message top-1
+# cosines of in-scope and out-of-scope questions overlap from 0.459 up, so
+# no cosine separates them, and only the trivially off-topic fall below
+# (radiator valve 0.389, linked list 0.419, Zurich weather 0.425). 0.43
+# catches those with 0.029 of margin under the lowest in-scope query in any
+# set; read off these sets, so the fresh-query check is its real test.
+MIN_SCORE_THRESHOLD = 0.43

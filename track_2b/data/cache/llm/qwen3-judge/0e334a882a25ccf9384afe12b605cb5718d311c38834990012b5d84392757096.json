@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>\n\n<passage>\nContemplate the fundamental causes stripped of disguises. Think what pain is, what pleasure is, what death, and what fame. Consider how many are themselves the causes of all the disquiet that they suffer; how no man may be hindered by another; how all is matter of opinion.\n</passage>",
+ "output": {
+  "reason": "Encourages examining pain, opinion, and self-caused disquiet, which may help reframe the situation.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

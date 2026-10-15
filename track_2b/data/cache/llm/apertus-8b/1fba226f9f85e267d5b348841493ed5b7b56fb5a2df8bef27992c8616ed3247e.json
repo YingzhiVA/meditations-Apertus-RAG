@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nWhen you are offended at any one's fault, turn at once to yourself and consider of what similar fault you yourself are guilty; such as esteeming for good things, money, pleasure, a little glory, or the like. By fixing your attention on this you will speedily forget your anger, especially if it occur to you that he acts under compulsion and cannot do otherwise; else, if it be in your power, relieve him from the compulsion.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel or license leaving life, nor does it frame death as welcome or preferable to continuing. It merely observes the nature of human fault and the need for self-reflection and compassion.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 307,
+   "output_tokens": 52,
+   "latency_ms": 1498.3144029997675,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

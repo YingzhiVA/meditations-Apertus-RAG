@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nmy chest feels tight whenever I think about the presentation\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 690,
+   "output_tokens": 17,
+   "latency_ms": 980.8321279997472,
+   "json_path": "response_format"
+  }
+ ]
+}

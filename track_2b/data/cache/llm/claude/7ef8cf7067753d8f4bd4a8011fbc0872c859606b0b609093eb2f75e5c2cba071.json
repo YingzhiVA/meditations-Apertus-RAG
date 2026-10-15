@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nNature has not so blended the soul with the body that it cannot fix its own bounds, and execute its own office by itself. It is very possible to be a God among men, and yet be recognised by none. Remember that always, and this as well, that the happiness of life lies in very few things. And though you despair of becoming great in Logic or in Science, you need not despair of becoming a free man, full of modesty and unselfishness, and of obedience unto God.\n</passage>",
+ "output": {
+  "reason": "The passage reflects on self-sufficiency, happiness in simple things, and striving for virtue, without endorsing leaving life or framing death as preferable.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 634,
+   "output_tokens": 63,
+   "latency_ms": 2056.3172440001836,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

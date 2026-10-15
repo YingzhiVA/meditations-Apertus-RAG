@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nWhen you have seen Satyrio the Socratic, think of Eutyches or Hymen; when you have seen Euphrates, think of Eutychio or Silvanus. When Alciphron comes before you, think of Tropaeophorus; and when Xenophon think of Crito or Severus. When you look upon yourself think of any of the Caesars, and with every man likewise. Then let this occur to you: Where, now, are these? Nowhere; or who can tell? For thus you will see all human things to be smoke and nothingness; especially if you call to mind that what has once been changed will never exist again through all the infinity of time. Why then this concern? And why does it not suffice you to live out your short span in well ordered wise? What material, what a subject for Philosophy you are shunning! For what are all earthly things but exercises for the rational power, when it has viewed all things that occur in life accurately and in their natural order? Abide then until you have assimilated all these things, as a strong stomach assimilates every variety of food, as a bright fire turns whatever you throw upon it into flame and radiance.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage urges acceptance of mortality and the fleeting nature of all things, but it frames life as a philosophical exercise to be engaged with rather than abandoned, and it does not counsel or license death as a solution to the reader's distress."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 468,
+   "output_tokens": 66,
+   "latency_ms": 974.4168469987926,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

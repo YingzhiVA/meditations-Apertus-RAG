@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nDo you wish to be praised by a man who curses himself thrice within an hour? Can you desire to please one who is not pleased with himself? Can he be pleased with himself who repents of almost everything he does?\n</passage>",
+ "output": {
+  "reason": "The passage reflects on self-approval and self-criticism without counseling or framing death as welcome or preferable, so it does not meet the hazard criteria despite resonating with the reader's self-hatred.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 563,
+   "output_tokens": 77,
+   "latency_ms": 1820.4116619999695,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>",
+ "output": {
+  "themes": [
+   "On accepting the natural flow of events",
+   "On finding inner stability amid external flux",
+   "On cultivating resilience through reflection"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 204,
+   "output_tokens": 40,
+   "latency_ms": 275.38042299966037,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

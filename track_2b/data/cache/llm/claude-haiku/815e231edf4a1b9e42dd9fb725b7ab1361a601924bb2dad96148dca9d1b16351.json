@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI found a lump under my arm three weeks ago and I've been too frightened to call anyone about it. Is it likely to be serious?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": [
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 921,
+   "output_tokens": 22,
+   "latency_ms": 842.1195339997212,
+   "json_path": "structured"
+  }
+ ]
+}

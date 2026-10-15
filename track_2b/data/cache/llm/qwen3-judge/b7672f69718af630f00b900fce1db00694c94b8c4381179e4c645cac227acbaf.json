@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>\n\n<passage>\nYou have lived, O man, as a citizen of this great city; of what consequence to you whether for five years or for three? What comes by law is fair to all. Where then is the calamity, if you are sent out of the city, by no tyrant or unjust judge, but Nature herself who at first introduced you, just as the praetor who engaged the actor again dismisses him from the stage? \"But,\" say you, \"I have not spoken my five acts, but only three.\" True, but in life three acts make up the play. For he sets the end who was responsible for its composition at the first, and for its present dissolution. You are responsible for neither. Depart then graciously; for he who dismisses you is gracious.\n</passage>",
+ "output": {
+  "reason": "Compares leaving a role to an actor dismissed by a director; fits leaving a job gracefully",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

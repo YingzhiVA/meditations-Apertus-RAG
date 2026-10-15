@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI just celebrated my 40th birthday and realized that roughly half of my life is already spent. That though does send shiver down my spine.\n</message>",
+ "output": "On the brevity of life and fear of time passing",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 388,
+   "output_tokens": 16,
+   "latency_ms": 1339.2957959999876,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

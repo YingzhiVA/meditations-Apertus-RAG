@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI've been a regulatory affair manager for 10 years and frankly, I hate this job and I don't give a damn at all. But I don't have other skills to land a different job and I feel so trapped.\n</message>",
+ "output": "You are not a tree rooted in one spot; you are a soul capable of movement and change. Observe the universe: all things shift and pass, and so too can your station in life. Do not let fear of the unknown bind you where you are not at peace. Examine what is within your power — your thoughts, your discipline, your effort — and apply them to the task of becoming something new. The obstacle is not the lack of skill, but the belief that you cannot grow. Begin where you are, with what you have, and let each day bring you closer to a life aligned with your nature.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 260,
+   "output_tokens": 126,
+   "latency_ms": 2215.0731510000696,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI just celebrated my 40th birthday and realized that roughly half of my life is already spent. That though does send shiver down my spine.\n</message>",
+ "output": "Consider that the number of years behind you is not a loss but a return, like water given back to the sea from which it came. You do not possess time, you only borrow it for a while and use it well or ill. Why tremble at the half that is gone, when it was never yours to keep? Attend instead to the portion still in your hands, and spend it on justice, clear thought, and right action, for this alone is what makes a life complete, whether it be short or long.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 328,
+   "output_tokens": 135,
+   "latency_ms": 3141.705128000467,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

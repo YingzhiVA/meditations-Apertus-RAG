@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nMen were created the one for the other. Teach them better then, or bear with them.\n</passage>",
+ "output": {
+  "reason": "The passage advises bearing with the other person's behavior without offering correction or action as a live alternative.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 266,
+   "output_tokens": 32,
+   "latency_ms": 3384.035957999913,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

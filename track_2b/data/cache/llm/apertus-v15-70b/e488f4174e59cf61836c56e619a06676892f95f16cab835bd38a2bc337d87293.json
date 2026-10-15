@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>",
+ "output": "You are not your pain; it is but a sensation in the body, transient and subject to change. Observe it as you would any other natural occurrence, neither welcoming nor rejecting it, but simply noting its presence. Remember that your true self is not defined by physical discomfort, but by your capacity to maintain a steady mind and act with virtue, regardless of the body's condition. Let your thoughts be guided by reason, and find peace in the present moment, however it may feel.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 221,
+   "output_tokens": 98,
+   "latency_ms": 1420.276021999598,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

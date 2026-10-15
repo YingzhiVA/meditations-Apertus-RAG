@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>",
+ "output": {
+  "themes": [
+   "On viewing pain as tolerable when the mind refuses to add judgment to it",
+   "On enduring hardship through reason and disciplined acceptance of nature's course",
+   "On the body's suffering as separate from the freedom of one's inner will"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 471,
+   "output_tokens": 82,
+   "latency_ms": 1805.8481120006036,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

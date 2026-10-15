@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI always boast about my cool, digital normad lifestyle. But deep down I feel lonely.\n</message>\n\n<passage>\nNo longer be content to breathe in harmony with the air which surrounds you; but set about feeling in sympathy with the intelligence which embraces all things. For the power of that intelligence is no less diffused, and no less pervasive for all who can draw it in, than is the virtue of the air for him who can breathe it.\n</passage>",
+ "output": {
+  "reason": "Encourages connection to universal intelligence, offering perspective on deeper belonging beyond lifestyle.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

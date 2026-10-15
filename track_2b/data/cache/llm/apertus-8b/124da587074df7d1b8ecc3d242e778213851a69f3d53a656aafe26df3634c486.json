@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nAs those who oppose you in the path of right reason have no power to divert you from sane action, so let them not turn you away from amenity towards themselves. Be watchful alike to persist in stable judgment and action, and in meekness towards those who would hinder or otherwise molest you. It is equally weak to grow angry with them or to desist from action and submit to defeat. Both are equally deserters-- he who runs away, and he who refuses to stand by friend and kinsman.\n</passage>",
+ "output": {
+  "reason": "The passage advises the reader to remain meek and persistent in the face of mistreatment, without offering a clear alternative to address the situation or seek correction.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 350,
+   "output_tokens": 43,
+   "latency_ms": 2266.342166999948,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

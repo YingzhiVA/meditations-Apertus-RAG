@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>",
+ "output": "It makes me feel like I'm carrying a weight that never lets up, wondering if there's a way to make peace with it instead of just enduring it, and wishing I could find some quiet truth in the words that say pain isn't something to be erased but something to be understood.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 248,
+   "output_tokens": 59,
+   "latency_ms": 379.8297020002792,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

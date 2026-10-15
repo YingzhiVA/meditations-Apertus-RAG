@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>",
+ "output": "You bear the weight of discomfort as part of the human condition, not as a sign of weakness but as a test of your character. Remember that pain is but a fleeting shadow, and your mind can choose to endure it with equanimity. Accept the present moment with patience, for it is in this acceptance that you find strength. Let your spirit remain unshaken, for it is in the midst of discomfort that your true self is revealed.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 222,
+   "output_tokens": 92,
+   "latency_ms": 570.685123999283,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

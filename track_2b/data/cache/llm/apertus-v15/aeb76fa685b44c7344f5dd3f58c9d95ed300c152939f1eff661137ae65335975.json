@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>",
+ "output": "You must turn your mind to the things within your control, and let go of those beyond it. Hold fast to reason, and let the turmoil of the world pass by without entangling you. In every thought, ask what is right and just, and let that guide your actions.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 221,
+   "output_tokens": 59,
+   "latency_ms": 376.02514299942413,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

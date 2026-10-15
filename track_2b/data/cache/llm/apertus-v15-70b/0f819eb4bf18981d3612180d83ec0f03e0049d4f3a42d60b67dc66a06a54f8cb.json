@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nIt were the more desirable lot to depart from among men, unacquainted with falsehood, hypocrisy, luxury, or vanity. The next choice were to expire when cloyed with these vices. Have you then chosen rather to abide in evil; or has experience not yet persuaded you to fly from amidst the plague? For a corruption of the mind is far more a plague than any pestilential distemper or change in the surrounding air we breathe. The one is pestilence to animals as animals: but the other to men as men.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage explicitly frames death as a preferable escape from a corrupt and false world, suggesting that remaining alive amid such conditions is a choice to 'abide in evil' and that fleeing through death is a rational alternative."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 331,
+   "output_tokens": 62,
+   "latency_ms": 915.1690159997088,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

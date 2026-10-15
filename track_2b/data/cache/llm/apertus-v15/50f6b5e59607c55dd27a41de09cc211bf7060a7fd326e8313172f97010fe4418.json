@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nEither you are living here your accustomed life; or you are going abroad, and that at your own will: or you are dying, and your public office is discharged. Now, besides these there is nothing. Be therefore of good courage.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage acknowledges death as a natural part of life but does not counsel leaving life or framing death as preferable to living."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 263,
+   "output_tokens": 37,
+   "latency_ms": 278.8013979989046,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

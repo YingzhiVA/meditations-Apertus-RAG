@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nWhether all be atoms, or there be a universal Law of Nature, let it be laid down first that I am a part of the whole which is governed by Nature; secondly, that I am associated with other parts like myself. Mindful of this, since I am a part, I shall not be dissatisfied with anything appointed me by the whole. For nothing is hurtful to the part which is profitable to the whole, since the whole contains nothing unprofitable to itself. All natural systems have this law in common, and the system of the Universe has another law besides; namely that it cannot be forced by any external cause to produce anything hurtful to itself. If therefore I remember that I am part of such a whole, I shall be satisfied with all that flows therefrom. And, inasmuch as I am associated with parts like myself, I will do nothing unsocial; but rather draw to my kind, turn my every endeavour to the public good, and shun the contrary. In such a course my life must needs run well, just as you would hold that the life of a citizen runs well when he passes on from one public-spirited action to another, and throws himself heartily into every task appointed him by the State.\n</passage>",
+ "output": {
+  "reason": "The passage connects personal struggles to a greater whole, encouraging acceptance and social duty, which can comfort and guide.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

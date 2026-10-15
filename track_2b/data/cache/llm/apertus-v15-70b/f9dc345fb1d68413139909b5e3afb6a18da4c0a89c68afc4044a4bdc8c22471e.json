@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nThe ceasing of any action, the extinction of any keen desire, or of any opinion, is as it were a death to them. This is no evil. Think again of the ages of your life; childhood, youth, manhood, old age. Each change of these was a death. Is there anything to dread here? Think now of your life as it was, first under your grandfather, then under your mother, then under your father; and, as you find there many other alterations, changes, and endings, ask yourself: Is there anything to dread here? Thus neither is there anything to dread in the cessation, ending, and change of your whole life.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage treats the cessation of life as a natural transition comparable to other life changes, without counseling or licensing suicide; it asks the reader to confront the inevitability of endings without endorsing death as preferable to living."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 351,
+   "output_tokens": 60,
+   "latency_ms": 884.7234130007564,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

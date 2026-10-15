@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nThe familiar phrases of old days are now strange and obsolete; and, likewise, the names of such as were once much celebrated now sound strangely in our ears. Camillus, Caeso, Volesus, Leonnatus; after them Scipio and Cato; lastly, Augustus, Hadrian, and Antonine--all are forgotten. All things hasten to an end, shall speedily seem old fables, and then be buried in oblivion. This I say of those who have shone with the brightness of their fame. The rest of men, as soon as they expire, are unknown and forgotten. What, then, is it to be remembered for ever? A wholly empty thing. For what should we be zealous? For this alone, that our souls be just, our actions unselfish, our speech ever sincere, and our disposition such as may cheerfully embrace whatever happens, seeing it to be inevitable, familiar, and sprung from the same source and origin as we ourselves.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses fame and remembrance, calling them empty and emphasizing virtue instead.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

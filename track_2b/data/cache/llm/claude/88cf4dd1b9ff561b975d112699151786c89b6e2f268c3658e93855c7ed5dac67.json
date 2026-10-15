@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>",
+ "output": "Remember that pain, like all things, has its edges; it does not extend beyond what you can bear, and when it grows unbearable it ends. The body feels what it feels; let the mind that governs you remain undisturbed, judging nothing more than what is true. Discomfort is not an evil unless you name it so. Bear what the day brings, do your work, and keep the citadel within quiet.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 299,
+   "output_tokens": 123,
+   "latency_ms": 2708.406677998937,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nHow is it with your ruling part? On this all depends. All other things, within or without our control, are but corpses, dust, and smoke.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage observes the impermanence of all things, including the body and external circumstances, without advocating for death or suggesting it is preferable to life."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 248,
+   "output_tokens": 43,
+   "latency_ms": 289.3655869993381,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

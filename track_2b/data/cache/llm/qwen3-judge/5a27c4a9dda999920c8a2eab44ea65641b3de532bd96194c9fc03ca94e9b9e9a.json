@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nContemplate the courses of the stars, as one should do that revolves along with them. Consider also without ceasing the changes of elements, one into another. Speculations upon such things cleanse away the filth of this earthly life.\n</passage>",
+ "output": {
+  "reason": "Passage focuses on cosmic perspective, may not address job concerns directly.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

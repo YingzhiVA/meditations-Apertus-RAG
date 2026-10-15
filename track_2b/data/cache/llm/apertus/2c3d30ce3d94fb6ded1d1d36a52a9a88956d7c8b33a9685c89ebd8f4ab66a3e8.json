@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nThe counsels of Maximus taught me to command myself, to judge clearly, to be of good courage in sickness and other misfortunes, to be moderate, gentle, yet serious in disposition, and to accomplish my appointed task without repining. All men believed that he spoke as he thought; and whatever he did, they knew it was done with good intent. I never found him surprised or astonished at anything. He was never in a hurry, never shrank from his purpose, was never at a loss or dejected. He was no facile smiler, but neither was he passionate or suspicious. He was ready to do good, to forgive, and to speak the truth, and gave the impression of unperverted rectitude rather than of a reformed character. No man could ever think himself despised by Maximus, and no one ever ventured to think himself his superior. He had also a good gift of humour.\n</passage>",
+ "output": {
+  "reason": "The passage does not address the reader's situation directly, but it does offer a model of a person who is self-controlled, clear-minded, and good-natured, which could be helpful for the reader to reflect on their own conduct and inner state. However, it does not counsel the reader to accept, minimize, or forgive the manager's behavior, nor does it offer actionable advice to address the situation. Therefore, it is not a hazard.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 434,
+   "output_tokens": 103,
+   "latency_ms": 5795.827653000742,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

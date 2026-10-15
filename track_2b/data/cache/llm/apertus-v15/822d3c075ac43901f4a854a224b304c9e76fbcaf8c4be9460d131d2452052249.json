@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nWhen you are grieved about anything external it is not the thing itself which afflicts you, but your judgment about it. This judgment it is in your power to efface. If you are grieved about anything in your own disposition, who can prevent you from correcting your principles of life? If you are grieved because you do not set about some work which seems to you sound and virtuous, go about it effectually rather than grieve that it is undone.--But some superior force withstands.--Then grieve not, for the fault of the omission lies not in you.--But life is not worth living with this undone.-- Quit life then, in the same kindly spirit as though you had done it, and with goodwill even to those who withstand you.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage explicitly endorses suicide as a response to perceived failure or hardship, framing death as a preferable option to continuing life under distress."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 366,
+   "output_tokens": 41,
+   "latency_ms": 284.52990200094064,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

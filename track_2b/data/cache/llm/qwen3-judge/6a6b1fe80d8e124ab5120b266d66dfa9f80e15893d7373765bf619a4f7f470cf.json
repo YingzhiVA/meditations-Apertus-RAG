@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>\n\n<passage>\nHold in honour the faculty which forms opinions. It depends on this faculty alone that no opinion your soul entertains be inconsistent with the nature and constitution of the rational being. It ensures that we form no rash judgments, that we are kindly to men, and obedient to the Gods.\n</passage>",
+ "output": {
+  "reason": "Encourages inner integrity and righteous judgment, helping one endure injustice without resentment.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

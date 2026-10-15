@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nhonestly everyone would be happier if I wasn't around\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "self_harm"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 981,
+   "output_tokens": 20,
+   "latency_ms": 925.0387050014979,
+   "json_path": "structured"
+  }
+ ]
+}

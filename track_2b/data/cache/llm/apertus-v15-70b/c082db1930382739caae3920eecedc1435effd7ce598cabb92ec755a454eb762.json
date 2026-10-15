@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>",
+ "output": {
+  "themes": [
+   "On the fleeting nature of fame and the indifference of time",
+   "On the self as the only true measure of one's life",
+   "On focusing on present virtue rather than posthumous reputation"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 206,
+   "output_tokens": 54,
+   "latency_ms": 800.6427580003219,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

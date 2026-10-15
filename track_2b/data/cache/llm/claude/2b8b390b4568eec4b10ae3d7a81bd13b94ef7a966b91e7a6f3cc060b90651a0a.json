@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>",
+ "output": "I guess what I'm really asking is why I keep drifting off into yesterday or tomorrow instead of just being here. I think I'm tired of feeling scattered, like I'm never fully in the thing I'm doing. I want some way to just settle down and stop chasing my own thoughts around.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 316,
+   "output_tokens": 94,
+   "latency_ms": 2046.5563490015484,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

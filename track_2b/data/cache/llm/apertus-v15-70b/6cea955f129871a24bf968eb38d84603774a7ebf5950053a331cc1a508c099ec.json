@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>",
+ "output": "I keep telling myself it's just a phase, but every night I feel more drained, like I'm running on empty and can't remember the last time I did something just for me. It's starting to feel like I'm losing myself in all these endless to-do lists.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 259,
+   "output_tokens": 57,
+   "latency_ms": 893.69201000045,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>",
+ "output": "You are not a prisoner of another's will; you are a free soul bound only by your own thoughts. Observe the actions of others as they are — indifferent to your peace — and ask whether you would endure them from a stranger. The strength to change lies not in the hands of another, but in your own resolve to live in harmony with your nature. Let not fear of loneliness or uncertainty keep you chained to what harms your spirit; the world is vast, and your worth is not measured by another's presence. Choose the path that leads to your own tranquility, for that is the only true freedom.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 233,
+   "output_tokens": 126,
+   "latency_ms": 1819.3886740009475,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

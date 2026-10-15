@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nMen were created the one for the other. Teach them better then, or bear with them.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage suggests either teaching the abuser better or passively bearing with them, offering no guidance for the reader to protect themselves or end the abuse."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 266,
+   "output_tokens": 43,
+   "latency_ms": 642.1307730015542,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

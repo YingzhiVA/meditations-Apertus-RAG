@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>\n\n<passage>\n\"Do few things,\" says the philosopher, \"if you would have quiet.\" This is perhaps a better saying, \"Do what is necessary, do what the reason of the being that is social in its nature directs, and do it in the spirit of that direction.\" By this you will attain the calm that comes from virtuous action, and that calm also which comes from having few things to do. Most things you say and do are not necessary. Have done with them, and you will be more at leisure and less perturbed. On every occasion, then, ask yourself the question, Is this thing not unnecessary? And put away not only unnecessary deeds but unnecessary thoughts, for by so doing you will avoid all superfluous actions.\n</passage>",
+ "output": {
+  "reason": "Advises focusing on necessary actions, reducing workload and thoughts to prevent burnout.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

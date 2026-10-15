@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>",
+ "output": "On the conduct of others and letting go of resentment over endings beyond one's control",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 408,
+   "output_tokens": 26,
+   "latency_ms": 1047.8929880000578,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

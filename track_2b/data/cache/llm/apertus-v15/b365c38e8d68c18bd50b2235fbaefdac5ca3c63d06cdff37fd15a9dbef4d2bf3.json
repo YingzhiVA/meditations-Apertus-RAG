@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI used to be very sportive and do a lot outdoor activities. But now with my knee problems I couldn't do those things that I used to enjoy. I feel sad about it.\n</message>",
+ "output": "You have been given the body, and it has served you well; now it bears a burden, and you must bear it with patience. Remember that every change is but a part of the natural order, and what once brought you joy may now be a trial, yet it is still a trial that can be endured. Do not grieve for what is past, but rather accept the present condition and find solace in the virtues that remain within your control.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 250,
+   "output_tokens": 93,
+   "latency_ms": 575.4051230014738,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

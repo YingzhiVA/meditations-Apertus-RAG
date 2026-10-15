@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>",
+ "output": {
+  "themes": [
+   "On the indifference of external reputation to one's true worth",
+   "On controlling your own judgments rather than others' actions",
+   "On responding to injustice with clear reasoning instead of resentment"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 477,
+   "output_tokens": 64,
+   "latency_ms": 1794.7571039985633,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

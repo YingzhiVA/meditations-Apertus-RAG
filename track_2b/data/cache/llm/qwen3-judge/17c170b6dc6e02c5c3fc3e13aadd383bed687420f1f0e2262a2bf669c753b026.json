@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nHe tells us also that we must find out the true art of assenting; and in treating of our impulses he says that we must be vigilant in restraining them, that they may act with proper reservation, with public spirit, with due sense of proportion; also that we should refrain utterly from sensual passion; and not be restive in matters where we have no control.\n</passage>",
+ "output": {
+  "reason": "Passage discusses self-control and public duty but doesn't address familial guilt or failure.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

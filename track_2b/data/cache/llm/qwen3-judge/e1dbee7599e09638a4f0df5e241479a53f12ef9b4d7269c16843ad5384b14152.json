@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nIf you discharge your present duty with firm and zealous, yet kindly, observance of the laws of reason; if you regard no by-gains, but keep pure within you your immortal part, as if obliged to restore it at once to him who gave it; if you hold to this with no further desires or aversions, and be content with the natural discharge of your present task, and with the heroic sincerity of all you say or utter, you will live well. And herein no man can hinder you.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on present duties with integrity, which can ease guilt about family.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>\n\n<passage>\nConstantly consider how many physicians are dead and gone, who frequently knitted their brows over their patients; how many astrologers, who foretold the deaths of others with great ostentation of their art; how many philosophers, who wrote endlessly on death and immortality; how many warriors, who slew their thousands; and how many tyrants, who used their power of life and death with cruel wantonness, as though they had been immortal. How many whole cities, if I may so speak, are dead: Helice and Pompeii and Herculaneum, and others past counting. Tell over next all those you have known, one after the other: think how one buried his fellow, then lay dead himself, to be buried by a third. And all this within a little time. In sum, look upon human things, and behold how short-lived and how vile they are; mucus yesterday, tomorrow ashes or pickled carrion. Spend, then, the fleeting remnant of your time in a spirit that accords with Nature, and depart contentedly. So the olive falls when it is grown ripe, blessing the ground from whence it sprung, and thankful to the tree that bore it.\n</passage>",
+ "output": {
+  "reason": "Passage reflects on mortality and impermanence, which may offer perspective on burnout by emphasizing life's brevity.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

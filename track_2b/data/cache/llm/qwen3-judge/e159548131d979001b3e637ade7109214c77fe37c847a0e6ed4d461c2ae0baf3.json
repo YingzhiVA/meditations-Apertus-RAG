@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>\n\n<passage>\nWhenever your situation forces trouble upon you, return quickly to yourself, and interrupt the rhythm of life no longer than you are compelled. Your grasp of the harmony will grow surer by continual recurrence to it.\n</passage>",
+ "output": {
+  "reason": "Encourages returning to inner harmony, which can help with emotional recovery after a breakup.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

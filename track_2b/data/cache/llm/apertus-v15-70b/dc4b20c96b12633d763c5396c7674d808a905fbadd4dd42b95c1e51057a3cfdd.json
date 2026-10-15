@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>",
+ "output": "I keep wondering if there’s a trick to quieting the noise in my head so I can actually think straight. It feels like every little thing—work, people, my own thoughts—just piles up and makes it harder to see what really matters. I guess I’m scared that if I don’t find some way to stay calm, I’ll keep making decisions I’ll regret.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 247,
+   "output_tokens": 78,
+   "latency_ms": 1201.827183000205,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

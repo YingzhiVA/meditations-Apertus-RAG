@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nAs you intend to live at your going, so you can live here. But, if men do not permit you, then depart from life, yet so as if no misfortune had befallen you. If my house be smoky, I go out, and where is the great matter? So long as no such trouble drives me out, I remain at my will, and no one will prevent me from acting as I will. And my will is the will of a reasonable and social being.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage explicitly suggests that if one cannot act as they will, they should 'depart from life' without distress, framing death as a permissible exit from suffering and implying it is no great matter."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 316,
+   "output_tokens": 59,
+   "latency_ms": 870.3916739978013,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

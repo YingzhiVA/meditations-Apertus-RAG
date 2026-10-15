@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>",
+ "output": {
+  "themes": [
+   "On viewing pain as a judgment of the mind, which can be withdrawn",
+   "On accepting the body's limits while keeping the ruling faculty untroubled",
+   "On transforming obstacles into material for patience and clear action"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 473,
+   "output_tokens": 77,
+   "latency_ms": 1879.0531569993618,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

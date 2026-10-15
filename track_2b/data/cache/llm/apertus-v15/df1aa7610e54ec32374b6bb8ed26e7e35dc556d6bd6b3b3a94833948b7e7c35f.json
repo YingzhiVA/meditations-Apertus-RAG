@@ -1,0 +1,38 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nYou yourself are a part of a social system necessary to complete the whole. Accordingly, let your every action be a similar part of the social life. And if any action has not its reference, either immediate or distant, to the common good as its end, this action disorders your life and frustrates its unity. It is sedition like that of the man who, in a commonwealth, does all in his power to sever himself from the general harmony and concord.\n</passage>",
+ "output": {
+  "reason": "The passage urges the reader to align their actions with the common good and social harmony, implying acceptance of current conduct rather than addressing or correcting the abuse or self-destructive behavior.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 329,
+   "output_tokens": 1024,
+   "latency_ms": 6270.951900998625,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  },
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 400,
+   "output_tokens": 48,
+   "latency_ms": 329.3873660004465,
+   "json_path": "prompt",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

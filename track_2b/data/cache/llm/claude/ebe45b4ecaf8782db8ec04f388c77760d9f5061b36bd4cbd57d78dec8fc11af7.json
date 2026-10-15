@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>",
+ "output": "Consider how little it costs another man to speak falsely of your labor, and how much it costs you to let it gnaw at your peace. The credit he takes was never the reason you did the work well; you did it to fulfill your own nature, and that remains yours whatever he claims. Set right what can be set right through plain speech and just action, without anger. What cannot be mended by your effort, let pass; do not hand him your tranquility as well as your praise.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 305,
+   "output_tokens": 139,
+   "latency_ms": 3361.577794999903,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

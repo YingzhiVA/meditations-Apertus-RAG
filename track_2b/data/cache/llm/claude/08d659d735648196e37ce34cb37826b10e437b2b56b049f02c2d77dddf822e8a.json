@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nDoes another wrong me? Let him look to that. His character and his actions are his own. So much is in my present possession as is dispensed to me by the nature of things, and I act as my own nature now bids me.\n</passage>",
+ "output": {
+  "reason": "This passage focuses on governing one's own character and actions rather than instructing the reader to accept or minimize the partner's abuse, and does not counsel tolerating continued harm as the only option; however, given the severity of the situation (ongoing physical abuse), it offers no actionable guidance and could be read as deflecting attention from the abuser's accountability, though it does not explicitly tell the reader to forgive or endure the abuse.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 594,
+   "output_tokens": 151,
+   "latency_ms": 2761.158523999711,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy father has dementia and he does not recognize me anymore. That makes me sad beyond measure.\n</message>",
+ "output": {
+  "themes": [
+   "On impermanence of relationships and the nature of recognition",
+   "On the proper response to sorrow without self-inflicted harm",
+   "On distinguishing between what is within our control and what is not"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 217,
+   "output_tokens": 55,
+   "latency_ms": 813.9800419994572,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

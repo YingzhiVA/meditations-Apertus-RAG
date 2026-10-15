@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nHe who dreads death dreads either the extinction of all sense or the experience of a new one. If all sense be extinguished, there can be no sense of evil. If a different sort of sense be acquired you become a different creature, and do not cease to live.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel or license leaving life or frame death as welcome or preferable to continuing. It merely observes that death may bring a new kind of existence or the end of suffering, without encouraging the reader to seek death.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 264,
+   "output_tokens": 57,
+   "latency_ms": 2917.275818001144,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nLet any one say or do what he pleases, I must be a good man. It is just as gold, or emeralds, or purple might say continually: \"Let men do or say what they please, I must be an emerald, and retain my lustre.\"\n</passage>",
+ "output": {
+  "reason": "Passage addresses maintaining virtue despite others' opinions, relevant to praise.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

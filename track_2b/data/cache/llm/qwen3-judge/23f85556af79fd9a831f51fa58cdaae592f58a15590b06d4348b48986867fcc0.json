@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nNothing should be said to be part of a man which is not part of his human nature. Things that are not part of his essence cannot be required of him, and have no part in the promise or the fulfilment of his nature. Therefore, in such things lies neither the end of man nor the good which crowns that end. Moreover, if anything were really part of a man, it would not be proper for him to despise it or revolt against it, nor would he be praiseworthy who made himself independent thereof. If non-essential things were indeed good, he could be no good man who stinted himself in the use of them; but, as we see, the more a man goes without them, and the more he endures the want of them, the better a man he is.\n</passage>",
+ "output": {
+  "reason": "Discusses valuing non-essentials like praise, aligning with query on Marcus on praise",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

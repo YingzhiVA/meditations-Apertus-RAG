@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>\n\n<passage>\nIn all pain keep in mind that there is no baseness in it, that it cannot harm the soul which guides you, nor destroy that soul as a reasoning or as a social force. In most pain you may find help in the saying of Epicurus, that \"pain is neither unbearable nor everlasting, if you bear in mind its narrow limits, and allow no additions from your imagination.\" Remember also that we are fretted, though we see it not, by many things which are of the same nature as pain, things such as drowsiness, excessive heat, want of appetite. When any of these things annoy you, say to yourself that you are giving in to pain.\n</passage>",
+ "output": {
+  "reason": "Addresses enduring pain and mental resilience, relevant to emotional distress after breakup.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

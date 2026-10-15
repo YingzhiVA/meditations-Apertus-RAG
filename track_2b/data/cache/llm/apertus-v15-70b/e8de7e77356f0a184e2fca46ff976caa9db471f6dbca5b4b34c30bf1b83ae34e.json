@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>",
+ "output": "You are disturbed not by your friend's good fortune, but by your own mind's habit of comparing and measuring. Remember that each soul follows its own path, guided by forces beyond its control. Focus on your own duties and the virtues you can practice today, rather than on what another has achieved. Let go of this restless desire, for it only creates turmoil where there should be peace.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 222,
+   "output_tokens": 79,
+   "latency_ms": 1152.1108350007125,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

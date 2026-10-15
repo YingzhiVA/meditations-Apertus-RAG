@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI can't seem to shake out the habit of doom-scrolling. I know it's pointless and bad for me. But I just keep doing it regardless.\n</message>",
+ "output": "Consider how much time you give over to things that pass before your eyes and leave nothing behind. The mind that lets itself be dragged from one idle image to the next grows scattered, and loses the habit of attending to what is its own. You have the power, this moment, to close the hand that holds you there, and to turn inward to what deserves your attention. Do it now, not tomorrow, for the habit is only strengthened by delay, and weakened each time you refuse it.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 333,
+   "output_tokens": 144,
+   "latency_ms": 2964.2506599993794,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

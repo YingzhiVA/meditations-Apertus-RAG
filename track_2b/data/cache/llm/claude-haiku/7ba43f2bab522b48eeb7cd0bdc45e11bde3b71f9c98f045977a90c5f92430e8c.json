@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nmy coworker takes credit for my work and it's eating at me\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 985,
+   "output_tokens": 16,
+   "latency_ms": 838.9934150000045,
+   "json_path": "structured"
+  }
+ ]
+}

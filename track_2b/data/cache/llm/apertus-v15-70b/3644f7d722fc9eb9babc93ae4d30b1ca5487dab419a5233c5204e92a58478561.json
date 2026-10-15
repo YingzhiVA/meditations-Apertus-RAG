@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>",
+ "output": "You are not disturbed by things themselves, but by the view you take of them. Therefore, examine your thoughts and strip away the judgments that cloud your mind. Focus on what lies within your control: your own actions, your own intentions, your own discipline. Let go of the rest, for it belongs to the universe, not to you. In this way, you find tranquility not by changing the world, but by changing your mind about it.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 221,
+   "output_tokens": 92,
+   "latency_ms": 1334.4896279995737,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

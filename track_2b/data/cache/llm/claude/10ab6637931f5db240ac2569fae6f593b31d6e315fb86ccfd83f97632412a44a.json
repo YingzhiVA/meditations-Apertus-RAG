@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>",
+ "output": {
+  "themes": [
+   "On focusing effort only on what lies within your own control",
+   "On the impermanence of circumstances and the folly of excessive worry",
+   "On facing uncertainty with calm reason rather than anxious imagination"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 484,
+   "output_tokens": 70,
+   "latency_ms": 1703.422012998999,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

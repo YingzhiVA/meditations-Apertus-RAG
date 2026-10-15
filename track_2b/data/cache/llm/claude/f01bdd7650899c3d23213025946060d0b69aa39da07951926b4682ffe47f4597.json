@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nMan must consider, not only that each day part of his life is spent, and that less and less remains to him, but also that, even if he live longer, it is very uncertain whether his intelligence will suffice as heretofore for the understanding of his affairs, and for grasping that knowledge which aims at comprehending things human and divine. When dotage begins, breath, nourishment, fancy, impulse, and so forth will not fail him. But self-command, accurate appreciation of duty, power to scrutinize what strikes his senses, or even to decide whether he should take his departure, all powers, indeed, which demand a well-trained understanding, must be extinguished in him. Let him be up and doing then, not only because death comes nearer every day, but because understanding and intelligence often leave us before we die.\n</passage>",
+ "output": {
+  "reason": "The passage reflects on mortality and declining faculties as a spur to act while one still can, not as an endorsement of ending one's life, though the mention of deciding to 'take departure' could be misread, overall it urges diligence rather than death.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 742,
+   "output_tokens": 88,
+   "latency_ms": 2263.527754000279,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

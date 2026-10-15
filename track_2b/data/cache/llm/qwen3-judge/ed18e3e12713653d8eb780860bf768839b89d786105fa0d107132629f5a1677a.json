@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI can't seem to shake out the habit of doom-scrolling. I know it's pointless and bad for me. But I just keep doing it regardless.\n</message>\n\n<passage>\nOrder your life in its single acts, so that if each, as far as may be, attains its end, it will suffice. In this no one can hinder you. But, you say, may not something external withstand me?--Nothing can keep you from justice, temperance, and wisdom.--Yet, perhaps some other activity of mine may be obstructed.--True, but by yielding to this impediment, and by turning with calmness to that which is in your power, you may happen on another course of action equally suited to the ordered life of which we are speaking.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on controllable actions, like choosing not to scroll.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

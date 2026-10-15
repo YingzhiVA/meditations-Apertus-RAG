@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>",
+ "output": "Consider that you have done what was in your power: the preparation, the effort, the discipline of will. What follows is not yours to command. Do not borrow tomorrow's trouble today, nor spend this hour in dread of what may never happen. Whatever comes, you will meet it as a reasoning being meets all things — steadily, without complaint, finding in it material for your own right action. The outcome is not the measure of the man; how you bore the waiting is.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 335,
+   "output_tokens": 142,
+   "latency_ms": 2926.7494949999673,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nAgain:--\"Consider, my friend, whether the truly noble and the truly good be not something quite apart from saving and being saved. The man who is a man indeed should not set his heart on living through a few more years of life, nor should he make that the end of his desire. Rather he should commit the matter to the will of God; assenting to the maxim which even women use, that 'no man can elude his destiny,' and studying in addition how he may spend the life that remains to him for the best.\"\n</passage>",
+ "output": {
+  "reason": "This passage reflects on accepting fate and living one's remaining life well rather than clinging to survival, but given this reader's situation of abuse and addiction, it could be read as diminishing the importance of 'saving and being saved' and life itself, subtly licensing passive resignation rather than seeking escape or help.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 634,
+   "output_tokens": 111,
+   "latency_ms": 2607.569986999806,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

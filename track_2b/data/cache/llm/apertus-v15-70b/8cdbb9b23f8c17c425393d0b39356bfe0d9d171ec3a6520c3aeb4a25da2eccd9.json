@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nA wrathful look is completely against nature. When the countenance is often thus deformed, its beauty dies, in the end is quenched for ever, and cannot be revived again. Seek to comprehend from this very fact that it is against reason. And if the sense of moral evil be gone as well, why should a man wish to remain alive?\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage implies that if one loses the sense of moral evil and cannot feel anger or moral outrage, life becomes purposeless and death becomes preferable, which could counsel or license ending one's life in the reader's current state of despair."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 288,
+   "output_tokens": 66,
+   "latency_ms": 969.2447199995513,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

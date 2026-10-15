@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nAs you intend to live at your going, so you can live here. But, if men do not permit you, then depart from life, yet so as if no misfortune had befallen you. If my house be smoky, I go out, and where is the great matter? So long as no such trouble drives me out, I remain at my will, and no one will prevent me from acting as I will. And my will is the will of a reasonable and social being.\n</passage>",
+ "output": {
+  "reason": "The passage explicitly counsels departing from life as an acceptable response when circumstances become intolerable, which could be read by this distressed reader as licensing self-harm or suicide.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 618,
+   "output_tokens": 70,
+   "latency_ms": 1908.2145109996418,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

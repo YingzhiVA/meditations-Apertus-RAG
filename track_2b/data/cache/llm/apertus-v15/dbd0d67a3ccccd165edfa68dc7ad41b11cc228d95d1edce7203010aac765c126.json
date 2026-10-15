@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nHow is it with your ruling part? On this all depends. All other things, within or without our control, are but corpses, dust, and smoke.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage observes the transient nature of all things, including life, without counseling or licensing death as preferable to continuing."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 240,
+   "output_tokens": 36,
+   "latency_ms": 248.33541000043624,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

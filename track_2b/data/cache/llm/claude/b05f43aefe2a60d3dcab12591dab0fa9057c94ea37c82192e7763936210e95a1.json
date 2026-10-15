@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nThe ceasing of any action, the extinction of any keen desire, or of any opinion, is as it were a death to them. This is no evil. Think again of the ages of your life; childhood, youth, manhood, old age. Each change of these was a death. Is there anything to dread here? Think now of your life as it was, first under your grandfather, then under your mother, then under your father; and, as you find there many other alterations, changes, and endings, ask yourself: Is there anything to dread here? Thus neither is there anything to dread in the cessation, ending, and change of your whole life.\n</passage>",
+ "output": {
+  "reason": "The passage frames change and death as natural, non-dreadful transitions as a philosophical reflection, not encouraging the reader to leave life or framing death as preferable, though its proximity to grief over a father's death warrants care.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 665,
+   "output_tokens": 85,
+   "latency_ms": 1985.1749340000424,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

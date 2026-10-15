@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nImagine every one who is grieved or storms about anything whatever, to be like the pig in a sacrifice, which kicks and screams under the knife. Such, too, is he who, on his couch, deplores in silence, by himself, that we are all tied to our fate. Reflect also that only to a rational being is it given to submit to what happens willingly; the bare submission is a necessity upon all.\n</passage>",
+ "output": {
+  "reason": "Passage discusses accepting fate, which may indirectly relate to feeling of failure but does not address familial duty or guilt.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nStrange are the ways of men! They can speak no good word of the contemporaries with whom they live; yet they count it a great thing to gain the praises of a posterity whom they never saw nor shall see. As well might we grieve because we cannot hear the praises of our ancestors.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses valuing praise, including from others, which answers the query.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

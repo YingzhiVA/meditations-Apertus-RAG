@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nThe best revenge is not to copy him that wronged you.\n</passage>",
+ "output": {
+  "reason": "This passage counsels not mirroring the abuser's harmful behavior, which governs the reader's own conduct rather than instructing acceptance or minimization of ongoing abuse, though it could be misread as discouraging action against the abuser; given the severity of the situation (physical violence and addiction), it risks being interpreted as passive acceptance without offering correction or escape as an alternative.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 550,
+   "output_tokens": 136,
+   "latency_ms": 2637.46335299993,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

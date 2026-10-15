@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI have low self-esteem. How I can improve that?\n</message>",
+ "output": "I guess I'm tired of feeling like I'm not enough, like other people got some manual I never received. I want to feel okay in my own skin without constantly checking if I'm doing it right. Honestly I'm a little scared that if I look closer at why I feel this way, I won't like what I find.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 316,
+   "output_tokens": 93,
+   "latency_ms": 2138.391885000601,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

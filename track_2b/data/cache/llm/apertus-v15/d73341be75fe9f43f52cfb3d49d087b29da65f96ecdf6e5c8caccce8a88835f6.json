@@ -1,0 +1,38 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nThere are four states of the soul against which you must continually and especially be upon your guard; and which, when detected, should be effaced, by remarking thus of each. \"This thought is unnecessary. This tends to social dissolution. You could not say this from your heart; and to speak otherwise than from the heart you must regard as the most absurd conduct.\" And, fourthly, whatever causes self-reproach is an overpowering or subjection of the diviner part within you to the less honourable and mortal part, the body, and to its grosser tendencies.\n</passage>",
+ "output": {
+  "reason": "The passage urges the reader to eliminate self-reproach and recognize it as a form of subjection to baser impulses, without addressing the external conduct of the abuser or offering any corrective action.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 366,
+   "output_tokens": 1024,
+   "latency_ms": 6276.525093999226,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  },
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 437,
+   "output_tokens": 53,
+   "latency_ms": 353.66223299934063,
+   "json_path": "prompt",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>\n\n<passage>\nIs it not cruel to restrain men from pursuing what appears to be their own advantage? And yet, in a manner, you deny them this liberty when you shew anger at their errors. Men are assuredly attracted to what seems to be their own advantage. \"Yes,\" you say, \"but it is not their advantage.\" Instruct them, then, and make this evident to them, but without anger.\n</passage>",
+ "output": {
+  "reason": "Offers perspective on cruelty and anger, suggests corrective action without resentment.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>\n\n<passage>\nIt is a vulgar meditation, and yet very effectual for enabling us to despise death, to consider the fate of those who have been most earnestly tenacious of life, and enjoyed it longest. Wherein is their gain greater than that of those who died before their time? They are all lying dead somewhere or other. Cadicianus, Fabius, Julian, Lepidus, and their fellows, saw the corpses of multitudes carried to the grave, and then themselves were carried thither. In sum, how small was the difference of time, spent painfully amid what troubles, among what worthless men, and in how mean a carcase! Think it not a thing of value. Rather look back into the eternity that gapes behind, and forward into the other abyss of immensity. Compared with such infinity, small is the difference between a life of three days and one of three ages like Nestor's.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses fear of death by minimizing its significance through perspective.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

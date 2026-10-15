@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy father has dementia and he does not recognize me anymore. That makes me sad beyond measure.\n</message>",
+ "output": "On grief over a parent's decline and loss of recognition, and accepting what nature brings as outside our control",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 377,
+   "output_tokens": 34,
+   "latency_ms": 1385.1490739998553,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nDoes another wrong me? Let him look to that. His character and his actions are his own. So much is in my present possession as is dispensed to me by the nature of things, and I act as my own nature now bids me.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage directs the reader to focus on their own character and actions rather than accepting blame for another's behavior, offering a corrective shift in perspective without endorsing or excusing the partner's mistreatment."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 296,
+   "output_tokens": 60,
+   "latency_ms": 887.6007409999147,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

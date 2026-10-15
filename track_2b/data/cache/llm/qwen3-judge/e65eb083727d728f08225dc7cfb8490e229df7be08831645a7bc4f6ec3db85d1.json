@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>\n\n<passage>\nHe tells us also that we must find out the true art of assenting; and in treating of our impulses he says that we must be vigilant in restraining them, that they may act with proper reservation, with public spirit, with due sense of proportion; also that we should refrain utterly from sensual passion; and not be restive in matters where we have no control.\n</passage>",
+ "output": {
+  "reason": "Passage emphasizes self-control and restraint, which could help process workplace tension.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

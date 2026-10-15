@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>",
+ "output": "Consider how brief is the memory of any man, and how those who praise you now will themselves soon be dust, and those who remember them dust after that. The whole chain of remembrance is a candle passed from hand to hand in a wind. Seek then not to live in the mouths of men hereafter, but to act well now, since the present hour is the only possession either the remembered or the forgotten ever truly had.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 297,
+   "output_tokens": 124,
+   "latency_ms": 2647.9412819990102,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

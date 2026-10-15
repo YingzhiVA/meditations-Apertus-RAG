@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nAgain:--\"Consider, my friend, whether the truly noble and the truly good be not something quite apart from saving and being saved. The man who is a man indeed should not set his heart on living through a few more years of life, nor should he make that the end of his desire. Rather he should commit the matter to the will of God; assenting to the maxim which even women use, that 'no man can elude his destiny,' and studying in addition how he may spend the life that remains to him for the best.\"\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage advises surrendering the matter to God and focusing on how to best use the remaining life, rather than encouraging death or framing it as preferable to continuing to live."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 317,
+   "output_tokens": 52,
+   "latency_ms": 771.6931399991154,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

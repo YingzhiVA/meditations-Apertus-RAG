@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI have low self-esteem. How I can improve that?\n</message>",
+ "output": "You are not your thoughts, but the observer of them. Consider each day as a gift to act with purpose and integrity, for it is in doing what is right that you find your true worth. Do not measure yourself by the opinions of others, for they are fleeting and often mistaken. Instead, cultivate inner strength through discipline and self-reflection, and let your actions be guided by reason and virtue. In this way, you will come to see yourself not as less, but as a part of the whole, with a role to play in the order of things.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 225,
+   "output_tokens": 116,
+   "latency_ms": 1673.956366999846,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

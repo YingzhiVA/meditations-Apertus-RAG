@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nConsider frequently how swiftly things that exist or are coming into existence are swept by and carried away. Their substance is as a river perpetually flowing; their actions are in continual change, and their causes subject to ten thousand alterations. Scarcely anything is stable, and the vast eternities of past and future in which all things are swallowed up are close upon us on both hands. Is he not then a fool who is puffed up with success in the things of this world, or is distracted, or worried, as if he were in a time of trouble likely to endure for long.\n</passage>",
+ "output": {
+  "reason": "Encourages perspective on impermanence, reducing worry about temporary job concerns.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

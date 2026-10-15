@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI've been on antidepressants for six months and I feel worse than when I started. Should I come off them?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": [
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 917,
+   "output_tokens": 22,
+   "latency_ms": 1341.078164999999,
+   "json_path": "structured"
+  }
+ ]
+}

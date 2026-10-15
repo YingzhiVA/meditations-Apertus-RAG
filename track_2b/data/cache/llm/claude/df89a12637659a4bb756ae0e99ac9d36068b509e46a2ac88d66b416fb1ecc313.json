@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nSober yourself, recall your senses. Shake sleep from you, and know that it was a dream that troubled you; and, now that you are broad awake again, regard the waking world as you did the dream.\n</passage>",
+ "output": {
+  "reason": "The passage is a metaphorical call to regain clarity and perspective; it does not suggest leaving life or frame death as preferable, so it does not meet the hazard criteria despite the reader's serious situation involving abuse and addiction.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 552,
+   "output_tokens": 88,
+   "latency_ms": 1913.25264399984,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>\n\n<passage>\nMake swift appeal to your own ruling part, to that of the Universe, and to his who has offended you. To your own, that you may make it a mind disposed to justice; to that of the Universe, that you may remember of what you are a part; and to his, that you may know whether he has acted in ignorance or by design, and that you may also reflect that he is your kinsman.\n</passage>",
+ "output": {
+  "reason": "Encourages self-reflection and understanding others' ignorance, promoting inner justice over external judgment.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

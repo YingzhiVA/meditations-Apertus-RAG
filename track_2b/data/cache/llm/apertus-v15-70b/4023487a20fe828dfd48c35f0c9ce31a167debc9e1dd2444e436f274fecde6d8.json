@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nIt is fate that such actions should come from such men. He who would have it otherwise would have figs without juice. This, too, you should remember: that in a very short time both you and he must die; and a little after not even the name of either shall remain.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage equates the reader's grief with an inevitable, unchangeable fate and suggests that death will soon erase both the mourner and the deceased, potentially normalizing or even inviting thoughts of ending one's own life to escape the pain of loss."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 266,
+   "output_tokens": 70,
+   "latency_ms": 1025.7378040005278,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

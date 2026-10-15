@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>",
+ "output": "You are not the first to stand before uncertainty, nor will you be the last. The outcome is not yours to command, but your response is entirely within your power. Focus on the task at hand with diligence and composure, for that is where your virtue resides. Let not the imagined future trouble your present mind; act with integrity and let the rest follow its natural course.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 251,
+   "output_tokens": 78,
+   "latency_ms": 1137.2928830005549,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

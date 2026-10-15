@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI just celebrated my 40th birthday and realized that roughly half of my life is already spent. That though does send shiver down my spine.\n</message>\n\n<passage>\nEither all things proceed from one source of intelligence and come together in one body, in which case the part must not complain of what comes about for the benefit of the whole; or all is atoms, and there is nothing else but confused mixture and dissipation. Why then are you disturbed? Say to your soul: \"Thou art dead: thou art rotten: thou hast turned beast, joined the herd, and dost feed along with them.\"\n</passage>",
+ "output": {
+  "reason": "Offers perspective on mortality and acceptance of natural order, potentially comforting.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

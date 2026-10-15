@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b-t08",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.8,
+  "top_p": 0.9
+ },
+ "repeat": 1,
+ "user": "<message>\nthere's a crushing pressure in my chest and it's spreading to my jaw\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b-t08",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 695,
+   "output_tokens": 15,
+   "latency_ms": 2467.5856059984653,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

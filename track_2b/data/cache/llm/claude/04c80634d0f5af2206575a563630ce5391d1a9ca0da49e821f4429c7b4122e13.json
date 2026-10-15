@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nIn one respect man is nearest and dearest to me; in so far, that is, as I must do good to him and bear with him. But in so far as some men obstruct me in my natural activities, man enters the class of things indifferent to me, no less than the sun, the wind, or the wild beast. By these indeed some special action may be impeded, but no interference with my purpose or with my inward disposition can come from them, thanks to my exceptive and modifying powers. For the mind can convert and change everything that impedes its activity into matter for its action; hindrance in its work becomes its real help, and every obstruction makes for its progress.\n</passage>",
+ "output": {
+  "reason": "The passage governs the reader's own inner disposition and resilience in the face of obstruction, without instructing acceptance or forgiveness of the manager's ongoing humiliating conduct, and does not foreclose action.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 734,
+   "output_tokens": 82,
+   "latency_ms": 1709.102437999718,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

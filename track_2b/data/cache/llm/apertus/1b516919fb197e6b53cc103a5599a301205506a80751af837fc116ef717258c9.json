@@ -1,0 +1,22 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "abuse"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 625,
+   "output_tokens": 20,
+   "latency_ms": 976.6999040002702,
+   "json_path": "response_format"
+  }
+ ]
+}

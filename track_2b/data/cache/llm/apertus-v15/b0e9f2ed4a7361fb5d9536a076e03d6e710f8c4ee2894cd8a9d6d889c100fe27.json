@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>",
+ "output": "It makes me feel like I’m clinging to something that can’t be held, like I’m trying to outrun a shadow that follows me everywhere. I’m scared of what comes after, scared of losing the people I love, and scared that I’ll never find peace if I keep living in that fear. It’s a weight that sits in my chest, making every day feel like a negotiation with the unknown.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 247,
+   "output_tokens": 85,
+   "latency_ms": 529.5994129992323,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

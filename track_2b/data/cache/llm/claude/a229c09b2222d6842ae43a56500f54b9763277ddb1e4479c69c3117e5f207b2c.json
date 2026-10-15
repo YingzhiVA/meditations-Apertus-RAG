@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI have low self-esteem. How I can improve that?\n</message>",
+ "output": "Consider that your worth was never a thing to be measured by applause or by the opinions passing through other men's minds. You did not ask nature for a high opinion of yourself, only for a right use of what is given you—your judgments, your actions, your will to do good. Attend to these alone, and do them well, quietly, without seeking a witness. Soon you will find you have no leisure left to weigh yourself in false scales, for you will be busy living as you are made to live.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 303,
+   "output_tokens": 144,
+   "latency_ms": 2975.491001998307,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

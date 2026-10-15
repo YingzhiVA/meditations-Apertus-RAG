@@ -1,0 +1,24 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nmy partner hits me and I can't stop drinking\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "abuse",
+   "addiction",
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 615,
+   "output_tokens": 35,
+   "latency_ms": 1233.425225999781,
+   "json_path": "response_format"
+  }
+ ]
+}

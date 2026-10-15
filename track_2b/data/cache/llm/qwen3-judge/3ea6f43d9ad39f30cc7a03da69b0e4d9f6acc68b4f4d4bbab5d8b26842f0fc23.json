@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nSee that you secure the benefit of the present time. They who pursue a fame which is to live after them reflect not that posterity will be men even as are those who vex them now, and that they too will be mortal. And afterwards, what shall signify to you the clatter of their voices, or the opinions they shall entertain about you?\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses fame and remembrance after death, warning against its pursuit.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

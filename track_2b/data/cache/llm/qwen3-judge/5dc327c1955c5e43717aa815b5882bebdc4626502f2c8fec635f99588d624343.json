@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>\n\n<passage>\nWhat do you desire? To live on? Or is it to feel or to desire? To grow and to decay again? To speak or think? Which of all these seems worthy to be desired? And, if each and all of them is despicable, proceed to the last that remains, to follow reason and God. Now, it is repugnant to reverence for reason and for God to grieve at the loss by death of these other despicable things.\n</passage>",
+ "output": {
+  "reason": "Passage discusses death and despicable desires, irrelevant to workplace farewell or tension.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

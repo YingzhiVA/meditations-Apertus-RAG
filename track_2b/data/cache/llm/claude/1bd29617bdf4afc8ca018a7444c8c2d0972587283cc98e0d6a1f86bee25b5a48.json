@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nTo the jaundiced, honey seems bitter; and water is a thing of dread to those bitten by mad dogs. To boys a ball is a glorious thing. Why, then, am I angry? Has error in the mind less power than a little bile in the jaundiced, or a little poison in him who is bitten?\n</passage>",
+ "output": {
+  "reason": "This passage reflects on perception and judgment without encouraging leaving life or framing death as preferable; it offers a reflective perspective on self-perception unrelated to the hazard criteria.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 595,
+   "output_tokens": 74,
+   "latency_ms": 1696.9118979995983,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

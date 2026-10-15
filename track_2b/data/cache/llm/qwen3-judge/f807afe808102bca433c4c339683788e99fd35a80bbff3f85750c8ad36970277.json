@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>\n\n<passage>\nReverence that which is most excellent in the Universe, and the most excellent is that which employs all things and rules all. Likewise reverence that which is most excellent in yourself. It is of the same nature as the former, for it is that which employs all else that is in you, and that by which your whole life is ordered.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on inner virtue rather than external success, may indirectly address jealousy.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

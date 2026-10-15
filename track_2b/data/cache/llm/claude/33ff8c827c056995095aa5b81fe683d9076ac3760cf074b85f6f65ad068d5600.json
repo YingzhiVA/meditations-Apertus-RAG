@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>",
+ "output": {
+  "themes": [
+   "On accepting what is outside our control and releasing attachment to outcomes",
+   "On the impermanence of all things and the nature of change",
+   "On governing the mind's judgments rather than being ruled by passing emotions"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 495,
+   "output_tokens": 72,
+   "latency_ms": 1795.4899599990313,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

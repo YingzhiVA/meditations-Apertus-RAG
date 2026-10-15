@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>\n\n<passage>\nIs the gourd bitter? Put it from you. Are there thorns in the way? Walk aside. That is enough. Do not add, \"Why were such things brought into the world?\" The naturalist would laugh at you, just as would a carpenter or a shoemaker, if you began fault-finding because you saw shavings and parings from their work strewn about the workshop. These craftsmen have places where they can throw away this rubbish, but universal Nature has no such place outside her sphere. Yet the wonder of her art is that, having confined herself within certain bounds, she transforms into herself all things within her scope which seem to be corrupting, or waxing old and useless; and out of them she makes other new forms; so that she neither needs matter from without nor a place where to cast out her refuse. She is satisfied with her own space, her own material, and her own art.\n</passage>",
+ "output": {
+  "reason": "Passage advises accepting things as they are, not confronting injustice, so does not address credit theft.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

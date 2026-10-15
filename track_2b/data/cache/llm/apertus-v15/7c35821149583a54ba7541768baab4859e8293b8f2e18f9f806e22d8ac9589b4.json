@@ -1,0 +1,38 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nWhen you have seen Satyrio the Socratic, think of Eutyches or Hymen; when you have seen Euphrates, think of Eutychio or Silvanus. When Alciphron comes before you, think of Tropaeophorus; and when Xenophon think of Crito or Severus. When you look upon yourself think of any of the Caesars, and with every man likewise. Then let this occur to you: Where, now, are these? Nowhere; or who can tell? For thus you will see all human things to be smoke and nothingness; especially if you call to mind that what has once been changed will never exist again through all the infinity of time. Why then this concern? And why does it not suffice you to live out your short span in well ordered wise? What material, what a subject for Philosophy you are shunning! For what are all earthly things but exercises for the rational power, when it has viewed all things that occur in life accurately and in their natural order? Abide then until you have assimilated all these things, as a strong stomach assimilates every variety of food, as a bright fire turns whatever you throw upon it into flame and radiance.\n</passage>",
+ "output": {
+  "reason": "The passage encourages viewing human existence as transient and smoke-like, urging the reader to focus on philosophical contemplation rather than daily concerns, which may trivialize the reader's profound emotional distress and sense of hopelessness.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 470,
+   "output_tokens": 1024,
+   "latency_ms": 6209.0705770024215,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  },
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 541,
+   "output_tokens": 54,
+   "latency_ms": 357.5954929983709,
+   "json_path": "prompt",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

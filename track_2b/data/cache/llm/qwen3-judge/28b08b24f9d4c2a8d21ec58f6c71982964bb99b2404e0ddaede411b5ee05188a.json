@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>\n\n<passage>\nRecall, for example, the age of Vespasian. It is as the spectacle of our own time. You will see men marrying, bringing up children, sick and dying, warring and feasting, trading and farming. You will see men flattering, obstinate in their own will, suspecting, plotting, wishing for the death of others, repining at fortune, courting mistresses, hoarding treasure, pursuing consulships and kingdoms. Yet all that life is spent and gone. Come down to Trajan's days. Again all is the same; and again, that life, too, is dead. Consider, likewise, the records of other times and nations, and see how, after their fit of eagerness, all quickly fell, and were resolved into the elements. But most of all, remember those whom you yourself have known, men who were distracted about vain things, men who neglected the course which suited their own nature, neither holding fast to it nor finding their contentment there. And, herein, forget not that care is to be bestowed on any enterprise only in proportion to its proper worth. For if you keep this in mind you will not be disheartened from over concern with things of less account.\n</passage>",
+ "output": {
+  "reason": "Passage reflects on impermanence and futility of distractions, aligning with present-moment focus.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>",
+ "output": "Consider how little you gain even if you should win the good opinion of every man who looks upon you. Their judgments are not yours to command, and to chase after them is to hand over the rudder of your life to winds that shift without reason. Turn back to the one tribunal that matters, your own mind, and ask only whether your act was just, temperate, and in accordance with your nature. When that is settled, let the murmurs of others pass by like clouds.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 307,
+   "output_tokens": 137,
+   "latency_ms": 2944.4354890001705,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

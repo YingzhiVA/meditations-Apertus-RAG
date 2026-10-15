@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>",
+ "output": "You bear the weight of the body, yet the mind can rise above it. Remember that pain is but a fleeting shadow, and your spirit remains unbroken. Endure the discomfort with patience, for it is but a moment in the larger span of life.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 221,
+   "output_tokens": 54,
+   "latency_ms": 351.34937900147634,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

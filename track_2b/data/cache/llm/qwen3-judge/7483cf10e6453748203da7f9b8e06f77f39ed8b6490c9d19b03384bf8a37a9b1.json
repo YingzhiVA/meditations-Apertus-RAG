@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>\n\n<passage>\nEpictetus said that, when you kiss your child, you should whisper within yourself: \"To-morrow perhaps he may die.\" \"Ill-omened words!\" say you. \"The words have no evil omen,\" says he, \"but simply indicate an act of Nature. Is it of evil omen to say the corn is reaped?\"\n</passage>",
+ "output": {
+  "reason": "Passage on impermanence, not remorse or cruelty",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

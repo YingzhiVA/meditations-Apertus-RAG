@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>",
+ "output": "When anger rises in you, remember that it is not the other man's fault but your own judgment that has stirred it. Take away the opinion that you have been wronged, and the anger itself is taken away. Consider too how brief a thing you are angry about, and how soon both you and the one who vexed you will be gone from this place. A man ruled by anger has handed his mind to another; keep yours your own.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 294,
+   "output_tokens": 123,
+   "latency_ms": 2813.422241999433,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

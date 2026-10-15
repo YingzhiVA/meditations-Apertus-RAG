@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>",
+ "output": {
+  "themes": [
+   "On recognizing anger as a judgment you impose rather than a fact forced upon you",
+   "On the harm anger does to the angry mind itself, more than to its target",
+   "On responding to provocation with reason, patience, and composed action"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 466,
+   "output_tokens": 77,
+   "latency_ms": 2059.0844889993605,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

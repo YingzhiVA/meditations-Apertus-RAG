@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>",
+ "output": "Consider what has happened: a bond has loosened that was never wholly within your command to keep. You judged it well when you called it the best outcome, trust that judgment still, and do not let the ache of the moment overturn the verdict of reason. What grieves you is not the parting itself but the opinion that clings to it. Set down the opinion, and let the days ahead find you steady, doing what is yours to do.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 323,
+   "output_tokens": 127,
+   "latency_ms": 2594.0871399998287,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

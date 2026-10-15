@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>",
+ "output": "Why did I say that—because I'm tired of second-guessing every little thing I do before I even do it. I think I want to just make a choice and not immediately wonder what it looks like from the outside. Honestly it scares me that I might be shaping my life around other people's opinions instead of what I actually want.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 320,
+   "output_tokens": 94,
+   "latency_ms": 1996.115005998945,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

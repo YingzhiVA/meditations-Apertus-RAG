@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>",
+ "output": "You are not a tree to be judged by the fruit it bears alone, but by the roots that sustain it. Consider the effort you have given, not the imagined shortfall; the intention behind your actions is what truly matters. The universe does not demand perfection, only that you act with care and presence. Your worth is not measured by the weight of others' expectations, but by the integrity with which you fulfill your own duties.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 231,
+   "output_tokens": 88,
+   "latency_ms": 1570.8009239988314,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>\n\n<passage>\nI consist of a formal and a material element. Neither of these two shall die and fade into nothingness, since neither came into being out of nothing. Every part of me, then, will be transformed and ranged again in some part of the Universe. That part of the Universe will itself be transmuted into another part, and so on for all time coming. By some such change as this I came into being, likewise my progenitors, and so back from all time past. There is no objection to this theory, even though the world be governed by determined cycles of revolution.\n</passage>",
+ "output": {
+  "reason": "Passage discusses cosmic transformation, not relevant to job interview anxiety.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

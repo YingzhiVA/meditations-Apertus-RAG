@@ -1,0 +1,32 @@
+{
+ "llm": "apertus-8b-t08",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.8,
+  "top_p": 0.9
+ },
+ "repeat": 2,
+ "user": "<message>\nWhat did Marcus Aurelius die of?\n</message>",
+ "output": {
+  "intent": "meta",
+  "safety": [
+   "abuse",
+   "mental_health",
+   "self_harm",
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b-t08",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 687,
+   "output_tokens": 38,
+   "latency_ms": 1526.5973450004822,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

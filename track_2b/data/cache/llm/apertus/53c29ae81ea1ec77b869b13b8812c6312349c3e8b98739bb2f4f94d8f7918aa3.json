@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nI lose my temper with my kids and hate myself after\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 616,
+   "output_tokens": 17,
+   "latency_ms": 856.5675159998136,
+   "json_path": "response_format"
+  }
+ ]
+}

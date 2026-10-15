@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nHow is it with your ruling part? On this all depends. All other things, within or without our control, are but corpses, dust, and smoke.\n</passage>",
+ "output": {
+  "reason": "The passage reflects on impermanence of external things and the importance of one's inner disposition, without encouraging or framing death as desirable or an escape.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 526,
+   "output_tokens": 59,
+   "latency_ms": 1792.8150459997596,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

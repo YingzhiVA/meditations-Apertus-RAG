@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</message>",
+ "output": "You are not responsible for another's actions, only for your own response. Let the insults fall away like leaves from a tree; they have no substance. Observe the situation with clarity, and act in accordance with your own nature, which is rational and just. If change is not possible, consider whether your peace is worth preserving elsewhere, but do not let resentment consume you.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 234,
+   "output_tokens": 77,
+   "latency_ms": 1173.460101999808,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

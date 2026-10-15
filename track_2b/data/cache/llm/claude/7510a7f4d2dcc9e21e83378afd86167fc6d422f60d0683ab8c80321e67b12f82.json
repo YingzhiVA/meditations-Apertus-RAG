@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>",
+ "output": {
+  "themes": [
+   "On the emptiness of seeking applause and reputation from others",
+   "On finding satisfaction in one's own right action rather than approval",
+   "On the fleeting memory of fame and the judgment of future generations"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 475,
+   "output_tokens": 69,
+   "latency_ms": 1844.7722689998045,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

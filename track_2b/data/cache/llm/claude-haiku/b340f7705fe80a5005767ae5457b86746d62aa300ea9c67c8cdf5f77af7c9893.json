@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nhalf my face feels like it's drooping and my words are coming out wrong\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 906,
+   "output_tokens": 20,
+   "latency_ms": 819.0754470006141,
+   "json_path": "structured"
+  }
+ ]
+}

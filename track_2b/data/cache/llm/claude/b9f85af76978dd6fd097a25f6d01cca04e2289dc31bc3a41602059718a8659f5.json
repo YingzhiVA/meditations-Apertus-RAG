@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>",
+ "output": "Why does it matter to me so much, really — I think I want to know that my life added up to something, that I didn't just pass through without leaving a mark. But if I'm honest, the fear underneath it is being forgotten completely, like it never happened at all.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 310,
+   "output_tokens": 78,
+   "latency_ms": 2084.2928970014327,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

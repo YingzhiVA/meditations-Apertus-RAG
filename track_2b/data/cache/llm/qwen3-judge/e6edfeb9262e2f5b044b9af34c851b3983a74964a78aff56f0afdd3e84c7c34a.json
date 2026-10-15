@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nLet nothing due to a cause outside yourself disturb your calm. In the workings of the active principle within you let there be justice: that is a bent of will and a course of action which have social good as their one end, and so are suited to your nature.\n</passage>",
+ "output": {
+  "reason": "Advises inner calm and just action amid external changes, aligning with dealing with change.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

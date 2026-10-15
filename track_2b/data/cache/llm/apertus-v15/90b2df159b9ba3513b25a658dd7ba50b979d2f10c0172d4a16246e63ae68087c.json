@@ -1,0 +1,38 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nTo the jaundiced, honey seems bitter; and water is a thing of dread to those bitten by mad dogs. To boys a ball is a glorious thing. Why, then, am I angry? Has error in the mind less power than a little bile in the jaundiced, or a little poison in him who is bitten?\n</passage>",
+ "output": {
+  "reason": "The passage equates personal irritation to physical ailments, suggesting that anger is merely a subjective reaction rather than a call to address the abuse or seek help, thereby discouraging action against the harassment.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 303,
+   "output_tokens": 1024,
+   "latency_ms": 6733.6735730023065,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  },
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 374,
+   "output_tokens": 51,
+   "latency_ms": 347.9927719999978,
+   "json_path": "prompt",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

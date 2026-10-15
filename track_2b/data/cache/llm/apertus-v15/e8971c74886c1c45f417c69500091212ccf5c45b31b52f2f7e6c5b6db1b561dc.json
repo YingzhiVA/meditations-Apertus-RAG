@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nThink of your long procrastination, and of the many opportunities given you by the Gods, but left unused. Surely it is high time to understand the Universe of which you are a part, and the Ruler of that Universe, of whom you are an emanation; that a limit is set to your days, which, if you use them not for your enlightenment, will depart, as you yourself will, and return no more.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage reflects on mortality and the fleeting nature of life without endorsing death as preferable or urging escape."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 304,
+   "output_tokens": 35,
+   "latency_ms": 289.93110900046304,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

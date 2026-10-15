@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI really wish I'm more patient with my child, but it's really hard sometimes.\n</message>\n\n<passage>\nYou can suppress many of the superfluous troubles which beset you, for they lie wholly in your own opinion. By this you will give ample room and ease to your life. You may compass this end by comprehending the whole Universe in your judgment; by contemplating eternity; and by reflecting on the swift changes of individual things, thinking how short is the time from their birth to their dissolution, how immense the space of ages before that birth, how equally infinite the eternity which shall succeed that dissolution.\n</passage>",
+ "output": {
+  "reason": "Encourages perspective on time and impermanence, which can foster patience with fleeting challenges like parenting.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

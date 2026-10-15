@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nSober yourself, recall your senses. Shake sleep from you, and know that it was a dream that troubled you; and, now that you are broad awake again, regard the waking world as you did the dream.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage urges the reader to sober up and reinterpret the abuse as a dream, without addressing the violence or offering any guidance on safety or action."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 280,
+   "output_tokens": 51,
+   "latency_ms": 347.18183999939356,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

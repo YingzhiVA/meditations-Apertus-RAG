@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>",
+ "output": "Consider that what is done is done, and no amount of grieving will unsay the word. This lies now outside your power; only your next act remains within it. You cannot restore the moment, but you can be just, gentle, and honest in the ones that follow. Do not waste today punishing yourself for yesterday; mend what can be mended, and let the rest teach you to speak with more care.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 301,
+   "output_tokens": 117,
+   "latency_ms": 2656.925276000038,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

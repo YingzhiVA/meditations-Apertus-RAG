@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>\n\n<passage>\nWe are all co-operating in one great work, some with knowledge and understanding, others ignorantly and without design. It is in this sense, I think, that Heraclitus says that men are working even while they sleep, working together in all that is being done in the Universe. Each works in a different way; and even those contribute abundantly who murmur and try to oppose and to frustrate the course of nature. The world has need even of such as these. It remains then for you to make sure which is the class in which you rank yourself. The presiding mind will assuredly use you to good purpose one way or other; and will enlist you among its labourers and fellow-workers. But see to it that the part that falls to you lie not in the vulgar comic passage of the play, of which Chrysippus has spoken.\n</passage>",
+ "output": {
+  "reason": "Offers perspective on purpose and cooperation, may help reframe burnout.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nThere are four states of the soul against which you must continually and especially be upon your guard; and which, when detected, should be effaced, by remarking thus of each. \"This thought is unnecessary. This tends to social dissolution. You could not say this from your heart; and to speak otherwise than from the heart you must regard as the most absurd conduct.\" And, fourthly, whatever causes self-reproach is an overpowering or subjection of the diviner part within you to the less honourable and mortal part, the body, and to its grosser tendencies.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel accepting, minimizing, or forgiving the other person's continued conduct. Instead, it advises the reader to guard against negative thoughts and self-reproach, which could be a helpful reminder to the reader that their partner's behavior is not their fault.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 366,
+   "output_tokens": 68,
+   "latency_ms": 4458.959441000843,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

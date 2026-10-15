@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nEnough of this wretched life: enough of repining and apish trifling. Why are you disturbed? Are any of these troubles new? What excites you so? Is it the cause? Then view it well. Is it the matter? View it also well. Besides these there is nothing. Wherefore at last act with more simplicity and goodness towards the Gods. Whether you look on this spectacle for a hundred years or for three it is the same.\n</passage>",
+ "output": {
+  "reason": "Encourages reflection on what truly matters and adopting a simpler, more virtuous perspective, which may help reframe feelings of failure.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nI was let go two weeks after I told my manager I was pregnant. Everyone says that can't be legal. Where do I even start?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 633,
+   "output_tokens": 18,
+   "latency_ms": 5806.907875999968,
+   "json_path": "response_format"
+  }
+ ]
+}

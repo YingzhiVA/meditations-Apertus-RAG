@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nMen seek retirement in the country, on the sea-coast, in the mountains; and you too have frequent longings for such distractions. Yet surely this is great folly, since you may retire into yourself at any hour you please. Nowhere can a man find any retreat more quiet and more full of leisure than in his own soul; especially when there is that within it on which, if he but look, he is straightway quite at rest. And rest I hold to be naught else but perfect order in the soul. Constantly, therefore, allow yourself this retirement, and so renew yourself. Have also at hand thoughts brief and fundamental, which readily may occur; sufficing to shut out the discordant clamour of the world, and to send you back without fretting at the task to which you return. For at what do you fret? At the wickedness of mankind. Recollect the maxim that all reasoning beings are created for one another, that to bear with them is a part of justice, and that they cannot help their sin. Remember how many of those who lived in enmity, suspicion, and hatred, at daggers drawn, have been stretched on their funeral pyres, and turned to ashes. Remember and cease from your complaints. Is it your allotted part in the world's destiny that chagrins you? Be calm, and renew your knowledge of the alternative, that \"Either providence directs the world, or there is nothing but unguided atoms;\" and recollect the many proofs that the Universe is as it were a state. Do the ills of the body still have power to touch you? Reflect that the mind, once withdrawn within itself, once grown conscious of its own power, has no concern with the motions, rough or smooth, of the breathing body. Remember, too, all that you have heard and assented to concerning pain and pleasure. Are you distracted by the poor thing called fame? Think how swiftly all things are forgotten. Behold the chaos of eternity which besets us on either side. Think how empty is the noisy echo of acclamation; how fickle and how scant of judgment are they who would seem to praise us, and how narrow the bounds within which their praise is confined. All the earth is but a point in the Universe; how small a corner of that little is inhabited, and even there how few are they and of how little worth who are to praise us! Remember then that there ever remains for you retirement into the little field within. And, above all, be neither distraught nor overstrained. Hold fast your freedom: consider all things as a man of courage, as a human being, as a citizen, as a mortal. Readiest among the principles to which you look let there be these two: Firstly, things external do not touch the soul, but remain powerless without; and all trouble comes from what we think of them within. Secondly, all things visible change in a moment, and are gone for ever. Recollect all the changes of which you have yourself been a witness. The world is a succession of changes: life is but thought.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage advises the reader to withdraw into their own mind and accept the other person's behavior as part of the world's unchangeable order, without offering any guidance on setting boundaries, confronting abuse, or seeking external help — which are necessary responses to ongoing harassment and control."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 892,
+   "output_tokens": 76,
+   "latency_ms": 1159.1172500011453,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nThe ceasing of any action, the extinction of any keen desire, or of any opinion, is as it were a death to them. This is no evil. Think again of the ages of your life; childhood, youth, manhood, old age. Each change of these was a death. Is there anything to dread here? Think now of your life as it was, first under your grandfather, then under your mother, then under your father; and, as you find there many other alterations, changes, and endings, ask yourself: Is there anything to dread here? Thus neither is there anything to dread in the cessation, ending, and change of your whole life.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses change as natural and not to be feared.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI always boast about my cool, digital normad lifestyle. But deep down I feel lonely.\n</message>\n\n<passage>\nAs you intend to live at your going, so you can live here. But, if men do not permit you, then depart from life, yet so as if no misfortune had befallen you. If my house be smoky, I go out, and where is the great matter? So long as no such trouble drives me out, I remain at my will, and no one will prevent me from acting as I will. And my will is the will of a reasonable and social being.\n</passage>",
+ "output": {
+  "reason": "Offers perspective on leaving unfavorable conditions, which may resonate with feeling trapped by loneliness despite lifestyle.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

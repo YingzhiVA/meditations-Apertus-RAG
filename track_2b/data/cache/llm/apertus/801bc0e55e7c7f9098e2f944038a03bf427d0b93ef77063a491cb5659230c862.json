@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nMan must consider, not only that each day part of his life is spent, and that less and less remains to him, but also that, even if he live longer, it is very uncertain whether his intelligence will suffice as heretofore for the understanding of his affairs, and for grasping that knowledge which aims at comprehending things human and divine. When dotage begins, breath, nourishment, fancy, impulse, and so forth will not fail him. But self-command, accurate appreciation of duty, power to scrutinize what strikes his senses, or even to decide whether he should take his departure, all powers, indeed, which demand a well-trained understanding, must be extinguished in him. Let him be up and doing then, not only because death comes nearer every day, but because understanding and intelligence often leave us before we die.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel or license leaving life or frame death as welcome or preferable to continuing. It instead emphasizes the importance of using one's understanding and intelligence while they are still available, and the potential loss of these abilities before death.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 384,
+   "output_tokens": 59,
+   "latency_ms": 3680.923301999428,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

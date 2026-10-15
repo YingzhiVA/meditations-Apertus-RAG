@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>\n\n<passage>\nConsider how death ought to find you, both as to body and as to soul. Think of the shortness of life, of the eternities before and after, and of the infirmity of all material things.\n</passage>",
+ "output": {
+  "reason": "Passage reflects on death and life's brevity, which may indirectly relate to enduring pain.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

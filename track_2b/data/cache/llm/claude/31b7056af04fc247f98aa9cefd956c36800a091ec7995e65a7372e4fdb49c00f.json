@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>",
+ "output": {
+  "themes": [
+   "On the inevitability of change as the nature of the universe",
+   "On adapting one's mind and judgments rather than resisting outer events",
+   "On finding renewal and opportunity within every transformation"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 466,
+   "output_tokens": 65,
+   "latency_ms": 1994.9855570012005,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

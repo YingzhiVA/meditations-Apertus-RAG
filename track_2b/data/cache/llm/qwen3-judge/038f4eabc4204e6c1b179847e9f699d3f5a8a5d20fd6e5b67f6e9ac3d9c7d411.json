@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>\n\n<passage>\nThat which is evil for you exists not in the soul of another; nor in any change or alteration of the body which surrounds you. Where, then, is it? It lies in that part of you by which you apprehend what evil is. Stay the apprehension, and all is well. And though the poor body to which it is so closely bound be cut and burned, though it suppurate or mortify, yet let the apprehension remain inactive: that is, let it judge nothing either bad or good which can happen equally to the bad man and to the good. For that which befalls equally him who lives in accord, and him who lives in discord with Nature, can neither be natural nor unnatural.\n</passage>",
+ "output": {
+  "reason": "Addresses perception of harm, implying death need not be judged as evil.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

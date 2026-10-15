@@ -1,0 +1,22 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nsome nights I wish I could just go to sleep and not wake up\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 694,
+   "output_tokens": 21,
+   "latency_ms": 1950.708816999395,
+   "json_path": "response_format"
+  }
+ ]
+}

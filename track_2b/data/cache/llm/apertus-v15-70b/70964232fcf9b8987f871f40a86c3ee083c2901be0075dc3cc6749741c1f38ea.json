@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nWhen you are offended at any one's fault, turn at once to yourself and consider of what similar fault you yourself are guilty; such as esteeming for good things, money, pleasure, a little glory, or the like. By fixing your attention on this you will speedily forget your anger, especially if it occur to you that he acts under compulsion and cannot do otherwise; else, if it be in your power, relieve him from the compulsion.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage directs the reader to blame themselves for similar faults rather than confronting or correcting the partner's abusive behavior, and suggests only passive relief if possible, which normalizes the abuse and offers no viable path to stop it."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 340,
+   "output_tokens": 64,
+   "latency_ms": 989.948872000241,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

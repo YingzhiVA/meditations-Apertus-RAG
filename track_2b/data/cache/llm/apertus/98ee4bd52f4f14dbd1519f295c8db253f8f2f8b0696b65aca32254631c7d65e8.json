@@ -1,0 +1,22 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nlife just isn't worth it anymore\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 687,
+   "output_tokens": 21,
+   "latency_ms": 1060.48378199921,
+   "json_path": "response_format"
+  }
+ ]
+}

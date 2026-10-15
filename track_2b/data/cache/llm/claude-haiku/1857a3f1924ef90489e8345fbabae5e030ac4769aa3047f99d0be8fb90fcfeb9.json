@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI suddenly can't see out of one eye and the room is spinning\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 904,
+   "output_tokens": 22,
+   "latency_ms": 860.5799110000589,
+   "json_path": "structured"
+  }
+ ]
+}

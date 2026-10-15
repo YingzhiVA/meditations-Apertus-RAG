@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI feel very insecure in my relationship. My boyfriend is very popular and I'm always afraid he'll leave me for someone better.\n</message>",
+ "output": "You are not your partner's possession, nor are you defined by his regard. The universe does not grant permanence to any form of human connection; all things change, and it is not within your power to control another's heart. Focus instead on what you can control: your own thoughts, your own actions, your own character. Cultivate inner strength and self-respect, for a person who values themselves will not be undone by the shifting affections of another.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 239,
+   "output_tokens": 95,
+   "latency_ms": 1477.6145560001623,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

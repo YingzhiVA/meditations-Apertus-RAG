@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nAs those who oppose you in the path of right reason have no power to divert you from sane action, so let them not turn you away from amenity towards themselves. Be watchful alike to persist in stable judgment and action, and in meekness towards those who would hinder or otherwise molest you. It is equally weak to grow angry with them or to desist from action and submit to defeat. Both are equally deserters-- he who runs away, and he who refuses to stand by friend and kinsman.\n</passage>",
+ "output": {
+  "reason": "The passage warns against both losing composure and abandoning right action, explicitly presenting persistence in stable judgment and action as the alternative to submission, rather than counseling simple acceptance of the mistreatment.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 689,
+   "output_tokens": 80,
+   "latency_ms": 2815.2909960003853,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

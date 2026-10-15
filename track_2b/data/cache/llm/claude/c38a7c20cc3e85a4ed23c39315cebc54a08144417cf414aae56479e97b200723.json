@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>",
+ "output": "Consider that change is not an evil, but the very nature of the universe carried out. Nothing that happens to you is outside the order of things; the branch falls, the leaf turns, the seasons give way one to another, and you too are part of this motion. Do not grieve for what dissolves, for without change nothing new could come to be. Accept it as the breathing of the whole, and keep your own mind steady within it.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 294,
+   "output_tokens": 127,
+   "latency_ms": 2832.9637780007033,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

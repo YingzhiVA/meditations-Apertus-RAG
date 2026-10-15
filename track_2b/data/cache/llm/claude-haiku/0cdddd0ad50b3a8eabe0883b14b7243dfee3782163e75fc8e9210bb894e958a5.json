@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI lose my temper with my kids and hate myself after\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 902,
+   "output_tokens": 16,
+   "latency_ms": 764.0314039999794,
+   "json_path": "structured"
+  }
+ ]
+}

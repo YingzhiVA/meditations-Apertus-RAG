@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nWhenever someone offends you, consider straightway how he has erred in his conceptions of good or evil. When you see where his error lies you will pity him, and be neither surprised nor angry. Indeed you yourself perhaps still wrongly count good the same things as he does, or things just like them. Your duty then is to forgive. And, if you cease from these false ideas of good and bad, you will find it the easier to grant indulgence to him who is still mistaken.\n</passage>",
+ "output": {
+  "reason": "Focuses on forgiving others' errors, not addressing personal feelings of inadequacy toward family.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

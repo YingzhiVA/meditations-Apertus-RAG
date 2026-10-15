@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI just celebrated my 40th birthday and realized that roughly half of my life is already spent. That though does send shiver down my spine.\n</message>",
+ "output": "You have arrived at this point in time, as all things do. Consider that the span of life is not yours to command, but to use with purpose and virtue. Let not the passage of years trouble you, but rather reflect on how you have lived each day. The present moment is all you truly possess; employ it in service to reason and in harmony with nature. Let the thought of time passed not be a burden, but a reminder to act with wisdom and resolve in the time that remains.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 244,
+   "output_tokens": 102,
+   "latency_ms": 1626.134636999268,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

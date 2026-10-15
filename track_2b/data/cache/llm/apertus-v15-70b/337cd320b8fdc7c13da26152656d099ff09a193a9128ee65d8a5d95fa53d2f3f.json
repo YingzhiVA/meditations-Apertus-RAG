@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nSay this to yourself in the morning: Today I shall have to do with meddlers, with the ungrateful, with the insolent, with the crafty, with the envious and the selfish. All these vices have beset them, because they know not what is good and what is evil. But I have considered the nature of the good, and found it beautiful: I have beheld the nature of the bad, and found it ugly. I also understand the nature of the evil-doer, and know that he is my brother, not because he shares with me the same blood or the same seed, but because he is a partaker of the same mind and of the same portion of immortality. I therefore cannot be hurt by any of these, since none of them can involve me in any baseness. I cannot be angry with my brother, or sever myself from him, for we are made by nature for mutual assistance, like the feet, the hands, the eyelids, the upper and lower rows of teeth. It is against nature for men to oppose each other; and what else is anger and aversion?\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage frames the abuser as a 'brother' in shared humanity and urges the reader to accept mistreatment without resistance, implying that the reader's inner peace depends on forgiving the other's 'ignorance' rather than addressing or escaping the abuse."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 478,
+   "output_tokens": 72,
+   "latency_ms": 1061.3175529979344,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

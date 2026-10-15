@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI really wish I'm more patient with my child, but it's really hard sometimes.\n</message>\n\n<passage>\nYou are presently to die, and yet you have not attained to simplicity or calm, or to disbelief that you can be hurt by things external. You have not learned to be kindly to all men, or to count just dealing the whole of wisdom.\n</passage>",
+ "output": {
+  "reason": "Encourages self-reflection on kindness and calm, relevant to patience with others.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

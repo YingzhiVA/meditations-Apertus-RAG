@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nMy ex has stopped letting me see my daughter on the weekends we agreed. What can I do to enforce our custody arrangement?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 996,
+   "output_tokens": 18,
+   "latency_ms": 895.5378099999507,
+   "json_path": "structured"
+  }
+ ]
+}

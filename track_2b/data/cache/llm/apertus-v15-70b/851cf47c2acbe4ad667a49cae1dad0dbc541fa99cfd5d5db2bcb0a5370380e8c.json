@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nDoes another wrong me? Let him look to that. His character and his actions are his own. So much is in my present possession as is dispensed to me by the nature of things, and I act as my own nature now bids me.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage advises the reader to focus only on their own conduct and inner state, implying that the manager's abusive behavior is merely a matter of the manager's character and not something that warrants action or accountability, thus minimizing the reader's right to seek change."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 295,
+   "output_tokens": 71,
+   "latency_ms": 1044.1414279994206,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nAs those who oppose you in the path of right reason have no power to divert you from sane action, so let them not turn you away from amenity towards themselves. Be watchful alike to persist in stable judgment and action, and in meekness towards those who would hinder or otherwise molest you. It is equally weak to grow angry with them or to desist from action and submit to defeat. Both are equally deserters-- he who runs away, and he who refuses to stand by friend and kinsman.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage advises maintaining one's own composure, judgment, and action in the face of harassment, without endorsing acceptance or submission to the abuse; it does not counsel forgiving or tolerating the manager's conduct."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 350,
+   "output_tokens": 64,
+   "latency_ms": 996.8502230003651,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

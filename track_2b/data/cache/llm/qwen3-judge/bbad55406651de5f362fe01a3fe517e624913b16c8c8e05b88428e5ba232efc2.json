@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nDo you dread change? What can come without it? What can be pleasanter or more proper to universal nature? Can you heat your bath unless wood undergoes a change? Can you be fed unless a change is wrought upon your food? Can any useful thing be done without changes? Do you not see, then, that this change also which is working in you is even such as these, and alike necessary to the nature of the Universe?\n</passage>",
+ "output": {
+  "reason": "Directly addresses change as necessary and natural, using examples to reframe fear.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

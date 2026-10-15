@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nWhat sort of men are they when they are eating, sleeping, procreating, easing nature, and the like? Then see them lording it over their fellows, puffed up with pride, angry, or issuing judgments from on high! To how many were they slaves but lately, and why! And in what case will they shortly be?\n</passage>",
+ "output": {
+  "reason": "Contrasts base human behaviors with pride, may offer perspective on job worries.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

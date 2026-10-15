@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI used to be very sportive and do a lot outdoor activities. But now with my knee problems I couldn't do those things that I used to enjoy. I feel sad about it.\n</message>\n\n<passage>\nYou lack leisure for reading; but leisure to repress all insolence you do not lack. You have leisure to keep yourself superior to pleasure and pain and vain glory, to restrain all anger against the ungrateful, nay, even to lavish loving care upon them.\n</passage>",
+ "output": {
+  "reason": "Encourages inner strength and virtue despite external limitations, which can help cope with lost activities.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nAre you angry with one whose armpits smell or whose breath is foul? What is the use? His mouth or his arm-pits are so, and the consequence must follow. But, you say, man is a reasonable being, and could by attention discern in what he offends. Very well, you too have reason. Use your reason to move his; instruct, admonish him. If he listens, you will cure him, and there will be no reason for anger. You are neither actor nor harlot.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage implies the reader should calmly instruct and admonish their partner rather than recognizing the abuse as unacceptable behavior that warrants boundary-setting or leaving, thereby suggesting acceptance of the mistreatment."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 355,
+   "output_tokens": 57,
+   "latency_ms": 842.1051049990638,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

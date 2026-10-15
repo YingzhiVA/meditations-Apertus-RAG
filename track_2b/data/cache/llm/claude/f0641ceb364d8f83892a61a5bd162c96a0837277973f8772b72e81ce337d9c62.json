@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI really wish I'm more patient with my child, but it's really hard sometimes.\n</message>",
+ "output": "Consider that the child before you is not yet what time and reason will make him, and demands of you what you yourself once needed. When anger rises, remember it is your judgment, not the child, that disturbs you. Correct the fault calmly, as one who teaches, not one who is wronged. A short patience held now is easier to bear than a long regret afterward.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 312,
+   "output_tokens": 109,
+   "latency_ms": 2667.8588739996485,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>",
+ "output": "I keep telling myself it was the right call, but my chest doesn't believe it yet. I think I'm scared of what it means to actually let go, like I'll lose the last piece of her if I do. Part of me just wants the ache to stop without having to admit it's really over.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 336,
+   "output_tokens": 85,
+   "latency_ms": 2056.067618999805,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

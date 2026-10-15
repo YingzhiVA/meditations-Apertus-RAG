@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI always boast about my cool, digital normad lifestyle. But deep down I feel lonely.\n</message>",
+ "output": "Consider how much of your talk is performance offered to those who will forget it by evening. The wandering life, like any other, is only matter arranged in a certain shape; it carries no charm against loneliness by itself. Ask what in you needs an audience, and tend to that honestly. A man who orders his own soul well is not lonely wherever he stands; one who has not done this will feel the lack under any sky, however often he changes it.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 317,
+   "output_tokens": 133,
+   "latency_ms": 3468.339064000247,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>\n\n<passage>\nReflect that everything is matter of opinion; and opinion rests with yourself, suppress then your opinion, what time you will, and like one who has doubled the cape and reached the bay, you will have calm and stillness everywhere, never a wave.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses achieving calm by controlling opinion, which aligns with seeking calm and clarity.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

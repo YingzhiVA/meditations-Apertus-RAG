@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>",
+ "output": "I keep replaying it, wishing I could rewind those few seconds. I'm scared of what it did to them and what it says about me that it came out so easily. I just want to undo it, or at least have them know I didn't mean it the way it landed.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 314,
+   "output_tokens": 76,
+   "latency_ms": 2003.9301910001086,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

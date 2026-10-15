@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>\n\n<passage>\nShould some one ask you how the name Antoninus is written, would you not carefully pronounce to him each one of the letters? Should he then begin an angry dispute about it, would you also grow angry, and not rather mildly count over the several letters to him? Thus in life remember that each duty is made up of a number of elements. We should observe all these calmly; and, without anger at those who are angry with us, we should set about accomplishing the task which lies before us.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses responding to anger calmly, aligning with the query.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

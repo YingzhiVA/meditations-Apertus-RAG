@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>",
+ "output": "I guess I keep asking this because something's hurting right now and I don't know how to just sit with it without needing to fix it immediately. I think I'm afraid that if I don't find some way to manage it, it'll just keep wearing me down. Part of me wants to know there's a way through this that doesn't involve pretending I'm fine when I'm not.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 312,
+   "output_tokens": 110,
+   "latency_ms": 2111.9746860003943,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

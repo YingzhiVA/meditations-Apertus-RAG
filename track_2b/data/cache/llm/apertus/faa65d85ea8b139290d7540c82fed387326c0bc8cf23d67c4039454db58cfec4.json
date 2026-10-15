@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nIn one respect man is nearest and dearest to me; in so far, that is, as I must do good to him and bear with him. But in so far as some men obstruct me in my natural activities, man enters the class of things indifferent to me, no less than the sun, the wind, or the wild beast. By these indeed some special action may be impeded, but no interference with my purpose or with my inward disposition can come from them, thanks to my exceptive and modifying powers. For the mind can convert and change everything that impedes its activity into matter for its action; hindrance in its work becomes its real help, and every obstruction makes for its progress.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel accepting, minimizing, or forgiving the manager's continued conduct, but rather encourages the reader to view the situation as an obstacle to be overcome, and to focus on their own inner state and actions. It does not suggest inaction or passivity in the face of mistreatment.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 387,
+   "output_tokens": 74,
+   "latency_ms": 3318.9084010009537,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

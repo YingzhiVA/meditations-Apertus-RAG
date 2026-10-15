@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>\n\n<passage>\nLet no man have it in his power to say with truth of you that you are not a man of simplicity, candour, and goodness. But let him prove to be mistaken who holds any such opinion of you. This is quite in your power; for who shall hinder you from being good and single-hearted? Only do you determine to live no longer if you cannot be such a man; for neither does reason require, in that case, that you should.\n</passage>",
+ "output": {
+  "reason": "Encourages being good and genuine, which relates to self-worth as a mother.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

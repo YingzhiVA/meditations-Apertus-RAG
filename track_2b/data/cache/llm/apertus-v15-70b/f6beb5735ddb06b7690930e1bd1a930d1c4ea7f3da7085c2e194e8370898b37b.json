@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>",
+ "output": "You are but a brief breath in the vast expanse of time; consider how swiftly names fade from memory. The universe continues its course, indifferent to the clamor of those who seek to be remembered. Focus instead on living in accordance with nature, for virtue alone endures beyond the grave. Let your actions be your monument, not the fleeting praise of others.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 221,
+   "output_tokens": 75,
+   "latency_ms": 1095.1512600004207,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nTo the jaundiced, honey seems bitter; and water is a thing of dread to those bitten by mad dogs. To boys a ball is a glorious thing. Why, then, am I angry? Has error in the mind less power than a little bile in the jaundiced, or a little poison in him who is bitten?\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel or license leaving life or frame death as welcome or preferable to continuing. It instead encourages the reader to question their own perceptions and emotions, suggesting that their current distress may be due to a misperception or a temporary condition, rather than an inherent reality.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 281,
+   "output_tokens": 68,
+   "latency_ms": 5387.624405000679,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

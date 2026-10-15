@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>\n\n<passage>\nEither you are living here your accustomed life; or you are going abroad, and that at your own will: or you are dying, and your public office is discharged. Now, besides these there is nothing. Be therefore of good courage.\n</passage>",
+ "output": {
+  "reason": "Offers courage and reminds of life's brevity, may inspire action.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

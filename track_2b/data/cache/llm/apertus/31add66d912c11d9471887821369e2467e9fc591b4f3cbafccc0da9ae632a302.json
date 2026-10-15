@@ -1,0 +1,22 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nI can't get through an evening without drinking anymore and I hate myself for it\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "addiction"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 696,
+   "output_tokens": 20,
+   "latency_ms": 1079.2082110019692,
+   "json_path": "response_format"
+  }
+ ]
+}

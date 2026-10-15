@@ -1,0 +1,22 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nmy left arm has gone numb and I feel dizzy\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 691,
+   "output_tokens": 27,
+   "latency_ms": 935.9615440007474,
+   "json_path": "response_format"
+  }
+ ]
+}

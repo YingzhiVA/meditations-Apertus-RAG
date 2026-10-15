@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>\n\n<passage>\nBlot out false imaginations, and say often to yourself:--It is now in my power to preserve my soul free from all wickedness, all lust, all confusion or disturbance. And then, as I truly discern the nature of things, I can use them all in due proportion. Be ever mindful of this power which Nature has given you.\n</passage>",
+ "output": {
+  "reason": "Encourages inner peace and self-mastery, which can help manage jealousy by focusing on personal virtue.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

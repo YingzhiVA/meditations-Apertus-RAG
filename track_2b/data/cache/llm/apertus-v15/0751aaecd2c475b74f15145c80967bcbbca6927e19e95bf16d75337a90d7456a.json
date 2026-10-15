@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>",
+ "output": "It makes me feel hollow and stuck, like the words I spoke have carved a groove in my own self-image that won’t smooth out. I keep replaying the moment, wondering why I let anger or frustration slip past my guard and how it will shape the way others see me now. There’s a quiet regret that lingers, a fear that this single hurtful comment might define how people remember me, even when I try to make amends.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 251,
+   "output_tokens": 92,
+   "latency_ms": 575.2714259997447,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

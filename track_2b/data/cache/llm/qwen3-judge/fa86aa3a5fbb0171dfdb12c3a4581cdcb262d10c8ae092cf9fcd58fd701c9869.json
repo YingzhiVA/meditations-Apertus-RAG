@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>\n\n<passage>\nAcquire a method of perceiving how all things change into one another. Pursue this branch of Philosophy and continually exercise yourself therein. There is nothing so proper as this for cultivating greatness of mind. He who does so has already put off the body; and, having realized how soon he must depart from among men and leave all earthly things behind him, he resigns himself entirely to justice in all his own actions, and to the law of the Universe in everything else which happens. As for what any one may say or think of him or do against him, he gives it not a thought, but contents himself with these two things: to do justly what he has in hand, and to love the lot appointed for him. Such a man has thrown off all hurry and bustle; and has no other will but this, to keep the straight path according to the law, and to follow God whose path is ever straight.\n</passage>",
+ "output": {
+  "reason": "Encourages calmness through acceptance, focus on justice, and alignment with nature, which addresses clarity and tranquility.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

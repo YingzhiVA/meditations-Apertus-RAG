@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nFor repressing vain glory, it serves to remember that it is no longer in your power to make your whole life, even from your youth onwards, a life worthy of a philosopher. It is known to many, and you yourself know also, how far you are from wisdom. Confusion is upon you, and it now can be no easy matter for you to gain the reputation of a philosopher. The conditions of your life are against it. Now therefore, as you see how the matter truly lies, put from you all thoughts of reputation among men; and let it suffice you to live so long as your nature wills, though that be but the scanty remnant of a life. Study, therefore, the will of your nature, and be solicitous about nothing else. You have made many efforts and wandered much, but you have nowhere found happiness; not in syllogisms, not in riches, not in fame or pleasure, not in anything. Where, then, is it? In acting that part which human nature requires. How can you act that part? By holding principles as the source of your desires and actions. What principles? The principles of good and evil: That nothing is good for a man which does not make him just, temperate, courageous, and free; and that nothing can be evil which tends not to make him the contrary of all these.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on inner virtue over external success like job prospects",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

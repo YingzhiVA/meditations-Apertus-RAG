@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>\n\n<passage>\nIn the soul of the chastened and purified man you would find nothing putrid, foul, or festering. Fate does not cut off his life before its proper end; as one would say of an actor who left the stage before his part was ended, or he had reached his appointed exit. There remains nothing servile or affected, nothing too conventional or too seclusive, nothing that fears censure or courts concealment.\n</passage>",
+ "output": {
+  "reason": "Passage emphasizes inner integrity regardless of external treatment, which can console unjust farewell.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

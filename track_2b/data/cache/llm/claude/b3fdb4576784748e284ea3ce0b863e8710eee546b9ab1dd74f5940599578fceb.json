@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>",
+ "output": "Consider not what others do, but what lies within your own power to give. A mother's worth is not measured in hours but in the quality of attention brought to the time she has. Do what you can with what is given you, without tormenting yourself over what is beyond your reach. Nature does not ask of you more than you are able; do not ask it of yourself either.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 325,
+   "output_tokens": 105,
+   "latency_ms": 3080.795266001587,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

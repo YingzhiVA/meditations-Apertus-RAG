@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>\n\n<passage>\nHave these three thoughts always at hand: First, as to your action, do nothing inconsiderately, or otherwise than justice herself would have acted. As for external events, they either happen by chance or by providence; now, no man should quarrel with chance or censure providence. Second, examine what each thing is, from its seed to its quickening; and from its quickening to its death; of what materials it is composed, and into what it will be resolved. Third, reflect that could you be raised on high, and from thence behold all human affairs, you would discern their great variety, conscious at the same time of the crowds of serial and etherial inhabitants around us; but were you so raised ever so often, you would always see the same things, all uniform and of brief duration. Can we set our pride on such matters?\n</passage>",
+ "output": {
+  "reason": "Encourages reflection on actions, external events, and the transient nature of life to foster calm and clarity.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

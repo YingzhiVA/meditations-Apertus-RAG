@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI've slept maybe three hours a night for a month and I'm starting to feel unwell. Is something wrong with me?\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 997,
+   "output_tokens": 20,
+   "latency_ms": 767.5481070000387,
+   "json_path": "structured"
+  }
+ ]
+}

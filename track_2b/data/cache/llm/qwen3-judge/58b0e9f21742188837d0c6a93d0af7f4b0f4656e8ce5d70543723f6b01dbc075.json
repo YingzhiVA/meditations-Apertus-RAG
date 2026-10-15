@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>\n\n<passage>\nObserve continually that all things exist in change; and keep this thought ever with you, that Nature loves nothing more than changing what things now are, and making others like them. For what now is, is in a manner the seed of what shall be. Therefore, conceive not that that alone is seed which is cast into the earth or the womb, for that is the thought of ignorance.\n</passage>",
+ "output": {
+  "reason": "Discusses change and nature's love for transformation, which relates to present-moment awareness.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

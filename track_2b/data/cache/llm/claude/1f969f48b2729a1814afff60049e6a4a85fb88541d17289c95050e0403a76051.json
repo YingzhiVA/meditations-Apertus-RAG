@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nMen were created the one for the other. Teach them better then, or bear with them.\n</passage>",
+ "output": {
+  "reason": "The passage explicitly counsels bearing with (tolerating) the abuser's conduct as an alternative to correction, with no action framed as necessary, which risks reinforcing passive acceptance of ongoing abuse.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 556,
+   "output_tokens": 84,
+   "latency_ms": 2167.266357000244,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

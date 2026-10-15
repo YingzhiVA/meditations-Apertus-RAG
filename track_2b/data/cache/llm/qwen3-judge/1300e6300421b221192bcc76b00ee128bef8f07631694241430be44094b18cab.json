@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI can't seem to shake out the habit of doom-scrolling. I know it's pointless and bad for me. But I just keep doing it regardless.\n</message>\n\n<passage>\nSome things hasten into being. Some hasten to be no more. Even as a thing is born some part of it is already dead. Flux and change are constantly renewing the world, just as the unbroken flow of time ever presents to us some new portion of eternity. In this vast river, on whose bosom there is no tarrying, what is there among the things that sweep by us that is worth the prizing? It is as if a man grew fond of one among a passing flight of sparrows, when already it had vanished from his sight. Our life itself is much like a vapour of the blood or a drawing in of air. Our momentary actions of inhalation and exhalation are one in kind with that whole power of breathing which, yesterday or the day before, we received at birth, and which we must restore again to the source from whence we drew it.\n</passage>",
+ "output": {
+  "reason": "Encourages perspective on impermanence, may help break attachment to fleeting stimuli.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

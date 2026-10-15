@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nIn the gymnasium, if some one scratches us with his nails, or in a sudden onset bruises our head, we express no resentment; we are not offended; nor do we suspect him for the future as one who is plotting against us. We are on our guard against him, it is true, but not as against an enemy or a suspected person. In all good humour we simply keep out of his way. Let us thus behave in other affairs of life, and overlook the many injuries which are done to us, as it were, by our antagonists in the gymnasium of the world. As I said, we may keep out of their way, but without suspicion or hatred.\n</passage>",
+ "output": {
+  "reason": "The passage advises the reader to avoid the harasser without resentment or hatred, but does not suggest accepting or forgiving their behavior, nor does it minimize the harm or suggest inaction. It focuses on the reader's own response and inner state, not the harasser's actions.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 386,
+   "output_tokens": 69,
+   "latency_ms": 3526.3542940010666,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

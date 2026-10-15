@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI have low self-esteem. How I can improve that?\n</message>\n\n<passage>\nNature has not so blended the soul with the body that it cannot fix its own bounds, and execute its own office by itself. It is very possible to be a God among men, and yet be recognised by none. Remember that always, and this as well, that the happiness of life lies in very few things. And though you despair of becoming great in Logic or in Science, you need not despair of becoming a free man, full of modesty and unselfishness, and of obedience unto God.\n</passage>",
+ "output": {
+  "reason": "Encourages self-worth through virtue and inner freedom, despite external recognition or intellectual achievement.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>\n\n<passage>\nBlot out false imaginations, and say often to yourself:--It is now in my power to preserve my soul free from all wickedness, all lust, all confusion or disturbance. And then, as I truly discern the nature of things, I can use them all in due proportion. Be ever mindful of this power which Nature has given you.\n</passage>",
+ "output": {
+  "reason": "Passage directly advises preserving a calm, clear soul and using reason to maintain proportion.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

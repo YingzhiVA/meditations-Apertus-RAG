@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>\n\n<passage>\nYou have it in your power to form no opinion about this or that, and so to have peace of mind. Things material have no power to form our opinions for us.\n</passage>",
+ "output": {
+  "reason": "The passage directly advises forming no opinion to maintain peace of mind, aligning with calmness and clarity.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

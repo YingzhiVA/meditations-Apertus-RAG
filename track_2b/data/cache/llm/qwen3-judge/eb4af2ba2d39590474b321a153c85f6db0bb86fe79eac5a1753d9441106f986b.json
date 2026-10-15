@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nLoss is naught but change; in change is the joy of universal Nature, and by her all things are ordered well. From the beginning of ages they have been shaped alike, and to all eternity they will be the same. How then can you say that all things have been, and ever will be evil; that among so many Gods there has been found no power to rectify; but that the Universe is condemned to endure the burden of never-ending ill?\n</passage>",
+ "output": {
+  "reason": "Discusses change as natural and part of universal order, offering perspective on accepting change.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

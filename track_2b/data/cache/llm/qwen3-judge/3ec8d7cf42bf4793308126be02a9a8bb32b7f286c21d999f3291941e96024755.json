@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>\n\n<passage>\nRemember that the governing part becomes invincible when, collected into itself, it is satisfied in refusing to do what it would not, even when its resistance is unreasonable. What then will it be when, after due deliberation it has fixed its judgment according to reason? The soul, thus free from passions, is a strong fort; nor can a man find any stronger to which he can fly and become henceforth invincible. The man who has not discerned this is ignorant. He who has discerned and flies not thither is miserable.\n</passage>",
+ "output": {
+  "reason": "Encourages inner strength and resilience, helping reframe pain through reasoned judgment.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

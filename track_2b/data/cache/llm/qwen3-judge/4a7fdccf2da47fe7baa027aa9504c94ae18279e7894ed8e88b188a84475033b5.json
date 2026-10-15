@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI just celebrated my 40th birthday and realized that roughly half of my life is already spent. That though does send shiver down my spine.\n</message>\n\n<passage>\nCast from you then all other things, retaining these few. Remember also that every man lives only this present moment, which is a fleeting instant: the rest of time is either spent or quite unknown. Short is the time which each of us has to live, and small the corner of the earth he has to live in. Short is the longest posthumous fame, and this preserved through a succession of poor mortals, soon themselves to die; men who knew not themselves, far less those who died long ago.\n</passage>",
+ "output": {
+  "reason": "Passage reflects on life's brevity and present moment, directly addressing the user's concern about time passing.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

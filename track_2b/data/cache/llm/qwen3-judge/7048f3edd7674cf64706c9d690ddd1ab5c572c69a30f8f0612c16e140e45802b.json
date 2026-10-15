@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI always boast about my cool, digital normad lifestyle. But deep down I feel lonely.\n</message>\n\n<passage>\nYou lack leisure for reading; but leisure to repress all insolence you do not lack. You have leisure to keep yourself superior to pleasure and pain and vain glory, to restrain all anger against the ungrateful, nay, even to lavish loving care upon them.\n</passage>",
+ "output": {
+  "reason": "Encourages self-mastery and cultivating care despite ingratitude, which may address hidden loneliness behind boasting.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

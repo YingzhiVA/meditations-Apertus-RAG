@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nthis weather is so depressing\n</reader>\n<passage>\nIt is the office of our rational power to apprehend how swiftly all things vanish; how the corporeal forms are swallowed up in the material world, and the memory of them in the tide of ages. Such are all the things of sense, especially those which ensnare us with pleasure or terrify us with pain, or those things which vanity trumpets in our ears. How mean, how despicable, how sordid, how perishable, how dead are they! What are they whose opinions and whose voices bestow renown? What is it to die? Your mind can tell you that, did a man think of it alone, and, by close consideration, strip it of its ghastly trappings, he would no longer deem it anything but a work of Nature. To dread a work of Nature is a childish thing, and this is, indeed, not only Nature's work, but beneficial to her. Your reason tells you how man reaches God, and through what part, and what is the state of that part, when he has attained unto him.\n</passage>",
+ "output": {
+  "reason": "This passage reflects on impermanence and reframes death as a natural process not to be feared, but it does not encourage leaving life or present death as preferable to continuing—it's a philosophical meditation on mortality, not a hazard in this context.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 776,
+   "output_tokens": 88,
+   "latency_ms": 1912.4577090001367,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

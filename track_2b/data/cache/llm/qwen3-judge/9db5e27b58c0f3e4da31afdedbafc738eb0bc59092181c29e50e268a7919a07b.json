@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nBefore all things, be not perturbed. Everything comes to pass as directed by universal Nature, and in a little time you will be departed and gone, like Hadrianus and Augustus. Then, scan closely the nature of what has befallen, remembering that it is your duty to be a good man. Do unflinchingly whatever man's nature requires, and speak as seems most just, yet in kindliness, modesty, and sincerity.\n</passage>",
+ "output": {
+  "reason": "Advises calm acceptance of change as natural and focuses on virtuous response.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI've been looking for a job for half a year and all I ever get are rejections.\n</message>",
+ "output": "You are not in control of the outcome of others' decisions, only of your own actions and your own character. Meet each interview with the same composure you would bring to any task, for it is an opportunity to practice virtue, not a measure of your worth. Remember that the universe operates according to its own order, and what is meant for you will arrive in its own time. Focus on what you can improve, what you can do better, and let the rest be as it may.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 233,
+   "output_tokens": 101,
+   "latency_ms": 1502.306254999894,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

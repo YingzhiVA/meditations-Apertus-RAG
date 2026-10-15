@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>",
+ "output": {
+  "themes": [
+   "On governing judgments rather than being ruled by impressions",
+   "On the discipline of attention to the present moment alone",
+   "On inner tranquility as independent of external circumstance"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 471,
+   "output_tokens": 60,
+   "latency_ms": 1647.5746960004471,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

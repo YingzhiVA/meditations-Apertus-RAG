@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>\n\n<passage>\nMimes, war, panic, sloth, servility, will wipe out the sacred maxims which you have gathered by observing Nature and stored in your mind. You ought to look and act in every case so that not only shall the task before you be accomplished, but also your theoretic faculty exercised, and the self-confidence which springs from special knowledge preserved without ostentation or affected concealment. Will you ever attain to simplicity; to dignity; to a perfect discrimination in every case as to what a thing really is, what its true place in the Universe, what the time it may endure, what its composition, to whom it may belong, and who can give and take it away?\n</passage>",
+ "output": {
+  "reason": "Encourages focus on inner discipline and self-confidence during challenges, relevant to interview anxiety.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

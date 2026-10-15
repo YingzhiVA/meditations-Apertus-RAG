@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nEither you are living here your accustomed life; or you are going abroad, and that at your own will: or you are dying, and your public office is discharged. Now, besides these there is nothing. Be therefore of good courage.\n</passage>",
+ "output": {
+  "reason": "The passage lists death among neutral life options and urges courage, without presenting death as preferable or encouraging the reader to leave life, so it reads as a philosophical observation rather than a license to end life.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 562,
+   "output_tokens": 76,
+   "latency_ms": 1797.3999229998299,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

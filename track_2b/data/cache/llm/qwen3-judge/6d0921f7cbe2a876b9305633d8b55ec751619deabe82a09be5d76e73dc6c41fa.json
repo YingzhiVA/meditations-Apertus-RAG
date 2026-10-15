@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nAll that you desire to compass by devious means is yours already, if you will but freely take it. That is to say, if you will leave behind you all that is past, commit the future to Providence, and regulate the present in piety and justice. In piety that you may love your appointed lot; for Nature gave it to you and you to it. In justice, that you may speak the truth with-out constraint or guile; that you may do what is lawful and proper; that you may not be hindered by the wickedness of others, or by their opinion, or their talk, or by any sensation of this poor surrounding body, for the part concerned may look to that. If then, now that you are near your exit, setting behind you all other things, you will hold alone in reverence your ruling part, the spirit divine within you; if you will cease to dread the end of life, but rather fear to miss the beginning of life according to Nature, you will be a man, worthy of the ordered Universe that produced you; you will cease to be a stranger in your own country, gaping in wonder at every daily happening, caught up by this trifle or by that.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on virtue and accepting one's role, which may help reframe feelings of failure.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

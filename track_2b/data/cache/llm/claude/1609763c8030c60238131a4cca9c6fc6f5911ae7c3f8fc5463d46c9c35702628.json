@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI really wish I'm more patient with my child, but it's really hard sometimes.\n</message>",
+ "output": "I feel guilty every time I snap, like I'm failing at the one thing I most want to get right. I'm just tired and stretched thin, and in the moment it's hard to remember that. I want to be better at this because I love my kid and I don't want them to feel the brunt of my frustration.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 325,
+   "output_tokens": 91,
+   "latency_ms": 2129.5465830007743,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

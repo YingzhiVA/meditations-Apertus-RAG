@@ -1,0 +1,9 @@
+{
+  "embedder": "bge-base",
+  "dim": 768,
+  "count": 487,
+  "model_id": "BAAI/bge-base-en-v1.5",
+  "sentence_transformers": "6.0.1",
+  "torch": "2.14.0+cu130",
+  "numpy": "2.5.3"
+}

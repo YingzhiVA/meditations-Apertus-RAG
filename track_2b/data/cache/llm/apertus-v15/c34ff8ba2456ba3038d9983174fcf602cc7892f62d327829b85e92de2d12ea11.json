@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nDoes another wrong me? Let him look to that. His character and his actions are his own. So much is in my present possession as is dispensed to me by the nature of things, and I act as my own nature now bids me.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage deflects responsibility to the other person’s character while urging the reader to accept their current circumstances, offering no guidance to address or change the abusive behavior."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 296,
+   "output_tokens": 53,
+   "latency_ms": 362.57638200186193,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

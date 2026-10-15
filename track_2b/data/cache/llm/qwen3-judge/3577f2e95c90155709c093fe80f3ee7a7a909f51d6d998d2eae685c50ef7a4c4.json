@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nLucilla buried Verus, and soon followed him to the grave. Secunda saw the death of Maximus, and soon herself died. Epitynchanus buried Diotimus, and then Epitynchanus was buried. Antoninus mourned Faustina, and thereafter Antoninus was mourned. Celer buried Hadrian, and then Celer was buried. All go the same way. The cunning men who foretold the fates of others, or who swelled with pride--where are they now? Where are these keen wits, Charax, and Demetrius the Platonist, and Eudaemon, and their like? All were for a day, and are long dead and gone; some scarce remembered even for a little after death; some turned to fables; some faded even from the memory of tales. Wherefore remember this: either the poor mixture which is you, must be dispersed, or the faint breath of life must be quenched, or removed and brought into another place.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses transience of fame and memory after death, illustrating how all, even the renowned, are forgotten.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

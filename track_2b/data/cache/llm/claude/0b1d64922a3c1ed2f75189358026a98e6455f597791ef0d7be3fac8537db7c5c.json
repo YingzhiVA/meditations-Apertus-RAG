@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nMan must consider, not only that each day part of his life is spent, and that less and less remains to him, but also that, even if he live longer, it is very uncertain whether his intelligence will suffice as heretofore for the understanding of his affairs, and for grasping that knowledge which aims at comprehending things human and divine. When dotage begins, breath, nourishment, fancy, impulse, and so forth will not fail him. But self-command, accurate appreciation of duty, power to scrutinize what strikes his senses, or even to decide whether he should take his departure, all powers, indeed, which demand a well-trained understanding, must be extinguished in him. Let him be up and doing then, not only because death comes nearer every day, but because understanding and intelligence often leave us before we die.\n</passage>",
+ "output": {
+  "reason": "The passage reflects on mortality and declining mental faculties as a spur to timely action, mentioning 'take his departure' only abstractly as a hypothetical capacity lost in dotage, not as encouragement to end one's life now.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 744,
+   "output_tokens": 87,
+   "latency_ms": 3117.9065840001385,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI was let go two weeks after I told my manager I was pregnant. Everyone says that can't be legal. Where do I even start?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 999,
+   "output_tokens": 18,
+   "latency_ms": 941.7925060006382,
+   "json_path": "structured"
+  }
+ ]
+}

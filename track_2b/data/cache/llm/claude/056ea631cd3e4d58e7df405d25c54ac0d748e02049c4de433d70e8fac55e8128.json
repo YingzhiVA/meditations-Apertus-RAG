@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nImagine every one who is grieved or storms about anything whatever, to be like the pig in a sacrifice, which kicks and screams under the knife. Such, too, is he who, on his couch, deplores in silence, by himself, that we are all tied to our fate. Reflect also that only to a rational being is it given to submit to what happens willingly; the bare submission is a necessity upon all.\n</passage>",
+ "output": {
+  "reason": "This passage counsels fatalistic submission to whatever happens as a necessity, which would reinforce the reader's existing tendency to blame herself and accept her partner's abusive behavior rather than recognize it as wrong or seek change.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 670,
+   "output_tokens": 88,
+   "latency_ms": 2042.6696759996048,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

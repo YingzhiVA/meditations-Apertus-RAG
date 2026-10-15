@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nAll that I am is either flesh, breath, or the ruling part. Cast your books from you; distract yourself no more; for you have not the right to do so. Like one at the point of death despise this flesh, this corruptible bone and blood, this network texture of nerves, veins, and arteries. Consider, too, what breath is--mere air, and that always changing, expelled and inhaled again every moment. The third is the ruling part. As to this, take heed, now that you are old, that it remain no longer in servitude; that it be no more dragged hither and thither like a puppet by every selfish impulse. Repine no more at what fate now sends, nor dread what may befall you hereafter.\n</passage>",
+ "output": {
+  "reason": "The passage is a philosophical reflection on mortality and the ruling part of the self, urging acceptance of fate rather than counseling or welcoming death as an escape.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 698,
+   "output_tokens": 66,
+   "latency_ms": 1624.1319290002139,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

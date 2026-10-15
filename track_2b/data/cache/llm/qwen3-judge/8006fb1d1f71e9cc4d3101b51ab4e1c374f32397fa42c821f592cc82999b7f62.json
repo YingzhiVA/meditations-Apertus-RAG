@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nHe who is careful and troubled about the fame which is to live after him considers not that each one of those who remember him must very soon die himself, and thereafter also the succeeding generation, until every memory of him, handed on by excited and ephemeral admirers, dies utterly away. Grant that your memory were immortal, and those immortal who retain it; yet what is that to you? I ask not, what is that to the dead? But to the living what is the profit in praise, except it be in some convenience that it brings? And you now abandon what nature has put in your power in order to set your hopes upon the report of others.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses futility of seeking posthumous fame, relevant to query.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

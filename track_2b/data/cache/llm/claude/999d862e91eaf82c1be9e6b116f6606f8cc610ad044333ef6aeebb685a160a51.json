@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nIt is man's special business to love even those who err; and to this love you attain, if it is borne in upon you that even these sinners are your kin, and that they offend through ignorance and against their will. Remember also that in a little while both you and they must die: remember before all things that they have not harmed you, for they have not made your soul worse than it was before.\n</passage>",
+ "output": {
+  "reason": "The passage discusses forgiveness and acceptance of others' errors, only mentioning mortality as a natural fact without framing death as welcome or preferable to living.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 587,
+   "output_tokens": 66,
+   "latency_ms": 1434.9609099999725,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

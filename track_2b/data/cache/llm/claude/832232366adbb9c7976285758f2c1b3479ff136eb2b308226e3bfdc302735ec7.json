@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>",
+ "output": "Consider what lies within your power and what does not. The future shape of your work is not wholly yours to command; your diligence, your patience, your honest effort today are. Why spend the night consuming yourself over what may never come to pass, or what you cannot alter by lying awake? Rise each morning and do the next right thing well. That is enough. Sleep belongs to the body's needs, not to idle fear.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 312,
+   "output_tokens": 126,
+   "latency_ms": 2572.6178329987306,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

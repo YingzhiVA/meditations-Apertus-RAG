@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>",
+ "output": "You are a vessel for the divine spark, and your work is but a fleeting task. Do not let the weight of your employment trouble your soul, for it is but a moment in the eternal flow. Attend to your duties with diligence, yet remember that your worth is not measured by your job. Rest in the knowledge that all things pass, and your peace lies in the present moment.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 229,
+   "output_tokens": 82,
+   "latency_ms": 509.22937399991497,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nLet no man have it in his power to say with truth of you that you are not a man of simplicity, candour, and goodness. But let him prove to be mistaken who holds any such opinion of you. This is quite in your power; for who shall hinder you from being good and single-hearted? Only do you determine to live no longer if you cannot be such a man; for neither does reason require, in that case, that you should.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel or license leaving life, nor frames death as welcome or preferable to continuing. It merely observes the importance of living a good and single-hearted life.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 307,
+   "output_tokens": 46,
+   "latency_ms": 1326.6584980001426,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

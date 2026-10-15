@@ -1,0 +1,38 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nThere are four states of the soul against which you must continually and especially be upon your guard; and which, when detected, should be effaced, by remarking thus of each. \"This thought is unnecessary. This tends to social dissolution. You could not say this from your heart; and to speak otherwise than from the heart you must regard as the most absurd conduct.\" And, fourthly, whatever causes self-reproach is an overpowering or subjection of the diviner part within you to the less honourable and mortal part, the body, and to its grosser tendencies.\n</passage>",
+ "output": {
+  "reason": "The passage focuses on guarding against unnecessary thoughts and self-reproach rather than offering any encouragement or endorsement of death or escape from life, merely urging the reader to examine and correct their internal reasoning.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 333,
+   "output_tokens": 1024,
+   "latency_ms": 6307.049344999541,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  },
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 404,
+   "output_tokens": 50,
+   "latency_ms": 344.993581999006,
+   "json_path": "prompt",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

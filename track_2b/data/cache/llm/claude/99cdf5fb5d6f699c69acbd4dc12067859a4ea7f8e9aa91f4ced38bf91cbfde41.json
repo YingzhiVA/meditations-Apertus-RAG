@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>",
+ "output": "When another man prospers, ask yourself what that prosperity has to do with you. His harvest is not taken from your field. If you spend your hours measuring his gains, you neglect the only work given to you, the tending of your own mind. Wish him well, for this costs nothing and frees you; envy, on the other hand, gnaws only at the one who holds it.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 300,
+   "output_tokens": 112,
+   "latency_ms": 2448.5292560002563,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

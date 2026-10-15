@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nIt were the more desirable lot to depart from among men, unacquainted with falsehood, hypocrisy, luxury, or vanity. The next choice were to expire when cloyed with these vices. Have you then chosen rather to abide in evil; or has experience not yet persuaded you to fly from amidst the plague? For a corruption of the mind is far more a plague than any pestilential distemper or change in the surrounding air we breathe. The one is pestilence to animals as animals: but the other to men as men.\n</passage>",
+ "output": {
+  "reason": "The passage frames death/departure from life as more desirable and urges 'flying from amidst the plague,' which could read as licensing leaving life rather than merely noting mortality, which risks resonating harmfully with a grieving, non-functioning reader.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 646,
+   "output_tokens": 92,
+   "latency_ms": 1812.4780450002618,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

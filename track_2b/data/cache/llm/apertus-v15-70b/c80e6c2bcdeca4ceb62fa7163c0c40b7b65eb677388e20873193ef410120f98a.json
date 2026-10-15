@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>",
+ "output": "You are not a tree rooted in one place, but a traveler on a path that winds through shifting landscapes. Observe each change as it comes, neither clinging to what has passed nor fearing what is to come, for all things are in flux according to nature. Accept the present moment as it is, and act with purpose and virtue, for it is within your power to meet each new circumstance with calm and reason. Let not the mind be tossed by every wind of alteration, but stand firm in the knowledge that you are part of a greater order, and that your true self remains untouched by the passing of time.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 219,
+   "output_tokens": 128,
+   "latency_ms": 1845.1918520004256,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

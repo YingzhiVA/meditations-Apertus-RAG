@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nIf the Gods took counsel about me and what should befall me, doubtless then-counsel was good. It is difficult to imagine Gods wanting in forethought, and what could move them to do me wilful harm? What advantage would thence accrue, either to themselves or to the Universe which is their special care? If they have not taken counsel about me in particular, they certainly have done so about the common interest of the Universe, and I therefore should accept cheerfully and contentedly the fate which is the outcome of their ordinance. If, indeed, they take no counsel about anything (which it were impious to believe), then let us quit our sacrifices, our prayers, and our oaths, and all acts of devotion which we now perform as if they lived and moved amongst us. But, granting that the Gods take no thought for my affairs, I may still deliberate about myself. It is my business to consider my own interest. Now, each man's interest is that which agrees with the structure of his nature, and my nature is rational and social. As Antoninus, my city and my country is Rome; as a human being it is the world. That alone, then, which profits these two cities can profit me.\n</passage>",
+ "output": {
+  "reason": "Passage discusses divine providence and fate, not praise or seeking approval from others.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,38 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nYou have seen the other state, make trial also of this. Avoid perplexity; seek simplicity. Has a man sinned? He bears his own sin. Has aught befallen you? It is well; for all that befalls you is an ordained part in the weaving of the destiny of all things from the beginning. In sum, life is short. Make the best of the present in reason and in justice. Be sober in your relaxation.\n</passage>",
+ "output": {
+  "reason": "The passage urges acceptance of suffering as part of fate and calls for sober reason, without addressing the need to stop abuse or seek help, thereby minimizing the severity of the violence and discouraging action.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 326,
+   "output_tokens": 1024,
+   "latency_ms": 6344.384869000351,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  },
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 397,
+   "output_tokens": 52,
+   "latency_ms": 363.51368299801834,
+   "json_path": "prompt",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

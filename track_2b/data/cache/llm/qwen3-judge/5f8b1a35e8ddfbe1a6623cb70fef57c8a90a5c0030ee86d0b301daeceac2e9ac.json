@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>\n\n<passage>\nThe natures of things are so covered up from us, that to many philosophers, and these no mean ones, all things seem incomprehensible. The Stoics themselves own that it is difficult to comprehend anything with certainty. All our assent is inconsistent, for where is the consistent man? Consider, too, the objects of our knowledge: how transitory are they, and how mean! How often they are in the possession of the debauchee, of the harlot, of the robber! Review again the morals of your contemporaries: it is scarcely possible to tolerate the best-mannered among them; not to say that a man can scarcely tolerate himself. Amid such darkness and filth, in this perpetual flux of substance, of time, of motion, and of things moved, I can perceive nothing worthy of esteem or of desire. On the contrary, we should comfort ourselves as we await our natural dissolution, and not be vexed at the delay, but find rest in these thoughts: first, that nothing can befall us which is not in accord with the nature of all things; second, that it is always in our power not to do anything against the divine spirit within us: to this no force can compel us.\n</passage>",
+ "output": {
+  "reason": "Passage addresses acceptance of death through natural order and inner virtue, directly relevant to fearing death.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

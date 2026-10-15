@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>\n\n<passage>\n\"Cast away opinion, and you are saved.\" Who then hinders you from casting it away?\n</passage>",
+ "output": {
+  "reason": "The passage addresses inner opinion, not repairing harm from words spoken to others.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>",
+ "output": "You spoke in haste and now the words stand between you and your own peace. Consider that the harm done to another is also a wound to yourself, for we are all part of the same whole. Let the past remain where it is; focus instead on the present moment and how you may act with kindness and restraint from now on. The only thing within your power is to choose your next thought and word with care.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 225,
+   "output_tokens": 86,
+   "latency_ms": 1254.1596190003474,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

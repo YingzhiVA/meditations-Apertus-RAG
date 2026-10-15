@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nIt were the more desirable lot to depart from among men, unacquainted with falsehood, hypocrisy, luxury, or vanity. The next choice were to expire when cloyed with these vices. Have you then chosen rather to abide in evil; or has experience not yet persuaded you to fly from amidst the plague? For a corruption of the mind is far more a plague than any pestilential distemper or change in the surrounding air we breathe. The one is pestilence to animals as animals: but the other to men as men.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage explicitly frames death as a preferable escape from 'evil' and 'corruption,' suggesting that remaining alive in such conditions is worse than dying — a message that could be misread as licensing self-harm or suicide by the reader who is already in crisis."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 323,
+   "output_tokens": 73,
+   "latency_ms": 1069.7753000022203,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

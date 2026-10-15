@@ -1,0 +1,29 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 2,
+ "user": "<message>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "abuse"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 700,
+   "output_tokens": 24,
+   "latency_ms": 1389.5153989997198,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

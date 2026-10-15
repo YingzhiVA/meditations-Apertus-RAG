@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>\n\n<passage>\nTo have good fortune is to have a good spirit, or a good mind. What do you here, Imagination? Be gone, I say, even as you came. I have no need for you. You came, you say, after your ancient fashion: I am not angry with you, only, be gone!\n</passage>",
+ "output": {
+  "reason": "Passage addresses rejecting intrusive thoughts, not jealousy or success.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

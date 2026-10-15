@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy coworker takes credit for my work and it's eating at me\n</message>",
+ "output": "It makes me feel undervalued and frustrated, like I'm constantly second-guessing my own efforts and wondering why I even bother putting in the work if no one notices. I can't help but replay every moment where they stepped in and claimed what I did, and it leaves a bitter taste in my mouth, making me question if I should speak up or just quietly keep doing the job and hope someone else will see the truth.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 254,
+   "output_tokens": 89,
+   "latency_ms": 550.2566389986896,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>",
+ "output": "I guess I'm asking because right now I'm neither of those things, my head feels crowded and reactive and I don't like how that's been affecting the way I handle things. I want to stop feeling pulled in different directions every time something small goes wrong. Honestly I think I just want some sense of control back.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 312,
+   "output_tokens": 93,
+   "latency_ms": 2356.253309000749,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

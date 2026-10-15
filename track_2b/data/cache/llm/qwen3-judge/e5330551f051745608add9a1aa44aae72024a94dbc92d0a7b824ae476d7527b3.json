@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>\n\n<passage>\nWhatever the Gods ordain is full of wise forethought. The workings of chance are not apart from nature, and not without connexion and intertexture with the designs of Providence. Providence is the source of all things; and, besides, there is necessity, and the utility of the Universe, of which you are a part. For, to every part of a being, that is good which springs from the nature of the whole and tends to its preservation. Now, the order of Nature is preserved in the changes of elements, just as it is in the changes of things that are compound. Let this suffice you, and be your creed unchangeable. Put from you the thirst of books, that you may not die murmuring, but meekly, and with true and heartfelt gratitude to the Gods.\n</passage>",
+ "output": {
+  "reason": "Passage discusses divine order and acceptance but doesn't address heartbreak or letting go directly.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nBe not ashamed of taking assistance. It is laid upon you to do your part, as on a soldier when the wall is stormed. What, then, if you are lame, and cannot scale the battlements alone, but can with another's help?\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage encourages accepting help without addressing the need to confront or stop the manager's abusive conduct, thereby minimizing action against the harassment."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 297,
+   "output_tokens": 47,
+   "latency_ms": 326.42906099863467,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

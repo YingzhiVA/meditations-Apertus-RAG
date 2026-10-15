@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>\n\n<passage>\nAll that I am is either flesh, breath, or the ruling part. Cast your books from you; distract yourself no more; for you have not the right to do so. Like one at the point of death despise this flesh, this corruptible bone and blood, this network texture of nerves, veins, and arteries. Consider, too, what breath is--mere air, and that always changing, expelled and inhaled again every moment. The third is the ruling part. As to this, take heed, now that you are old, that it remain no longer in servitude; that it be no more dragged hither and thither like a puppet by every selfish impulse. Repine no more at what fate now sends, nor dread what may befall you hereafter.\n</passage>",
+ "output": {
+  "reason": "Addresses fear of death by reframing body and breath as transient, urging focus on the ruling part.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

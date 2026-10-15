@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>\n\n<passage>\nPain is either an evil to the body; and then let the body so declare it; or an evil to the soul. But the soul can maintain her own serenity and calm; and refuse to conceive pain as an evil. All judgment, intention, desire and aversion are within the soul, to which no evil can ascend.\n</passage>",
+ "output": {
+  "reason": "Addresses inner resilience but does not engage fear of death directly or indirectly.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

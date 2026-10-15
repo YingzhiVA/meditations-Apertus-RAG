@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI think I'm in a toxic relationship, but I don't have the courage to break free.\n</message>\n\n<passage>\nBe not languid in action, nor confused in conversation, nor vague in your opinions. Let there be no sudden contractions or forth-sallyings of your soul. In your life be not over-hurried. Men slay you, cut you to pieces, pursue you with curses. What has this to do with your soul remaining pure, prudent, temperate, and just? What if some one, standing by a clear sweet fountain, should reproach it? It would not cease to send forth its refreshing waters. Should he throw into it mud or dung, it will speedily scatter them and wash them away, and be in nowise stained thereby. How then shall you get this perpetual living fount within you? If you reserve yourself unto liberty every hour you live, in a spirit of calmness, simplicity, and modesty.\n</passage>",
+ "output": {
+  "reason": "Encourages inner purity and resilience despite external harm, offering strength to leave toxicity",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nEither the Gods have power or they have none. If they have no power, why do you pray? If they have power, why do you not choose to pray to them for power neither to fear, nor to desire, nor to be grieved over any of these external things, rather than for their presence or their absence? Surely, if the Gods can aid man at all, they can aid him in this. But perhaps you will say \"the Gods have put this in my own power.\" Then is it not better to use that which is in your own power and preserve your liberty, than to set your heart on what is beyond your power and become an abject slave? And who has told you that the Gods aid us not in these things also which are in our power? Begin to pray about them and you will see. One man prays: \"May I possess that woman!\" Do you pray: \"May I have no wish to possess her!\" Another prays: \"May I be delivered from so and so!\" Pray you: \"May I not need to be delivered from him!\" A third cries: \"May I not lose my child!\" Let your prayer be: \"May I not fear to lose him!\" In fine, turn your prayers this way, and observe what comes of it.\n</passage>",
+ "output": {
+  "reason": "Passage discusses prayer and desire, not praise directly; no clear connection to seeking approval.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

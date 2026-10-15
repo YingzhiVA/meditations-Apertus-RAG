@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>",
+ "output": "Consider that the measure of your duty is not the weight you place upon yourself but the honesty of your effort. You cannot control every outcome for those you love, only the quality of what you give today. If you have acted with care and diligence, demand no more of yourself than nature requires. Judge yourself by your intentions and labor, not by an endless standard invented by your own anxious mind.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 309,
+   "output_tokens": 118,
+   "latency_ms": 2708.977235999555,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

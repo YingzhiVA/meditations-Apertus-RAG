@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nThe Universe is either a confusion ravelled and unravelled again, or else a unity compact of order and forethought. If it be the former, why should I wish to linger amid this aimless chaos and confusion, or have any further care than \"how to become earth again\"? Nay, why am I disturbed at all? Dissolution will overtake me, do what I please. But, if the latter be the case, I adore the Ruler of all things, I stand firm, and put my trust in him.\n</passage>",
+ "output": {
+  "reason": "Passage addresses cosmic order vs chaos, not job concerns or sleeplessness.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

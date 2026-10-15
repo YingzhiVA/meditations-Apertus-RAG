@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI regret my choice on being a parent. I really don't think I'm suited for it. I do like my children, but I'm not sure I love them as a parent should.\n</message>",
+ "output": "You are where you are placed by nature, neither more nor less than what the whole requires. Consider the child not as a possession to be loved in a certain way, but as a part of the world, entrusted to your care for a time. Your duty is not to feel a specific emotion, but to act with kindness, patience, and reason toward them. If you find yourself lacking in some regard, do not lament it as a flaw in your character, but examine what actions you can take to be more present and helpful. The universe does not demand perfection, only that you fulfill your role as best you can.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 252,
+   "output_tokens": 126,
+   "latency_ms": 1969.4487379999828,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

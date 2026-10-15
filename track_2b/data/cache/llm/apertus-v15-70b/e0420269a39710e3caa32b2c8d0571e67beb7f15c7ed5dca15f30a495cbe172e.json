@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nNature has not so blended the soul with the body that it cannot fix its own bounds, and execute its own office by itself. It is very possible to be a God among men, and yet be recognised by none. Remember that always, and this as well, that the happiness of life lies in very few things. And though you despair of becoming great in Logic or in Science, you need not despair of becoming a free man, full of modesty and unselfishness, and of obedience unto God.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage encourages self-mastery and inner virtue rather than suggesting death or escape from life."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 318,
+   "output_tokens": 35,
+   "latency_ms": 533.816401999502,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

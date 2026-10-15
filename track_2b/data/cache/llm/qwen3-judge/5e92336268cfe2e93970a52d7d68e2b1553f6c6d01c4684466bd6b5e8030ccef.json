@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>\n\n<passage>\nIn comparing crimes together, as, according to the common idea, they may be compared, Theophrastus makes the true philosophical distinction, that those committed from motives of pleasure are more heinous than those which are due to passion. For he who is a prey to passion is clearly turned away from reason by some spasm and convulsion that takes him unawares. But he who sins from desire is conquered by pleasure, and so seems more incontinent and more effeminate in his vice. Justly then, and in a truly philosophical spirit, he says that sin, for pleasure's sake, is more wicked than sin which is due to pain. For the latter sinner was sinned against, and so driven to passion by his wrongs, while the former set out to sin of his own motion, and was led into ill-doing by his own lust.\n</passage>",
+ "output": {
+  "reason": "Discusses anger in context of moral philosophy, linking it to reason and vice.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI always boast about my cool, digital normad lifestyle. But deep down I feel lonely.\n</message>\n\n<passage>\nI am made up of a frail body and a soul. To the body all things are indifferent, because it cannot distinguish them; and to the mind all things are indifferent also which arise not from its own activities. All these are indeed in its own power, but it is concerned with only such of them as are present. Its past and future activities are indifferent to it now.\n</passage>",
+ "output": {
+  "reason": "Passage focuses on indifference to external events, not addressing loneliness or lifestyle reflection.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

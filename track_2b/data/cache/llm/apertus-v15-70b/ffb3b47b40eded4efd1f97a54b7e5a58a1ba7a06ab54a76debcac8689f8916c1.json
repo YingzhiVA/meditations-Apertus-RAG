@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy PhD thesis is going no where and sometimes I think I just don't have what it takes and that I'm just not good enough.\n</message>",
+ "output": "You are not your work; it is but a tool you use. The mind that doubts its own worth is clouded by false impressions. Consider the nature of things: all things are in flux, and nothing stands still. Your worth is not measured by the progress of a single undertaking, but by your constancy in virtue and your effort to do right. Do not let the opinion of others or your own fleeting thoughts define you. Focus on what is within your control: your thoughts, your actions, your resolve.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 242,
+   "output_tokens": 106,
+   "latency_ms": 1831.4598719998685,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

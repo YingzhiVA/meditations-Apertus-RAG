@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nYou can suppress many of the superfluous troubles which beset you, for they lie wholly in your own opinion. By this you will give ample room and ease to your life. You may compass this end by comprehending the whole Universe in your judgment; by contemplating eternity; and by reflecting on the swift changes of individual things, thinking how short is the time from their birth to their dissolution, how immense the space of ages before that birth, how equally infinite the eternity which shall succeed that dissolution.\n</passage>",
+ "output": {
+  "reason": "The passage encourages reframing troubles through perspective on the vastness of time and the universe, without suggesting death is preferable or encouraging leaving life.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 649,
+   "output_tokens": 62,
+   "latency_ms": 1836.9310919997588,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

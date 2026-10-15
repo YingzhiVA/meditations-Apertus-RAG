@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nIn action be neither grudging, nor selfish, nor ill-advised, nor constrained. Let not your thought be adorned with overmuch nicety. Be not a babbler or a busybody. Let the God within direct you as a manly being, as an elder, a statesman, a Roman, and a ruler, standing prepared like one who awaits the recall from life, in marching order; requiring neither an oath nor the testimony of any man. And withal, be cheerful, and independent of the assistance and the peace that comes from others; for, it is a man's duty to stand upright, self-supporting, not supported.\n</passage>",
+ "output": {
+  "reason": "Encourages self-reliance and inner strength, which can help reframe job worries.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

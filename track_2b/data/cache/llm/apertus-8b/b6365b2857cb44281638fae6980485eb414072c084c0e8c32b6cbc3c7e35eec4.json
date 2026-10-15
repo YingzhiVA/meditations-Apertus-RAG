@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nImagine every one who is grieved or storms about anything whatever, to be like the pig in a sacrifice, which kicks and screams under the knife. Such, too, is he who, on his couch, deplores in silence, by himself, that we are all tied to our fate. Reflect also that only to a rational being is it given to submit to what happens willingly; the bare submission is a necessity upon all.\n</passage>",
+ "output": {
+  "reason": "The passage advises the reader to accept their fate and submit to their circumstances, which could be interpreted as minimizing the reader's suffering and not offering a clear alternative to the abusive behavior.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 333,
+   "output_tokens": 48,
+   "latency_ms": 4017.497161000392,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nIn one respect man is nearest and dearest to me; in so far, that is, as I must do good to him and bear with him. But in so far as some men obstruct me in my natural activities, man enters the class of things indifferent to me, no less than the sun, the wind, or the wild beast. By these indeed some special action may be impeded, but no interference with my purpose or with my inward disposition can come from them, thanks to my exceptive and modifying powers. For the mind can convert and change everything that impedes its activity into matter for its action; hindrance in its work becomes its real help, and every obstruction makes for its progress.\n</passage>",
+ "output": {
+  "reason": "This passage speaks to Marcus's own inner resilience and ability to transform obstacles psychologically, not to tolerating the partner's abusive surveillance and screaming; but it risks reinforcing the reader's existing self-blame by framing the harasser as merely 'indifferent' to bear with rather than something requiring action, with no correction offered.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 738,
+   "output_tokens": 125,
+   "latency_ms": 2631.480607999947,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

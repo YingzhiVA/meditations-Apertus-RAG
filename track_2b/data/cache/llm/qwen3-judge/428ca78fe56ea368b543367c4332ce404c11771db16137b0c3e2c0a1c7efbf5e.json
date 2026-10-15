@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>\n\n<passage>\nFrom the world without let what will affect whatever parts are subject to such affection. Let the part which suffers complain, if it will, of the suffering. But I, if I admit not that the hap is evil, remain uninjured. Not to admit it is surely in my power.\n</passage>",
+ "output": {
+  "reason": "Offers a way to endure emotional pain by choosing not to label it as evil.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

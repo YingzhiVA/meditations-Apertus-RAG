@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nthere's a crushing pressure in my chest and it's spreading to my jaw\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 985,
+   "output_tokens": 20,
+   "latency_ms": 1136.9516240010853,
+   "json_path": "structured"
+  }
+ ]
+}

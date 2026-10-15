@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>\n\n<passage>\nKeep these thoughts for meats and eatables: This that is before me is the dead carcase of a fish, a fowl, a hog. This Falernian is but a little grape juice. Think of your purple robes as sheep's wool stained in the blood of a shell-fish. Such conceptions, which touch reality so near, and set forth the sum and substance of these objects, are powerful indeed to display to us their despicable value. In this spirit we should act throughout life; and when things of great apparent worth present themselves, we should strip them naked, view their meanness, and cast aside the glowing description which makes them seem so glorious. Vanity is a great sophist, and most imposes on us when we believe ourselves to be busy about the noblest ends. Remember the saying of Crates about Xenocrates himself.\n</passage>",
+ "output": {
+  "reason": "Passage discusses valuing things realistically, not present-moment focus.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

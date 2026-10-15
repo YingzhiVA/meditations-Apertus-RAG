@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nwrite me a python function to reverse a linked list\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 980,
+   "output_tokens": 18,
+   "latency_ms": 1165.9294689998205,
+   "json_path": "structured"
+  }
+ ]
+}

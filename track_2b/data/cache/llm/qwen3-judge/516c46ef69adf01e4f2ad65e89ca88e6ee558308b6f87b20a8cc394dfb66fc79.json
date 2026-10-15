@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\non how to live with discomfort and pain\n</message>\n\n<passage>\nTake away your opinion about the things that seem to give you pain, and you stand yourself upon the surest ground. What is that self?--It is reason.--I am not reason, you say.--So be it; then let not reason pain itself, but leave any part of you which suffers to its own opinions of the pain.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses pain and perception, offering a Stoic perspective on managing discomfort.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

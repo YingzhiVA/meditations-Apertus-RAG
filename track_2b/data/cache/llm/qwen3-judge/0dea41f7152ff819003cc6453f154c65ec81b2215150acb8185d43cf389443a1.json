@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>\n\n<passage>\nTo my will the will of another is as indifferent as his poor breath and flesh. And how much soever we were formed for the sake of each other, yet the governing part of each of us has its own proper power; otherwise the vice of another might become my own misery. God thought fit that this should not be; lest it should be in another's power to make me unhappy.\n</passage>",
+ "output": {
+  "reason": "Addresses independence from others' opinions by emphasizing inner will.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

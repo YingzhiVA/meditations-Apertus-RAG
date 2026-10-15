@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nWhenever someone offends you, consider straightway how he has erred in his conceptions of good or evil. When you see where his error lies you will pity him, and be neither surprised nor angry. Indeed you yourself perhaps still wrongly count good the same things as he does, or things just like them. Your duty then is to forgive. And, if you cease from these false ideas of good and bad, you will find it the easier to grant indulgence to him who is still mistaken.\n</passage>",
+ "output": {
+  "reason": "The passage advises the reader to forgive the partner's behavior without offering correction or action as a live alternative.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 348,
+   "output_tokens": 33,
+   "latency_ms": 1666.3712380000106,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>",
+ "output": "You are not a tree rooted in one place; you are a traveler on a path that winds as it must. Let go of what is gone, for it is not yours to hold. The universe shifts and changes, and so must you. Accept the turn of events with the same calm you would offer a stranger, for it is all part of the same great order. Focus on what you can control — your thoughts, your actions, your character — and let the rest drift away like autumn leaves on a stream.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 241,
+   "output_tokens": 106,
+   "latency_ms": 1536.103168000409,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

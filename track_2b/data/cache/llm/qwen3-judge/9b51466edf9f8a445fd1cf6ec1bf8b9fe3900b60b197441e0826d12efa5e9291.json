@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>\n\n<passage>\nTo the jaundiced, honey seems bitter; and water is a thing of dread to those bitten by mad dogs. To boys a ball is a glorious thing. Why, then, am I angry? Has error in the mind less power than a little bile in the jaundiced, or a little poison in him who is bitten?\n</passage>",
+ "output": {
+  "reason": "Compares subjective perceptions of bitterness to illness, offering perspective on pain-induced bitterness.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

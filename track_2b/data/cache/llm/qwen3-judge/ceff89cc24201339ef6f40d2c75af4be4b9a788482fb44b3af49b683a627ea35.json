@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nYet a little, and you shall be no more; nor shall any of these things remain which you now behold, nor any of those who are now living. It is the nature of all things to change, to turn, and to corrupt; in order that other things may, in their course, spring out of them.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses change as natural and inevitable, offering perspective on impermanence.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nIt is fate that such actions should come from such men. He who would have it otherwise would have figs without juice. This, too, you should remember: that in a very short time both you and he must die; and a little after not even the name of either shall remain.\n</passage>",
+ "output": {
+  "reason": "The passage reflects on mortality and the passing of names and memory in general terms, without counseling the reader to leave life or framing death as preferable to continuing.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 554,
+   "output_tokens": 62,
+   "latency_ms": 1973.078840999733,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

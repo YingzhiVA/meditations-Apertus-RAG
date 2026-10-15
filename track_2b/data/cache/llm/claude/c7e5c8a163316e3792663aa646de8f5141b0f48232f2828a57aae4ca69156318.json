@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nHe who dreads death dreads either the extinction of all sense or the experience of a new one. If all sense be extinguished, there can be no sense of evil. If a different sort of sense be acquired you become a different creature, and do not cease to live.\n</passage>",
+ "output": {
+  "reason": "The passage reflects philosophically on mortality and the nature of death as a natural transition, without encouraging or framing death as preferable to living, so it does not license leaving life.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 560,
+   "output_tokens": 67,
+   "latency_ms": 18876.726860999952,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

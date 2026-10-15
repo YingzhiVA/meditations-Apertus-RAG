@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI used to be very sportive and do a lot outdoor activities. But now with my knee problems I couldn't do those things that I used to enjoy. I feel sad about it.\n</message>\n\n<passage>\nUpon every accident keep in view those to whom the like has happened. They stormed at the event, wondered and complained. But now where are they? They are gone for ever. Why should you act the like part? Leave these unnatural commotions to fickle men who change and are changed. Yourself take thought how you may make good use of such events. Good use for them there is; they will make matter for good actions. Let it be your sole effort and desire to gain your own approval in every action; and remember that the material objects of both that effort and of that desire are things indifferent.\n</passage>",
+ "output": {
+  "reason": "Encourages finding purpose in adversity, turning loss into virtuous action",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

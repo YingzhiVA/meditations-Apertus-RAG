@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nDwell not on what you lack so much as on what you have already. Select the best of what you have, and consider how passionately you would have longed for it had it not been yours. Yet be watchful, lest by this joy in what you have you accustom yourself to value it too highly; so that, if it should fail, you would be distressed.\n</passage>",
+ "output": {
+  "reason": "Focuses on gratitude for possessions, not coping with change.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

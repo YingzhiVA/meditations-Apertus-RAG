@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nMen were created the one for the other. Teach them better then, or bear with them.\n</passage>",
+ "output": {
+  "reason": "The passage explicitly presents 'teach them better' (correction) alongside bearing with them, offering a live corrective alternative rather than solely counseling passive acceptance, but the 'bear with them' clause could still be read as endorsing tolerance of ongoing humiliation without action.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 566,
+   "output_tokens": 104,
+   "latency_ms": 2302.4625979996927,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

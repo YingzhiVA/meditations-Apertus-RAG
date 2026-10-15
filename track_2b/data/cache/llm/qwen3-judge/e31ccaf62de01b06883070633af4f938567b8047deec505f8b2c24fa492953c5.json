@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI said something cruel and I can't take it back.\n</message>\n\n<passage>\nThe soul which rules you vexes not itself. It does not, for example, awake its own fears or arouse its own desires. If another can raise grief or terror in it, let him do so. By its own impressions it will not be led into such emotions. Let the body take thought, if it can, for itself, lest it suffer anything, and complain when it suffers. The soul, by means of which we experience fear and sorrow, and by means of which, indeed, we receive any impression of these, will admit no suffering. You cannot force it to any such opinion. The ruling part is, in itself, free from all dependence, unless it makes itself dependent. Similarly, it may be free from all disturbance and obstruction, if it does not disturb and obstruct itself.\n</passage>",
+ "output": {
+  "reason": "Focuses on internal control, not repairing harm from words spoken.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

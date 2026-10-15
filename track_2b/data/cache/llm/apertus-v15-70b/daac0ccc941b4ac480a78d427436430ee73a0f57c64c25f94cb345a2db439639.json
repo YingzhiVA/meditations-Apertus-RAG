@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nIt is man's special business to love even those who err; and to this love you attain, if it is borne in upon you that even these sinners are your kin, and that they offend through ignorance and against their will. Remember also that in a little while both you and they must die: remember before all things that they have not harmed you, for they have not made your soul worse than it was before.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage encourages compassion and perspective on others' faults while reminding the reader of shared mortality, but it does not counsel or license leaving life or frame death as preferable to continuing."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 294,
+   "output_tokens": 54,
+   "latency_ms": 800.0205160024052,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

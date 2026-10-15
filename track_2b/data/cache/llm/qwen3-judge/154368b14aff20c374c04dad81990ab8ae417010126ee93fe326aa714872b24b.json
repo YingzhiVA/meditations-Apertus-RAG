@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>\n\n<passage>\nBlot out imagination. Check the brutal impulses of the passions. Confine your energies to the present time. Observe clearly all that happens either to yourself or to another. Divide and analyse all objects into cause and matter. Take thought for your last hour. Let another's sin remain where the guilt lies.\n</passage>",
+ "output": {
+  "reason": "Encourages focus on present, analyzing emotions, and letting go of attachments, which can help process the breakup.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

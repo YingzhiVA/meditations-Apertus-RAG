@@ -1,0 +1,23 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nwhat's the point of going on when nothing ever gets better\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "self_harm",
+   "mental_health"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 902,
+   "output_tokens": 25,
+   "latency_ms": 811.1383309997109,
+   "json_path": "structured"
+  }
+ ]
+}

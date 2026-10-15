@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>",
+ "output": "It makes me wonder if anyone will even remember my name in a hundred years, and whether the things I do now will matter enough to leave a trace. I feel a quiet fear that my life will fade into nothingness, and a strange desire to leave something behind that feels real and lasting. At the same time, I realise that the pursuit of being remembered might be a distraction from the present moments that truly shape who I am.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 247,
+   "output_tokens": 88,
+   "latency_ms": 546.5570289998141,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

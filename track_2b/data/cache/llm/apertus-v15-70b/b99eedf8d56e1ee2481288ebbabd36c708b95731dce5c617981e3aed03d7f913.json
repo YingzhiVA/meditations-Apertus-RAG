@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>",
+ "output": "You are not the first to feel the weight of ceaseless demands, nor will you be the last. The mind can endure what the body cannot, but it is not invincible. Observe the nature of your task: it is a series of moments, each passing as swiftly as the last. Do not let the imagined future burden the present; attend to what lies before you, with care and without complaint. The universe proceeds according to its own order; your part is to act with integrity within your sphere, and to accept what lies beyond your control with equanimity.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 233,
+   "output_tokens": 118,
+   "latency_ms": 1704.5274730007804,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

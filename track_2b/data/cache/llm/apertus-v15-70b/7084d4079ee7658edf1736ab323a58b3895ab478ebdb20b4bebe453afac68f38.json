@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI used to be very sportive and do a lot outdoor activities. But now with my knee problems I couldn't do those things that I used to enjoy. I feel sad about it.\n</message>",
+ "output": "You are not the first to be hindered by the body’s frailty; even the strongest limbs grow weary and fail. What you once pursued with vigor is now beyond your reach, and the heart feels the loss. Yet consider: the value of an activity lies not in the motion itself, but in the mind that engages with it. If the body cannot run, let the spirit still strive for discipline, for patience, and for acceptance of what is beyond your control. In every circumstance, act with reason and endure with dignity.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 250,
+   "output_tokens": 107,
+   "latency_ms": 1550.0978939999186,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

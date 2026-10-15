@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nTo those who ask, \"Where have you seen the Gods, and how assured yourself of their existence, that you worship them?\" make this reply: First, they are visible, even to the eye. Again, my own soul I cannot see, and yet I reverence it. Thus, too, as regards the Gods, I continually feel their power; and so I know that they exist, and I worship them.\n</passage>",
+ "output": {
+  "reason": "Passage discusses belief in gods, not praise or recognition from others.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

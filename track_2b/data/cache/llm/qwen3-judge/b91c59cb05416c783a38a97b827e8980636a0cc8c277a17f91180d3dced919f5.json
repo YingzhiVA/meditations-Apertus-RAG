@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>\n\n<passage>\nContinually reflect that all that is happening now happened exactly in the same way before; and reflect that the like will happen again. Place before your eyes all that you have ever known from your own experience or from ancient history; dramas and scenes, all similar; such as the whole court of Hadrianus, the whole court of Antoninus, the whole court of Philip, of Alexander, of Croesus. All these were similar, only the actors different.\n</passage>",
+ "output": {
+  "reason": "Passage discusses recurrence of events, not present-moment focus.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

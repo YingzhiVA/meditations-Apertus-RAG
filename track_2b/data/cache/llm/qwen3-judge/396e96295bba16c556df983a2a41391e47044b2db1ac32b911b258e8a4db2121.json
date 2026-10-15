@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>\n\n<passage>\nIt is Nature's work to transfer what is now here into another place, to change things, to carry them hence, and set them elsewhere. All is change, yet is there no need to fear innovation, for all obey the laws of custom, and in equal measure all things are apportioned.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses change and reassures through natural order and law.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

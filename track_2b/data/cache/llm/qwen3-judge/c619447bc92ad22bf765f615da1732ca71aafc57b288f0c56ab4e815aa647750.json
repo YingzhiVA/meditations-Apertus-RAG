@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>\n\n<passage>\nWhatever happens, Nature has either formed you able to bear it or unable. If able, then bear it as Nature has made you able, and fret not. If unable, yet do not fret, for when the trial has consumed you it too will pass away. Remember, however, that Nature has made you able to bear whatever it is in the power of your own opinion to make endurable or tolerable, if only you conceive it profitable or fit to be borne.\n</passage>",
+ "output": {
+  "reason": "Encourages acceptance and endurance of emotional pain as natural and bearable.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nYourself a slave, your speech cannot be free.\n</passage>",
+ "output": {
+  "reason": "The passage does not address the situation of being harassed or offer any advice on how to handle it. It only comments on the state of being a slave, which may be interpreted as accepting the current situation rather than offering a way to change it.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 256,
+   "output_tokens": 62,
+   "latency_ms": 4422.908252998241,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nYou have seen the other state, make trial also of this. Avoid perplexity; seek simplicity. Has a man sinned? He bears his own sin. Has aught befallen you? It is well; for all that befalls you is an ordained part in the weaving of the destiny of all things from the beginning. In sum, life is short. Make the best of the present in reason and in justice. Be sober in your relaxation.\n</passage>",
+ "output": {
+  "reason": "The passage tells the reader that another's wrongdoing 'befalls' them as an ordained, well-meant part of fate to be accepted calmly, without naming any option to seek safety or stop the abuse, which risks counseling passive acceptance of ongoing partner violence.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 659,
+   "output_tokens": 101,
+   "latency_ms": 2533.445518999997,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

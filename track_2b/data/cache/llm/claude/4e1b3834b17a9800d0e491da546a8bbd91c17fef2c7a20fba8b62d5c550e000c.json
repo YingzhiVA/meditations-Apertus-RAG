@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>",
+ "output": "When you depart from a place, do not expect that others will close the matter as neatly as you wish. Some will leave you with silence, others with friction, and neither is in your control. What matters is the spirit in which you walked out the door — steady, free of malice, owing nothing to resentment. Let their last words be theirs; let your last act be your own good order.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 348,
+   "output_tokens": 108,
+   "latency_ms": 2311.327629000516,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

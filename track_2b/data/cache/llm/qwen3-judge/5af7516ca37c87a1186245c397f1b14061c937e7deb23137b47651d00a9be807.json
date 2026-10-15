@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy girlfriend broke up with me. Although I know it's the best outcome for both of us, I still can't let it go.\n</message>\n\n<passage>\nThere is either a fatal necessity, an unalterable order, or a placable Providence, or a blind confusion without a governor. If there be an unalterable necessity, why strive against it? If there be a Providence admitting of propitiation, make yourself worthy of the divine aid. If there be an ungoverned confusion, be comforted; seeing that in this tempest you have within yourself a guiding intelligence. And, if the wave should carry you away, let it carry away the carcase and the animal life, for the intellectual part of you it will not carry away.\n</passage>",
+ "output": {
+  "reason": "Offers perspective on accepting fate and finding inner strength during emotional turmoil.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

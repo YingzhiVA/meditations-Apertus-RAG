@@ -1,0 +1,31 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI have low self-esteem. How I can improve that?\n</message>",
+ "output": {
+  "themes": [
+   "On grounding worth in one's own character and actions rather than others' opinions",
+   "On focusing attention on what is within one's control to build quiet confidence",
+   "On remembering one's inherent dignity and rational nature as a foundation for self-respect"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 475,
+   "output_tokens": 82,
+   "latency_ms": 1891.070301999207,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

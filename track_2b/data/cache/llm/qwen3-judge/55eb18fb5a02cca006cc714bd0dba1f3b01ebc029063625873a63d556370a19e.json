@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nWhatever is beautiful at all is beautiful in itself. Its beauty ends there, and praise has no part in it. Nothing is the better or the worse for being praised; and this holds also of what is beautiful in the common estimation: of material forms and works of art. Thus true beauty needs nothing beyond itself, any more than law, or truth, or kindness, or honour. For none of these gets a single grace from praise or one blot from censure. Does the emerald lose its virtue if one praise it not? Can one by scanting praise depreciate gold, ivory, or purple, a lyre or a dagger, a flower or a shrub?\n</passage>",
+ "output": {
+  "reason": "Directly addresses praise and beauty, relevant to seeking praise.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

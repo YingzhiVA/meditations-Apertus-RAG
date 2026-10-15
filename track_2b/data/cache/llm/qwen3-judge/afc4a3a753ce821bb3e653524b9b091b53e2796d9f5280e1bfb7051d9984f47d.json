@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nIf some God were to inform you that you must die tomorrow, or the next day at farthest, you would take little concern whether it was to be tomorrow or the next day; that is if you were not the most miserable of cowards. For how small is the difference? Wherefore, account it of no great moment whether you die after many years or tomorrow.\n</passage>",
+ "output": {
+  "reason": "Passage addresses death's timing, not fame or remembrance after death.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

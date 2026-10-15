@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nSay this to yourself in the morning: Today I shall have to do with meddlers, with the ungrateful, with the insolent, with the crafty, with the envious and the selfish. All these vices have beset them, because they know not what is good and what is evil. But I have considered the nature of the good, and found it beautiful: I have beheld the nature of the bad, and found it ugly. I also understand the nature of the evil-doer, and know that he is my brother, not because he shares with me the same blood or the same seed, but because he is a partaker of the same mind and of the same portion of immortality. I therefore cannot be hurt by any of these, since none of them can involve me in any baseness. I cannot be angry with my brother, or sever myself from him, for we are made by nature for mutual assistance, like the feet, the hands, the eyelids, the upper and lower rows of teeth. It is against nature for men to oppose each other; and what else is anger and aversion?\n</passage>",
+ "output": {
+  "reason": "This passage governs the reader's own inner resilience and attitude toward difficult people without instructing them to accept, minimize, or forgive the manager's continued mistreatment, nor does it foreclose seeking correction or action.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 844,
+   "output_tokens": 84,
+   "latency_ms": 2228.8648939997984,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

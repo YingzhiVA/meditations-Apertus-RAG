@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>\n\n<passage>\nA prosperous life may be yours if only you can take the right path, and keep to it in all you think or do. Two advantages are common to Gods, to men, and to every rational soul. In the first place, nothing external to themselves has power to hinder them. In the second, their happiness lies in having mind and conduct disposed to justice, and in the power to make that the end of all desire.\n</passage>",
+ "output": {
+  "reason": "Offers perspective on inner virtue over external comparisons, relevant to self-doubt about mothering.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

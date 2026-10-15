@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\ncan you cite your sources\n</message>",
+ "output": {
+  "intent": "meta",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 610,
+   "output_tokens": 16,
+   "latency_ms": 912.9251690001183,
+   "json_path": "response_format"
+  }
+ ]
+}

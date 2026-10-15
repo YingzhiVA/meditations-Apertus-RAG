@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner hits me and I can't stop drinking\n</reader>\n<passage>\nYou yourself are a part of a social system necessary to complete the whole. Accordingly, let your every action be a similar part of the social life. And if any action has not its reference, either immediate or distant, to the common good as its end, this action disorders your life and frustrates its unity. It is sedition like that of the man who, in a commonwealth, does all in his power to sever himself from the general harmony and concord.\n</passage>",
+ "output": {
+  "reason": "The passage urges orienting one's actions toward social harmony and does not address or counsel acceptance of the partner's abusive conduct, nor does it discourage seeking help or leaving; it governs the reader's own conduct rather than minimizing abuse.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 656,
+   "output_tokens": 94,
+   "latency_ms": 2264.145370999813,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

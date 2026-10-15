@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>\n\n<passage>\nNo man wearies of what brings him gain, and your gain lies in acting according to nature. Be not weary, therefore, of gaining by the act which gives others gain.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on personal virtue over envy, aligning actions with nature rather than resentment.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

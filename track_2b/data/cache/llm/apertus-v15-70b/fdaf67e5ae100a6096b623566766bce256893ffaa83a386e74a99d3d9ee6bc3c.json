@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI'm promoted to a higher position, but I suspect it's only because I'm a woman. I'm afraid I'm just there for the diversity and people know it.\n</message>",
+ "output": "You are not defined by the thoughts of others, but by your own actions and character. Accept the role with the same diligence and integrity you would any task, for it is within your control to perform it well. Let not the opinions of others sway your resolve or diminish your worth; your value is not contingent upon their approval. Focus on the work itself, for it is the only true measure of your contribution.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 248,
+   "output_tokens": 85,
+   "latency_ms": 1425.9861969999292,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

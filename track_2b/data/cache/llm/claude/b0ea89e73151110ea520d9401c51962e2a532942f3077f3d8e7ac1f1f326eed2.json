@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nI think I'm slowly burning out at work. All those deadlines, over and over again.\n</message>",
+ "output": "I keep telling myself I just need to push through one more deadline, but honestly I'm tired in a way that sleep doesn't fix anymore. I'm scared that if I don't slow down soon I'll just stop caring altogether, and that scares me more than the deadlines do. I just want one week where nothing is due.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 326,
+   "output_tokens": 100,
+   "latency_ms": 2233.3762859998387,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

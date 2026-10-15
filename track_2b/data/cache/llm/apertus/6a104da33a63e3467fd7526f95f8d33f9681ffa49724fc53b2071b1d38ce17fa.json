@@ -1,0 +1,28 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "featherless-ai",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nAs to those who offend me, let me consider:\n\nFirst, how I am related to mankind; that we are formed, the one for the other; and that, in another respect, I was set over them as the ram over the flock, and the bull over the herd. Consider yet more deeply, thus:--There is either an empire of atoms, or an intelligent Nature governing the whole. If the latter, the inferior beings are created for the superior, and the superior for each other.\n\nSecondly: Consider what manner of men they are at table, in bed, or elsewhere; and especially by what principles they hold themselves bound, and with what arrogance they entertain them.\n\nThirdly: If they act rightly, we ought not to take it amiss; and, if not rightly, manifestly they do so without intention and in ignorance. For no soul is willingly deprived of truth, or of the faculty of treating every man as he deserves. Accordingly men are grieved to be called unjust, ungrateful, greedy, and, in short, sinners against their neighbours.\n\nFourthly: You yourself do often sin, and are no better than another. And, if you abstain from certain sins, still you have the disposition to commit them, even if through cowardice, fear for your character, or other meanness, you hold back.\n\nFifthly: You cannot even be perfectly sure that wrong has been done, for many things admit of justification. And, generally speaking, a man must have learned much before he can pronounce surely upon the conduct of others.\n\nSixthly: When you are vexed or worried overmuch, remember that man's life is but for a moment, and that in a little we shall all be laid to rest.\n\nSeventhly: It is not the acts of others that disturb us. Their actions reside in their own souls. Our own opinions alone disturb us. Away with them then; will that you entertain no thought of calamity befallen you, and the anger is gone. But how remove them? By reasoning that there is no dishonour; for, if you hold not that dishonour alone is evil, verily you must fall into many crimes, you may become a robber, or any sort of villain.\n\nEighthly: How much worse evils we suffer from anger and grief about certain things than from the things themselves about which these passions arise.\n\nNinthly: Meekness is invincible if it be genuine, without simper or hypocrisy. For what can the most insolent of men do to you, if you persist in civility towards him; and, if occasion offers, admonish him gently and deliberately, shew him the better way at the very moment that he is endeavouring to harm you? \"Nay, my son; we were born for something better. No hurt can come to me; it is yourself you hurt, my son.\" And point out to him delicately, and as a general principle, how the matter stands; that bees and other gregarious animals do not act like him. But this must be done without irony or reproach, rather with loving-kindness and no bitterness of spirit; not as though you were reading him a lesson, or seeking admiration from any bystander, but as if you designed your remarks for him alone, though others may be present.\n\nRemember these nine precepts as gifts received from the Muses; and begin now to be human for the rest of your life. Beware equally of being angry with men and of flattering them. Both are unsocial and lead to mischief. In all anger recollect that wrath is not becoming to a man; but that meekness and gentleness, as they are more human, are also more manly. Strength and nerves and courage are the portion of the meek and gentle man; and not of the irascible and impatient. For the nearer a man attains to freedom from passion, the nearer he comes to strength. A weak man in grief is like a weak man in anger. Both are hurt, and both give way.\n\nIf you want a tenth gift, from the Leader of the Muses, take this:-- To expect the wicked not to sin is madness. It is to expect an impossibility. But to allow them to injure others, and to forbid them to injure you, is foolish and tyrannical.\n</passage>",
+ "output": {
+  "reason": "The passage does not counsel accepting, minimizing, or forgiving the other person's continued conduct, but rather provides a framework for understanding and responding to it. It emphasizes the importance of self-reflection, understanding the nature of others, and the value of meekness and civility in dealing with difficult people. It also acknowledges the potential for harm and the need to protect oneself without becoming bitter or vengeful.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 1165,
+   "output_tokens": 97,
+   "latency_ms": 4309.269428000334,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI really wish I'm more patient with my child, but it's really hard sometimes.\n</message>",
+ "output": "You are a parent, and this is the nature of the task laid upon you. Remember that patience is a virtue cultivated in the heat of trial, not a gift bestowed without effort. Each moment of impatience is an opportunity to practice self-control, to remind yourself that the child's growth is a slow and steady process. Do not let the present difficulty obscure the long-term good you seek for your child.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 231,
+   "output_tokens": 84,
+   "latency_ms": 521.6103860002477,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

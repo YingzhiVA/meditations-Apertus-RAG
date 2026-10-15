@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nDoes Marcus say anything about wanting praise?\n</message>\n\n<passage>\nAs soon as you awake ask yourself: Will it be of consequence to you if what is just and good be done by some other man? It will not. Have you forgotten what manner of men in bed and at table are those who make such display in praise and blame of others; what they do, what they shun and what they pursue; how they steal and how they rob, not with hands and feet but with their most precious part, whereby, if a man will, he may gain faith, modesty, truth, law, a good directing spirit?\n</passage>",
+ "output": {
+  "reason": "Passage addresses praise and those who give it, relevant to query about Marcus on praise.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

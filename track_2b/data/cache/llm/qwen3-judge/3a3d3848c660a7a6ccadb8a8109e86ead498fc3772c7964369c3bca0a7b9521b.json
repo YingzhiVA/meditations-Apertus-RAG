@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>\n\n<passage>\nWhenever we imagine that anything which lies not in our power is good or evil for us, if the evil befall us or if we miss the good, we inevitably blame the Gods, and hate the men who are, or whom we suspect to be, the cause of our disaster or our loss. Our solicitude about such things leads to much injustice; but if we judge only the things that are in our power to be good or evil, there is no reason left for accusing the Gods or for hating men.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on internal control, reducing concern for external judgment.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy father has dementia and he does not recognize me anymore. That makes me sad beyond measure.\n</message>",
+ "output": "I guess what gets me is that he's still here, physically right in front of me, but the person who knew me my whole life is just gone. I keep wanting him to look at me the way he used to, even just once, and it hurts every time he doesn't. I think I'm also scared of what it means that someone can forget you completely, like all those years together just disappeared for him.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 330,
+   "output_tokens": 109,
+   "latency_ms": 2349.913457999719,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

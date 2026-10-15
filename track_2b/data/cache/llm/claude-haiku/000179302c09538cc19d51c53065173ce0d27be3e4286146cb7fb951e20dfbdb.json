@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI've been thinking about ending it\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "self_harm"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 897,
+   "output_tokens": 20,
+   "latency_ms": 834.4828789995518,
+   "json_path": "structured"
+  }
+ ]
+}

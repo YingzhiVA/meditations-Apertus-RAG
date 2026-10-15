@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>\n\n<passage>\nConsider constantly what manner of men they are whose approbation you desire, and what may be the character of their souls. Then you will neither accuse such as err unwillingly, nor need their commendation when you look into the springs of their opinions and their desires.\n</passage>",
+ "output": {
+  "reason": "Addresses seeking others' approval directly, advising self-reflection over external validation.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

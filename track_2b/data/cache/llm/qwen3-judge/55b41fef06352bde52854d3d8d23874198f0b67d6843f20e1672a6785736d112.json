@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>\n\n<passage>\nAll that happens, happens right: you will find it so if you observe narrowly. I mean not only according to a natural order, but according to our idea of justice, and, as it were, by the action of one who distributes according to merit. Go on then observing this as you have begun, and whatever you do, let your aim be goodness, goodness as it is rightly understood. Hold to this in every action.\n</passage>",
+ "output": {
+  "reason": "Encourages acceptance and moral focus, which may ease fear of failure.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

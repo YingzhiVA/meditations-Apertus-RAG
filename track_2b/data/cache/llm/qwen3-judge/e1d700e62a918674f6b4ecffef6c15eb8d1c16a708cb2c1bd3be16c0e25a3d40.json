@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nRemember always what the nature of the Universe is, what your own nature is, and how these are related--the one to the other. Remember what part your qualities are of the qualities of the whole, and that no man can prevent you from speaking and acting always in accordance with that nature of which you are a part.\n</passage>",
+ "output": {
+  "reason": "Encourages aligning with nature and purpose, may offer perspective on job concerns.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

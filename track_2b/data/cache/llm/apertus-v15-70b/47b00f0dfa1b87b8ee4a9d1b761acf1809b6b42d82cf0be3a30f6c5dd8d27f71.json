@@ -1,0 +1,31 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with change?\n</message>",
+ "output": {
+  "themes": [
+   "On impermanence: all things pass, so focus on what endures within yourself.",
+   "On perspective: view change as a natural part of the whole, not a personal defeat.",
+   "On agency: adapt your actions to align with nature, not resist the inevitable flow."
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 204,
+   "output_tokens": 70,
+   "latency_ms": 1025.1846369992563,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nhow does this work\n</message>",
+ "output": {
+  "intent": "meta",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 609,
+   "output_tokens": 16,
+   "latency_ms": 942.7738089998456,
+   "json_path": "response_format"
+  }
+ ]
+}

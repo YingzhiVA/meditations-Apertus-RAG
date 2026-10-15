@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b-t08",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.8,
+  "top_p": 0.9
+ },
+ "repeat": 0,
+ "user": "<message>\nI got dizzy standing up too fast and it scared me\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b-t08",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 692,
+   "output_tokens": 17,
+   "latency_ms": 2362.6584020003065,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

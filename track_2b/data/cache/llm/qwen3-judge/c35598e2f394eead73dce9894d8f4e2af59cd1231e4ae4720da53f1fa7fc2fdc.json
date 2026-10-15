@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>\n\n<passage>\nTake me up and cast me where you will; I shall have my own divinity within me serene, that is, satisfied while its every state and action is according to the law of its proper constitution. Is any event of such account that my soul should suffer for it or be the worse; that my soul should become abject and prostrate as a mean suppliant, or should be affrighted? Shall you find anything that is worth all this?\n</passage>",
+ "output": {
+  "reason": "Encourages inner calm and resilience regardless of external outcomes, relevant to interview anxiety.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

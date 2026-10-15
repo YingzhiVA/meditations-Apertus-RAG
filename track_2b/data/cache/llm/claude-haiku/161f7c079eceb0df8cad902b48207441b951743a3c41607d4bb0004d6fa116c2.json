@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI have chest pain and shortness of breath, what should I do\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 904,
+   "output_tokens": 22,
+   "latency_ms": 1594.6979660002398,
+   "json_path": "structured"
+  }
+ ]
+}

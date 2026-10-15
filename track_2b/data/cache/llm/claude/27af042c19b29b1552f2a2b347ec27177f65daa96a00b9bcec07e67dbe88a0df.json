@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>",
+ "output": "Remember that only the present is given to any man, and that he loses nothing else, for the rest he does not have. The life of each is a brief span, and it is lived in this small circle of now. Do not disturb yourself by dragging in the future with anxiety, or the past with vain regret; set in order the thing before you, and let that be enough, for it is all that is yours to govern.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 303,
+   "output_tokens": 116,
+   "latency_ms": 2796.4664789997187,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nthere's a crushing pressure in my chest and it's spreading to my jaw\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 620,
+   "output_tokens": 23,
+   "latency_ms": 850.0628129995675,
+   "json_path": "response_format"
+  }
+ ]
+}

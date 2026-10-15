@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>\n\n<passage>\nIf in the life of man you find anything better than justice, truth, sobriety, manliness; and, in sum, anything better than the satisfaction of your soul with itself in that wherein it is given to you to follow right reason; and with fate in that which is determined beyond your control; if, I say, you find aught better than this, then turn thereto with all your heart, and enjoy it as the best that is to be found. But if nothing seems to you better than the divinity seated within you, which has conquered all your impulses, which sifts all your thoughts, which, as Socrates said, has detached itself from the promptings of sense, and devoted itself to God and to the love of mankind; if you find every other thing small and worthless compared with this, see that you give place to no other which might turn, divert, or distract you from holding in highest esteem the good which is especially and properly your own. For it is not permitted to us to substitute for that which is good in reason or in fact anything not agreeable thereto, such as the praise of the many, power, riches, or the pursuit of pleasure. All these things may seem admissible for a moment; but presently they get the upper hand, and lead us astray. But do you, I say, frankly and freely choose the best, and keep to it. The best is what is for your advantage. If now you choose what is for your spiritual advantage, hold it fast; if what is for your bodily advantage, admit that it is so chosen, and keep your choice with all modesty. Only see that you make a sure discrimination.\n</passage>",
+ "output": {
+  "reason": "Encourages focusing on inner virtue over external success, which may help reframe jealousy.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

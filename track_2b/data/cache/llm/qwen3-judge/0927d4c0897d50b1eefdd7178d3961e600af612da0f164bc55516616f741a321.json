@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>\n\n<passage>\nWhomsoever you meet, say straightway to yourself:--What are this man's principles of good and evil? For if he holds this or that doctrine concerning pleasure and pain, and the causes thereof, concerning glory and infamy, death and life, it will seem to me neither strange nor wondrous that this or that should be his conduct. I shall bear in mind that he has no choice but to act so.\n</passage>",
+ "output": {
+  "reason": "Encourages understanding others' views on death, indirectly addressing fear through perspective",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

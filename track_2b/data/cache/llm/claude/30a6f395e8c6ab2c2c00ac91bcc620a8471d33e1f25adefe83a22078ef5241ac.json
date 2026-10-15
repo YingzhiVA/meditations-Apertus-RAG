@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nThe counsels of Maximus taught me to command myself, to judge clearly, to be of good courage in sickness and other misfortunes, to be moderate, gentle, yet serious in disposition, and to accomplish my appointed task without repining. All men believed that he spoke as he thought; and whatever he did, they knew it was done with good intent. I never found him surprised or astonished at anything. He was never in a hurry, never shrank from his purpose, was never at a loss or dejected. He was no facile smiler, but neither was he passionate or suspicious. He was ready to do good, to forgive, and to speak the truth, and gave the impression of unperverted rectitude rather than of a reformed character. No man could ever think himself despised by Maximus, and no one ever ventured to think himself his superior. He had also a good gift of humour.\n</passage>",
+ "output": {
+  "reason": "This passage describes personal virtues of self-command, clarity, and good character in another man (Maximus) and governs only the reader's own inner conduct, offering no counsel to accept or minimize the partner's abusive behavior toward the reader.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 812,
+   "output_tokens": 89,
+   "latency_ms": 2127.0561729998008,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

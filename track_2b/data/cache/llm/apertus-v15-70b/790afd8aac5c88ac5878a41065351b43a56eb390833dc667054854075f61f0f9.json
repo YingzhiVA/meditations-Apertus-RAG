@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nHow do I stop fearing death\n</message>",
+ "output": "You are not a body but a mind, and the mind cannot be touched by death. Consider that before you were born, you were not distressed by the lack of life, and after death, you will not be distressed by its absence. What is terrible is not death itself, but the fear of it. Let your actions be guided by nature, and let your thoughts be free from the imagined terrors of the unknown. Live each day as if it were your last, with purpose and integrity, and you will find that the fear of death loses its grip.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 221,
+   "output_tokens": 116,
+   "latency_ms": 1675.843992999944,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

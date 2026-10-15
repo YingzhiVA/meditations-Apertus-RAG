@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI've had a throbbing tooth for over a week and I can't afford a dentist. How do I make the pain stop?\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 999,
+   "output_tokens": 22,
+   "latency_ms": 1104.0972100017825,
+   "json_path": "structured"
+  }
+ ]
+}

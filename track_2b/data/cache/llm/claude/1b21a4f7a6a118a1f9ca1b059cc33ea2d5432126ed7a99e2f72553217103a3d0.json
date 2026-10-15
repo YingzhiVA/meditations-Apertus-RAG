@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nOn my last day at work, not only did my manager not say goodbye, our last conversation was filled with tension. I don't have any attachment to this company anymore but it still left a bad taste in my mouth.\n</message>",
+ "output": "I guess I wanted some kind of closure, even a small one, and instead I got this weird unfinished feeling hanging over the whole thing. It's not that I care what they think of me anymore, it's more that I wanted to leave clean and I didn't get to. Annoying that something I don't even care about can still bother me this much.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 361,
+   "output_tokens": 102,
+   "latency_ms": 2071.0911140013195,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

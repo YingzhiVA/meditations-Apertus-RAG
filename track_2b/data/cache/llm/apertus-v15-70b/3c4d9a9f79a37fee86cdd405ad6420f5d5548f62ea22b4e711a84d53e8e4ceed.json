@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nMy father has dementia and he does not recognize me anymore. That makes me sad beyond measure.\n</message>",
+ "output": "You are not responsible for the mind of another, nor for the course of nature that turns away from what it once knew. What is within your power is your own response: to act with kindness, to speak with patience, to hold your heart steady in the face of loss. Sorrow is natural, but it does not command you to abandon virtue. Let your actions be guided by reason, and find peace in the present moment, however small it may seem.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 232,
+   "output_tokens": 94,
+   "latency_ms": 1364.818752001156,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

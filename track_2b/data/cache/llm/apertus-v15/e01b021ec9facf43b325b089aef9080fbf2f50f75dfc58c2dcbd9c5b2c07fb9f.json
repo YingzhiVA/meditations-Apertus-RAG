@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>",
+ "output": "You see the fleeting praise of men, and yet you know that fame is but a shadow, fading with the wind. Remember that the mind's peace lies not in the echo of names, but in the constancy of virtue. Let your actions be guided by reason, not by the desire for posthumous glory. The soul's true honor is found in living well, not in being remembered.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 221,
+   "output_tokens": 81,
+   "latency_ms": 502.63164399984817,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

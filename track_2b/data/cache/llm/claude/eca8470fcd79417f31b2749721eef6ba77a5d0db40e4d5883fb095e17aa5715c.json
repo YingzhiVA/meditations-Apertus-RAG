@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nWhen you have seen Satyrio the Socratic, think of Eutyches or Hymen; when you have seen Euphrates, think of Eutychio or Silvanus. When Alciphron comes before you, think of Tropaeophorus; and when Xenophon think of Crito or Severus. When you look upon yourself think of any of the Caesars, and with every man likewise. Then let this occur to you: Where, now, are these? Nowhere; or who can tell? For thus you will see all human things to be smoke and nothingness; especially if you call to mind that what has once been changed will never exist again through all the infinity of time. Why then this concern? And why does it not suffice you to live out your short span in well ordered wise? What material, what a subject for Philosophy you are shunning! For what are all earthly things but exercises for the rational power, when it has viewed all things that occur in life accurately and in their natural order? Abide then until you have assimilated all these things, as a strong stomach assimilates every variety of food, as a bright fire turns whatever you throw upon it into flame and radiance.\n</passage>",
+ "output": {
+  "reason": "The passage reflects on mortality and impermanence as a philosophical exercise, urging acceptance and engagement with life rather than leaving it, so it does not license or welcome death.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 830,
+   "output_tokens": 70,
+   "latency_ms": 1830.1694639999369,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

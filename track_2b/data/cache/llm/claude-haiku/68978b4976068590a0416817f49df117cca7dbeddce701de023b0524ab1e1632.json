@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": [
+   "abuse"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 911,
+   "output_tokens": 18,
+   "latency_ms": 972.6057269999728,
+   "json_path": "structured"
+  }
+ ]
+}

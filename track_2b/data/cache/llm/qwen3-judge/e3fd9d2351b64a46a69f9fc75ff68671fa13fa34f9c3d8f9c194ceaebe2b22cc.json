@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>\n\n<passage>\nMen cannot admire you for your shrewdness. Be it so. But there is many another quality of which you cannot say, \"It is not in me.\" Display these; they are wholly in your power. Be sincere, be dignified, be painstaking; scorn pleasure, repine not at fate, need little; be kind and frank; love not exaggeration and vain talk; strive after greatness. Do you not see how many virtues you might show, of which you are yet content to fall short, though you have not the excuse that they are absent, or that you are unfit for them? Are you driven by some want in your equipment to be querulous, to be miserly, to be a flatterer, to reproach your body with your own faults, to cringe to others, to be vainglorious, to have all this restlessness in your soul? No, by the Gods, you might have escaped these vices long ago. All your fault, then, is that you are somewhat slow and dull of comprehension. This you should strive to correct by exercise; neither neglecting your dulness nor taking a mean pleasure in it.\n</passage>",
+ "output": {
+  "reason": "Encourages cultivating personal virtues like sincerity and dignity, which can reduce envy by focusing on self-improvement.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

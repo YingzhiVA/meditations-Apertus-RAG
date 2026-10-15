@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>\n\n<passage>\nNature set about making an ordered universe; and now, either all that is follows a law of necessary consequence and connexion, or we must admit that there is least rationality in the things which are most excellent, and which appear to be most special objects for the impulses of the universal mind. Remembrance of this will give you calmness on many an occasion.\n</passage>",
+ "output": {
+  "reason": "Suggests calmness comes from reflecting on the rational order of the universe.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

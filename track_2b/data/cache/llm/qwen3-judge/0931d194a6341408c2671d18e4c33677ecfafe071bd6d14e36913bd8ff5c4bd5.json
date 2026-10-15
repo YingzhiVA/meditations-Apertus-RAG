@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI cannot help but think how other people view me or judge my decisions.\n</message>\n\n<passage>\nFor two things be ever ready: First, to do that only which reason, the sovereign and legislative faculty, suggests for the good of mankind: Secondly, to change your course on meeting any one who can correct and alter your opinion. But let the change be made because you really believe it to be in the interest of justice or the public good, or such like, and not with any view to pleasure or glory for yourself.\n</passage>",
+ "output": {
+  "reason": "Encourages acting on reason and accepting correction for public good, not personal image.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

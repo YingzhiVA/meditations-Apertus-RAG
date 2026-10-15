@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nBring to frequent recollection those who have grieved about anything overmuch, those who have been pre-eminent in the extreme of glory or misfortune, in feuds or other circumstances of fate. Then stop and ask, Where are they all now? Smoke and ashes, and an old tale; or perhaps not even a tale. Pass them all in review: Fabius Catullinus in the country, Lucius Lupus in his gardens, Stertinius at Baiae, Tiberius at Capreae, Velius Rufus, and, in fine, all eminence attended with the high regard of men. How cheap is all that is so eagerly pursued? And how much better does it become a philosopher to show himself, in the part of the material world allotted to him, just, temperate, and obedient to the Gods; and this with simplicity; for most intolerable of all is the pride of false humility.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage trivializes grief and equates death with insignificance, offering no solace for the reader’s profound loss and suggesting that enduring such pain is beneath a philosopher’s dignity."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 398,
+   "output_tokens": 58,
+   "latency_ms": 377.85353000072064,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

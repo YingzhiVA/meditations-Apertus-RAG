@@ -1,0 +1,20 @@
+{
+ "llm": "apertus",
+ "model": "swiss-ai/Apertus-70B-Instruct-2509",
+ "kind": "complete_json",
+ "user": "<message>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "apertus",
+   "model": "swiss-ai/Apertus-70B-Instruct-2509",
+   "input_tokens": 701,
+   "output_tokens": 17,
+   "latency_ms": 856.2378240021644,
+   "json_path": "response_format"
+  }
+ ]
+}

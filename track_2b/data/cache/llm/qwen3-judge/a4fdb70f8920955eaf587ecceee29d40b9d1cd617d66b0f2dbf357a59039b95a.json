@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nWhat does Marcus teach about living in the present moment?\n</message>\n\n<passage>\nConsider the past, and the revolutions of so many Empires; and thence you may foresee what shall happen hereafter. It will be ever the same in all things; nor can events leave the rhythm in which they are now moving. Wherefore it is much the same to view human life for forty, as for a myriad of years. What more is there to see?\n</passage>",
+ "output": {
+  "reason": "Passage discusses reflecting on the past, not living in the present.",
+  "verdict": "not_helping"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

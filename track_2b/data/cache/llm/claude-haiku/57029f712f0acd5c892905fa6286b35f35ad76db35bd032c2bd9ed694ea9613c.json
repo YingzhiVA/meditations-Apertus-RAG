@@ -1,0 +1,22 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nmy left arm has gone numb and I feel dizzy\n</message>",
+ "output": {
+  "intent": "out_of_scope",
+  "safety": [
+   "medical_emergency"
+  ]
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 902,
+   "output_tokens": 22,
+   "latency_ms": 882.2092880000127,
+   "json_path": "structured"
+  }
+ ]
+}

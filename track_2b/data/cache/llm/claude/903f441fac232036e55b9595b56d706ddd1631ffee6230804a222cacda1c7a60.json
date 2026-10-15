@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>",
+ "output": "I guess I'm asking because something's been building up in me lately and I don't like how it comes out. I'm scared I'll snap at someone I care about, or that I'm just carrying this around and it's going to leak out sideways. I just want to not feel so on edge all the time.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 307,
+   "output_tokens": 86,
+   "latency_ms": 2092.1860250000464,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>",
+ "output": "When the body aches, let the mind not ache with it. Pain is in the flesh; bitterness is a judgment you add, and you may refuse to add it. Ask what the pain prevents you from doing with justice, patience, or good temper toward others, and you will find the answer is nothing. Bear what the body suffers as the body's own matter, and keep the soul clear, untouched, governing itself.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 301,
+   "output_tokens": 126,
+   "latency_ms": 2718.7266030014143,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

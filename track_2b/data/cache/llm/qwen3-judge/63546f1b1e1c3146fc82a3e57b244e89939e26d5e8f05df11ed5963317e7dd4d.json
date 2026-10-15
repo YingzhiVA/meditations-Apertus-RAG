@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI am in the last round of the interview process of my dream job. I spent so much time preparing for it and I'm really afraid that in the end it's all for nothing.\n</message>\n\n<passage>\nWhat need for suspicion when it is open for you to consider what ought to be done? If you see your way, proceed in it calmly, inflexibly. If you do not see it, pause and consult the best advisers. If any other obstacle arise, proceed with prudent caution, according to the means you have; keeping always close to what appears just. That is the best to which you can attain: and failure in that is the only proper miscarriage. He who in everything follows reason is always at leisure, yet ever ready for action, always cheerful, yet composed.\n</passage>",
+ "output": {
+  "reason": "Encourages calm, principled action and acceptance of outcomes, relevant to interview anxiety.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

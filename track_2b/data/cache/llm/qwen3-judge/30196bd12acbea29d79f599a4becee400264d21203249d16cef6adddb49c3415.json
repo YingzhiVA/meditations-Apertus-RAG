@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI've been losing sleep lately thinking about my not-so-good job perspective.\n</message>\n\n<passage>\nIt is the office of our rational power to apprehend how swiftly all things vanish; how the corporeal forms are swallowed up in the material world, and the memory of them in the tide of ages. Such are all the things of sense, especially those which ensnare us with pleasure or terrify us with pain, or those things which vanity trumpets in our ears. How mean, how despicable, how sordid, how perishable, how dead are they! What are they whose opinions and whose voices bestow renown? What is it to die? Your mind can tell you that, did a man think of it alone, and, by close consideration, strip it of its ghastly trappings, he would no longer deem it anything but a work of Nature. To dread a work of Nature is a childish thing, and this is, indeed, not only Nature's work, but beneficial to her. Your reason tells you how man reaches God, and through what part, and what is the state of that part, when he has attained unto him.\n</passage>",
+ "output": {
+  "reason": "Passage reflects on impermanence and perspective, encouraging detachment from worldly concerns like job prospects.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

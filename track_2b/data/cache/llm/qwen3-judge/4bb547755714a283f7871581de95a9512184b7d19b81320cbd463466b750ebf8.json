@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>\n\n<passage>\nBear toil and pain, not as if wretched under it, nor as courting pity or admiration. Wish for one thing only; always to act or to refrain as social wisdom requires.\n</passage>",
+ "output": {
+  "reason": "Encourages enduring pain with purpose, aligning with social duty, which may help reframe bitterness.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

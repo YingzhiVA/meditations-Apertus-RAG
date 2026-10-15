@@ -1,0 +1,27 @@
+{
+ "llm": "apertus-8b",
+ "model": "swiss-ai/Apertus-8B-Instruct-2509",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nAgain:--\"Consider, my friend, whether the truly noble and the truly good be not something quite apart from saving and being saved. The man who is a man indeed should not set his heart on living through a few more years of life, nor should he make that the end of his desire. Rather he should commit the matter to the will of God; assenting to the maxim which even women use, that 'no man can elude his destiny,' and studying in addition how he may spend the life that remains to him for the best.\"\n</passage>",
+ "output": {
+  "reason": "The passage advises the reader to accept their fate and focus on living the best life possible, rather than setting their heart on living longer.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "apertus-8b",
+   "model": "swiss-ai/Apertus-8B-Instruct-2509",
+   "input_tokens": 325,
+   "output_tokens": 39,
+   "latency_ms": 3830.1873529999284,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/apertus-8b-instruct",
+   "fingerprint": "fp1-nst-nes"
+  }
+ ]
+}

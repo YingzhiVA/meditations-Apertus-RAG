@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI so much want the cool kid at school to like me that I just suck up to her all the time. It's pathetic.\n</message>",
+ "output": "You are not a slave to another's opinion; your worth is not measured by their fleeting approval. Seek to be good and true to yourself, for that is the only thing you can control. Do not debase yourself to gain favor, for in doing so you lose your own dignity. Let your actions be guided by virtue, not by the whims of others.",
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 241,
+   "output_tokens": 76,
+   "latency_ms": 1157.8396360000625,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

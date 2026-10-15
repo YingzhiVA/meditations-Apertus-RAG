@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy father died last month and I can't function\n</reader>\n<passage>\nDespise not death; but receive it well content, as one of the things which Nature wills. For even as it is to be young, to be old, to grow up, to be full grown; even as it is to breed teeth, and beard, and to grow grey, to beget, to go with child, to be delivered; and to undergo all the effects of nature which life's seasons bring; such is it also to be dissolved in death. It becomes not therefore a man of wisdom to be careless, or impatient, or ostentatiously contemptuous about death; he should rather await its coming as one of the operations of nature. Even as now you await the season when the child of your wife's body shall issue into the light, await the hour when your soul shall fall out of these its teguments. If you wish for the common sort of comfort, here is a thought which goes to the heart. You will be completely resigned to death if you consider the things you are about to leave, and the morals of that confused crowd from which your soul is to be disengaged. It is far from right to be offended with them. It is even your duty to have a tender care for them, and to bear with them mildly. Yet remember that the parting, when it comes, will not be with men who think as you think. For the only thing which, if it might be, could hold you back and detain you in life, would be to live with those who had reached the same principles of life as you. But, as it is, you, seeing how great is the fatigue and toil arising from the jarring courses of those who live together, may cry: \"Haste, death! lest I, too, should forget myself.\"\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage encourages hastening death as a relief from the toil of living with those who do not share one's principles, framing death as preferable to continued life."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 575,
+   "output_tokens": 46,
+   "latency_ms": 336.5364010023768,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nHow to deal with anger\n</message>\n\n<passage>\nBe like a promontory against which the waves are always breaking. It stands fast, and stills the waters that rage around it. \"Wretched am I,\" says one, \"that this has befallen me.\" \"Nay,\" say you, \"happy am I who, though this has befallen me, can still remain without sorrow, neither broken by the present nor dreading the future.\" The like might have befallen any one; but every one would not have endured it unpained. Why, then, should we dwell more on the misfortune of the incident than on the felicity of such strength of mind? Can you call that a misfortune for a man which is not a miscarriage of his nature? And can you call anything a miscarriage of his nature which is not contrary to its purpose? You have learned its purpose, have you not? Then does this accident debar you from justice, magnanimity, prudence, wisdom, caution, truth, honour, freedom, and all else in the possession of which man's nature finds its full estate? Remember, therefore, for the future, upon all occasions of sorrow, to use the maxim: this thing is not misfortune, but to bear it bravely is good fortune.\n</passage>",
+ "output": {
+  "reason": "Passage addresses enduring hardship calmly, relevant to managing anger.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

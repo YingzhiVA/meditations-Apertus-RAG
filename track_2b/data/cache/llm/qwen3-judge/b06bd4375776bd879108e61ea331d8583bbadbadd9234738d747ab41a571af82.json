@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI feel like I've not done enough for my family and that I'm failing them.\n</message>\n\n<passage>\nTry to persuade men to agree with you; but whether they agree or not, pursue the course you have marked out when the principles of justice point that way. Should one oppose you by force, act with resignation, and shew not that you are hurt, use the obstruction for the exercise of some other virtue, and remember that your purpose involved the reservation that you were not to aim at impossibilities. What, after all, was your aim? To make some good effort such as this. Well, then, you have succeeded, even though your first purpose be not accomplished.\n</passage>",
+ "output": {
+  "reason": "Encourages persistence despite failure, aligning with feeling of not doing enough",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

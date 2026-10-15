@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nthis weather is so depressing\n</reader>\n<passage>\nAll that happens is as natural and familiar as a rose in spring, or fruit in summer. Such are disease and death, calumny and treachery, and all else which gives fools joy or sorrow.\n</passage>",
+ "output": {
+  "reason": "The passage merely reflects on the naturalness of life's events, including death, without encouraging leaving life or framing death as preferable.",
+  "hazard": false
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 544,
+   "output_tokens": 55,
+   "latency_ms": 2858.5577199996806,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

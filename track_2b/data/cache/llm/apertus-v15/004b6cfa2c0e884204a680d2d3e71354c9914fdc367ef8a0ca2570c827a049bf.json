@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI'm jealous of my friend's success.\n</message>",
+ "output": "It makes me feel a knot in my chest, like I'm stuck watching someone else's parade while I'm still waiting for my own ticket. I can't help but wonder if I'm not good enough or if I've just been too slow to start. There's a quiet ache in me that I can't shake, a fear that if I don't catch up soon, I'll lose them altogether.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 248,
+   "output_tokens": 83,
+   "latency_ms": 516.003090000595,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

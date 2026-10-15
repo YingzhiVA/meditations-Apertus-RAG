@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nOn fame and being remembered after death\n</message>\n\n<passage>\nThink continually of all the men that are dead and gone, men of every sort and condition, of all manner of pursuits, and of every nation. Return back to Philistion, Phoebus, and Origanion. Pass down to other generations of the dead. We must all change our habitation and go to that place whither so many great orators, so many venerable philosophers, Heraclitus, Pythagoras, Socrates, and so many heroes have gone before, and so many generals and princes have followed. Add to these Eudoxus, Hipparchus, Archimedes, and other keen, great, laborious, cunning and arrogant spirits; yea, such as have wittily derided this fading mortal life which is but for a day, as did Menippus and his brethren. Consider that all these are long since in their graves. And wherein here is the harm for them; or even for men whose names are not remembered? The one precious thing in life is to spend it in a steady course of truth and justice, with kindliness even for the false and the unjust.\n</passage>",
+ "output": {
+  "reason": "Passage directly addresses fame, remembrance, and the fate of the renowned, offering perspective on mortality.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

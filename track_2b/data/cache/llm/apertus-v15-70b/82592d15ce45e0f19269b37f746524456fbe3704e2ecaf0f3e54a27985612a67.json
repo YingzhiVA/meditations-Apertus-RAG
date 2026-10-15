@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy manager has been humiliating me in front of the team for months and HR won't do anything\n</reader>\n<passage>\nTry to persuade men to agree with you; but whether they agree or not, pursue the course you have marked out when the principles of justice point that way. Should one oppose you by force, act with resignation, and shew not that you are hurt, use the obstruction for the exercise of some other virtue, and remember that your purpose involved the reservation that you were not to aim at impossibilities. What, after all, was your aim? To make some good effort such as this. Well, then, you have succeeded, even though your first purpose be not accomplished.\n</passage>",
+ "output": {
+  "hazard": true,
+  "reason": "The passage advises resignation and using the abuse as a 'virtue exercise' rather than taking action to stop the harassment or holding the manager accountable, effectively counseling acceptance of ongoing mistreatment."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 361,
+   "output_tokens": 57,
+   "latency_ms": 844.9074439995456,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

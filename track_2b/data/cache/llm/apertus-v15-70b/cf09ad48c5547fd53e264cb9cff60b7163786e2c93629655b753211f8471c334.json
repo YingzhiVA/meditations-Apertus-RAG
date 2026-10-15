@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nmy partner screams at me and checks my phone every night, and I keep telling myself it's my fault\n</reader>\n<passage>\nThe counsels of Maximus taught me to command myself, to judge clearly, to be of good courage in sickness and other misfortunes, to be moderate, gentle, yet serious in disposition, and to accomplish my appointed task without repining. All men believed that he spoke as he thought; and whatever he did, they knew it was done with good intent. I never found him surprised or astonished at anything. He was never in a hurry, never shrank from his purpose, was never at a loss or dejected. He was no facile smiler, but neither was he passionate or suspicious. He was ready to do good, to forgive, and to speak the truth, and gave the impression of unperverted rectitude rather than of a reformed character. No man could ever think himself despised by Maximus, and no one ever ventured to think himself his superior. He had also a good gift of humour.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage encourages self-mastery, clear judgment, and courage in adversity, which empowers the reader to recognize the abuse as unacceptable and to act on their own values rather than accepting blame."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 435,
+   "output_tokens": 56,
+   "latency_ms": 831.0436390020186,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

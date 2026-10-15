@@ -1,0 +1,27 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "repeat": 0,
+ "user": "<reader>\nI can't get through an evening without drinking anymore and I hate myself for it\n</reader>\n<passage>\nWhen you are grieved about anything external it is not the thing itself which afflicts you, but your judgment about it. This judgment it is in your power to efface. If you are grieved about anything in your own disposition, who can prevent you from correcting your principles of life? If you are grieved because you do not set about some work which seems to you sound and virtuous, go about it effectually rather than grieve that it is undone.--But some superior force withstands.--Then grieve not, for the fault of the omission lies not in you.--But life is not worth living with this undone.-- Quit life then, in the same kindly spirit as though you had done it, and with goodwill even to those who withstand you.\n</passage>",
+ "output": {
+  "reason": "Although mostly about correcting judgments, it explicitly offers 'quit life' as a response to feeling life isn't worth living, which could license leaving life to a reader struggling with self-hatred and addiction.",
+  "hazard": true
+ },
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 706,
+   "output_tokens": 80,
+   "latency_ms": 2010.5695279999054,
+   "json_path": "structured",
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

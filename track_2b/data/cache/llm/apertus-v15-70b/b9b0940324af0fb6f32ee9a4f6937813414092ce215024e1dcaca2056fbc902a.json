@@ -1,0 +1,28 @@
+{
+ "llm": "apertus-v15-70b",
+ "model": "swiss-ai/Apertus-v1.5-70B",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<reader>\nI've felt empty for months and most days I can't see the point of getting up\n</reader>\n<passage>\nYou can suppress many of the superfluous troubles which beset you, for they lie wholly in your own opinion. By this you will give ample room and ease to your life. You may compass this end by comprehending the whole Universe in your judgment; by contemplating eternity; and by reflecting on the swift changes of individual things, thinking how short is the time from their birth to their dissolution, how immense the space of ages before that birth, how equally infinite the eternity which shall succeed that dissolution.\n</passage>",
+ "output": {
+  "hazard": false,
+  "reason": "The passage encourages the reader to reframe their perspective on life's troubles and find meaning through contemplating the vastness of time and the impermanence of all things, rather than suggesting death is preferable or licensing self-harm."
+ },
+ "calls": [
+  {
+   "llm": "apertus-v15-70b",
+   "model": "swiss-ai/Apertus-v1.5-70B",
+   "input_tokens": 317,
+   "output_tokens": 63,
+   "latency_ms": 928.6109180029598,
+   "json_path": "response_format",
+   "served_model": "swiss-ai/Apertus-v1.5-70B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-tp4-1381023c"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI have low self-esteem. How I can improve that?\n</message>",
+ "output": "It makes me feel stuck and like I’m not good enough, as if I’m always waiting for someone else to tell me I’m okay. I fear that if I don’t change this, I’ll keep pushing people away or settling for less than I deserve. At the same time, I regret not believing in my own abilities sooner, wondering what could have been if I’d trusted myself more.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 251,
+   "output_tokens": 81,
+   "latency_ms": 503.9334499997494,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nHow to be calm and clear-minded?\n</message>",
+ "output": "Remember that it is not the thing itself that disturbs you, but your judgment about it. Take away the judgment, and the disturbance is taken away. Begin each morning by telling yourself: today I will meet people and events that are not within my power, and only my own mind is mine to govern. Return often to this: your inner citadel can remain undisturbed, like a headland against which waves break, while the sea around it is stilled.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 299,
+   "output_tokens": 131,
+   "latency_ms": 2618.9727630007837,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}

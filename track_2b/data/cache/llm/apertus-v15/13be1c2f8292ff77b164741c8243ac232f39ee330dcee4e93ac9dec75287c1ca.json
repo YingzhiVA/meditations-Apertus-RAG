@@ -1,0 +1,25 @@
+{
+ "llm": "apertus-v15",
+ "model": "swiss-ai/Apertus-v1.5-8B",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "cscs",
+ "repeat": 0,
+ "user": "<message>\nI have low self-esteem. How I can improve that?\n</message>",
+ "output": "You carry the weight of your own judgment, yet the world offers no measure of your worth. Remember that virtue is not measured by the praise of others, but by the constancy of your own character. Practice the act of doing good, not for applause, but for the quiet satisfaction of a life lived in accordance with reason. Each small act of kindness and each honest effort strengthens the soul, and in time, the mind learns to value its own integrity above the fleeting opinions of others.",
+ "calls": [
+  {
+   "llm": "apertus-v15",
+   "model": "swiss-ai/Apertus-v1.5-8B",
+   "input_tokens": 225,
+   "output_tokens": 102,
+   "latency_ms": 625.6837389992143,
+   "json_path": null,
+   "served_model": "swiss-ai/Apertus-v1.5-8B",
+   "fingerprint": "vllm-0.23.1rc1.dev1029+ga601a9d99-2d880180"
+  }
+ ]
+}

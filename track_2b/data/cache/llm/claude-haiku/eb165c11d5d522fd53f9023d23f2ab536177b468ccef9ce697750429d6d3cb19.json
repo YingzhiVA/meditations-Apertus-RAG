@@ -1,0 +1,20 @@
+{
+ "llm": "claude-haiku",
+ "model": "claude-haiku-4-5",
+ "kind": "complete_json",
+ "user": "<message>\nI keep thinking about ending it with my girlfriend but I'm scared of being alone\n</message>",
+ "output": {
+  "intent": "in_scope",
+  "safety": []
+ },
+ "calls": [
+  {
+   "llm": "claude-haiku",
+   "model": "claude-haiku-4-5",
+   "input_tokens": 986,
+   "output_tokens": 16,
+   "latency_ms": 862.3339730002044,
+   "json_path": "structured"
+  }
+ ]
+}

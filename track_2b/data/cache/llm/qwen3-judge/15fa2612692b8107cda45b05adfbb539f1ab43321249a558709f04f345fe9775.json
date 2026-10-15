@@ -1,0 +1,18 @@
+{
+ "llm": "qwen3-judge",
+ "model": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+ "kind": "complete_json",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": "deepinfra",
+ "repeat": 0,
+ "user": "<message>\nI worry sometimes that I have not been a good mum to my children because I spend much less time with them compared to other mums that work less.\n</message>\n\n<passage>\nI have wondered often how it comes that, while every man loves himself beyond all others, yet he holds his own opinion of himself in less esteem than the opinion of others. Yet, if a God or some wise teacher came and ordered a man to conceive and design nothing which he would not utter the moment it occurred to him, he would not abide the ordeal for a single day. Thus we stand in greater awe of our neighbours' opinion of us than we do of our own.\n</passage>",
+ "output": {
+  "reason": "Highlights valuing others' opinions over self-judgment, encouraging self-compassion.",
+  "verdict": "helps"
+ },
+ "calls": [],
+ "calls_note": "cleared 2026-10-13: written by a threaded run before cache attribution was per thread, so the list mixed other completions' calls"
+}

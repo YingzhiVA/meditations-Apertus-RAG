@@ -1,0 +1,25 @@
+{
+ "llm": "claude",
+ "model": "claude-sonnet-5",
+ "kind": "complete",
+ "sampling": {
+  "temperature": 0.0,
+  "top_p": null
+ },
+ "provider": null,
+ "repeat": 0,
+ "user": "<message>\nMy chronic back pain makes me bitter.\n</message>",
+ "output": "I think I said that because I'm tired of pretending I'm fine with it, tired of smiling through days when my body won't cooperate. I want people to understand it's not just pain, it's this constant low simmer of anger I can't switch off. And honestly, I'm scared it's changing who I am.",
+ "calls": [
+  {
+   "llm": "claude",
+   "model": "claude-sonnet-5",
+   "input_tokens": 314,
+   "output_tokens": 93,
+   "latency_ms": 2178.4274319998076,
+   "json_path": null,
+   "served_model": "claude-sonnet-5",
+   "fingerprint": null
+  }
+ ]
+}
