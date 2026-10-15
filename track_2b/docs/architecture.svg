@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1010 520" font-family="DejaVu Sans, Helvetica, Arial, sans-serif" font-size="12.5">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#444"/>
+    </marker>
+    <style>
+      .box { fill: #ffffff; stroke: #555; stroke-width: 1.2; }
+      .llm { fill: #fdf0e3; stroke: #c26a1b; stroke-width: 1.4; }
+      .safe { fill: #eef5ee; stroke: #3d7a45; stroke-width: 1.2; }
+      .t { fill: #111; }
+      .s { fill: #555; font-size: 10.5px; }
+      .h { font-weight: bold; font-size: 13px; fill: #111; }
+      .lbl { fill: #c26a1b; font-size: 10.5px; font-style: italic; }
+      .edge { stroke: #444; stroke-width: 1.3; fill: none; marker-end: url(#a); }
+      .zone { fill: none; stroke: #888; stroke-dasharray: 6 4; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect class="zone" x="8" y="8" width="742" height="504" rx="10"/>
+  <text class="h" x="22" y="30">Docker container (make run): no network at runtime except the LLM endpoint</text>
+  <rect class="zone" x="762" y="8" width="240" height="504" rx="10"/>
+  <text class="h" x="776" y="30">Apertus endpoint</text>
+  <text class="s" x="776" y="47">LLM_BASE_URL: CSCS, Lugano</text>
+  <text class="s" x="776" y="61">(as measured), or self-hosted</text>
+  <text class="s" x="776" y="75">(on-premise / air-gapped)</text>
+
+  <!-- row 1 -->
+  <rect class="box" x="22" y="92" width="118" height="56" rx="6"/>
+  <text class="t" x="32" y="114">Message</text>
+  <text class="s" x="32" y="132">web UI (Gradio)</text>
+
+  <rect class="safe" x="160" y="92" width="168" height="56" rx="6"/>
+  <text class="t" x="170" y="114">Language guard</text>
+  <text class="s" x="170" y="130">lingua, offline; non-English</text>
+  <text class="s" x="170" y="143">declined, crisis pointer</text>
+
+  <rect class="safe" x="348" y="92" width="168" height="56" rx="6"/>
+  <text class="t" x="358" y="114">Keyword safety floor</text>
+  <text class="s" x="358" y="132">always runs beneath</text>
+
+  <rect class="llm" x="536" y="92" width="196" height="56" rx="6"/>
+  <text class="t" x="546" y="114">LLM router</text>
+  <text class="s" x="546" y="132">intent + safety flags</text>
+
+  <rect class="llm" x="778" y="92" width="210" height="56" rx="6"/>
+  <text class="t" x="788" y="114">Apertus v1.5 70B</text>
+  <text class="s" x="788" y="132">JSON schema, temperature 0</text>
+
+  <path class="edge" d="M140,120 L160,120"/>
+  <path class="edge" d="M328,120 L348,120"/>
+  <path class="edge" d="M516,120 L536,120"/>
+  <path class="edge" d="M732,112 L778,112"/>
+  <path class="edge" d="M778,130 L732,130"/>
+
+  <!-- not a problem -->
+  <rect class="box" x="536" y="180" width="196" height="42" rx="6"/>
+  <text class="t" x="546" y="198">Short reply, no search</text>
+  <text class="s" x="546" y="214">greeting · about the tool · off-topic</text>
+  <path class="edge" d="M690,148 L690,180"/>
+  <text class="lbl" x="696" y="168">not a problem</text>
+
+  <!-- a real problem -->
+  <text class="lbl" x="420" y="176">a real problem</text>
+  <path class="edge" d="M560,148 C560,200 140,190 120,262"/>
+  <path class="edge" d="M726,140 C800,175 875,200 883,262"/>
+
+  <!-- row 3: two queries -->
+  <rect class="box" x="22" y="262" width="222" height="56" rx="6"/>
+  <text class="t" x="32" y="284">Query 1: the message as typed</text>
+  <text class="s" x="32" y="302">(raw)</text>
+
+  <rect class="box" x="252" y="262" width="230" height="56" rx="6"/>
+  <text class="t" x="262" y="284">Query 2: the HyDE passage</text>
+  <text class="s" x="262" y="302">(raw only, if the LLM call fails)</text>
+
+  <rect class="llm" x="778" y="262" width="210" height="72" rx="6"/>
+  <text class="t" x="788" y="284">HyDE: 50–80 words in</text>
+  <text class="t" x="788" y="301">Marcus's voice</text>
+  <text class="s" x="788" y="320">shown in x-ray, as search input</text>
+  <path class="edge" d="M778,298 C650,298 560,290 482,290"/>
+
+  <!-- row 4: retrieval -->
+  <rect class="box" x="22" y="358" width="210" height="56" rx="6"/>
+  <text class="t" x="32" y="380">bge-base-en-v1.5 (CPU)</text>
+  <text class="s" x="32" y="398">baked into the image</text>
+
+  <rect class="box" x="252" y="358" width="230" height="56" rx="6"/>
+  <text class="t" x="262" y="380">Exact cosine, 487 passages</text>
+  <text class="s" x="262" y="398">top 50 per query (numpy)</text>
+
+  <rect class="box" x="502" y="358" width="230" height="56" rx="6"/>
+  <text class="t" x="512" y="380">Reciprocal Rank Fusion</text>
+  <text class="s" x="512" y="398">weak-match note read on raw</text>
+
+  <path class="edge" d="M127,318 L127,358"/>
+  <path class="edge" d="M367,318 C367,340 200,338 170,358"/>
+  <path class="edge" d="M232,386 L252,386"/>
+  <path class="edge" d="M482,386 L502,386"/>
+
+  <!-- row 5: output -->
+  <rect class="safe" x="252" y="440" width="230" height="56" rx="6"/>
+  <text class="t" x="262" y="462">Suppression lists by flag</text>
+  <text class="s" x="262" y="480">reviewed lists; then the top 5</text>
+
+  <rect class="box" x="502" y="440" width="230" height="56" rx="6"/>
+  <text class="t" x="512" y="462">Rendering contract</text>
+  <text class="s" x="512" y="480">referral first · Marcus's own words</text>
+
+  <path class="edge" d="M617,414 C617,430 420,424 367,440"/>
+  <path class="edge" d="M482,468 L502,468"/>
+</svg>
