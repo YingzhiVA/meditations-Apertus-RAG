@@ -243,7 +243,8 @@ reworded as a quality warning shown before the passages, never a refusal.
 
 ## 7. Reproducibility
 
-From the root of `track_2b/`, on a clean checkout:
+From the repository root or from `track_2b/` (the root `Makefile` forwards
+to this one), on a clean checkout:
 
 - `make run` builds the image and serves the page at `http://localhost:7860`.
   Set `LLM_NAME`, `LLM_BASE_URL` and `LLM_API_KEY` (shell or `.env`, see
