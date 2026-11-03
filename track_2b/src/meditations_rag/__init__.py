@@ -1,6 +1,6 @@
 """meditations-rag: retrieval engine over Marcus Aurelius' Meditations.
 
-Data flow (see README.md for the diagram):
+Data flow (see docs/architecture.svg for the diagram):
 
   ingestion (one-time):
     ingest.download -> ingest.parse -> corpus.store -> embed.* -> index.vector_index

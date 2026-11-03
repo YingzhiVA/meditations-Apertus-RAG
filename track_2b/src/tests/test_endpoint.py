@@ -1,4 +1,4 @@
-"""The LLM_* endpoint adapter (Hack Apertus convention, track_2b/README.md).
+"""The LLM_* endpoint adapter (Hack Apertus convention, README.md).
 
 Two claims. Setting LLM_NAME, LLM_BASE_URL and LLM_API_KEY makes that
 endpoint the default router and LLM, so `make run` uses whatever endpoint the

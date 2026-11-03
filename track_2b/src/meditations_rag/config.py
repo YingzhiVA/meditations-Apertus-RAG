@@ -82,7 +82,7 @@ SUBCHUNK_MAX_WORDS = 150
 # Hackathon targets — now v1.5 70B on CSCS: the generation still served
 # (publicai dropped the 2509 70B), identity verified, and on the router
 # and safety sets at least the 2509 70B's level (PLAN.md, Phase 4 results).
-# Hack Apertus convention (track_2b/README.md): the endpoint a deployment or
+# Hack Apertus convention (root README.md): the endpoint a deployment or
 # a judge runs against comes as three environment variables. When all three
 # are set they define the "apertus-endpoint" LLM and router (an
 # OpenAI-compatible gateway, LLM_BASE_URL ending in /v1), and it becomes the
