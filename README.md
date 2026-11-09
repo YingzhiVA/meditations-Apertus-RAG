@@ -97,6 +97,13 @@ CPU in about two seconds a query.
 | `track_2b/docs/` | Architecture diagram, build plan, report renderer |
 | `track_2b/technical_report.md` | The report |
 
+## Recognition
+
+Certificate of participation from the organisers of the online Hack Apertus
+(1–16 October 2026), Track 2B, Own Project.
+
+<img src="track_2b/docs/hack-apertus-certificate.jpg" alt="Hack Apertus certificate of participation, Track 2B - Own Project" width="640">
+
 ## License
 
 See [LICENSE](LICENSE). All Hack Apertus projects are open-sourced; see the
